@@ -1988,7 +1988,7 @@ struct net_pkt *net_pkt_shallow_clone(struct net_pkt *pkt,
  */
 int net_pkt_read(struct net_pkt *pkt, void *data, size_t length);
 
-/* Read uint8_t data data a net_pkt */
+/* Read uint8_t data from a net_pkt */
 static inline int net_pkt_read_u8(struct net_pkt *pkt, uint8_t *data)
 {
 	return net_pkt_read(pkt, data, 1);
