@@ -150,7 +150,7 @@ Stable API changes in this release
     for specifying the polarity of the PWM signal. The flags parameter
     can be set to 0 if no flags are required (the default is
     PWM_POLARITY_NORMAL).
-  * Similarly, the pwm_pin_set_t PWM driver API function function now
+  * Similarly, the pwm_pin_set_t PWM driver API function now
     takes a flags parameter. The PWM controller driver must check the
     value of the flags parameter and return -ENOTSUP if any
     unsupported flag is set.
