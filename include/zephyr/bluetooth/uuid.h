@@ -4064,11 +4064,11 @@ struct bt_uuid_128 {
 #define BT_UUID_VCS_STATE \
 	BT_UUID_DECLARE_16(BT_UUID_VCS_STATE_VAL)
 /**
- *  @brief Volume Control Control point value
+ *  @brief Volume Control control point value
  */
 #define BT_UUID_VCS_CONTROL_VAL 0x2b7e
 /**
- *  @brief Volume Control Control point
+ *  @brief Volume Control control point
  */
 #define BT_UUID_VCS_CONTROL \
 	BT_UUID_DECLARE_16(BT_UUID_VCS_CONTROL_VAL)
