@@ -805,7 +805,7 @@ release:
 * :github:`18592` - (nRF51) The RSSI signal does not rise above -44 dBm
 * :github:`18591` - tests/kernel/fifo/fifo\_timeout/kernel.fifo.timeout.poll fails to run on multiple ARM platforms
 * :github:`18585` - STM32G4 support
-* :github:`18583` - hci\_usb: NRF52840 connecting addtional peripheral fails
+* :github:`18583` - hci\_usb: NRF52840 connecting additional peripheral fails
 * :github:`18540` - MEC1501 ADC is missing in HAL
 * :github:`18539` - MEC1501 PWM is missing in HAL
 * :github:`18488` - Bluetooth: Mesh: Friend queue message seqnum order

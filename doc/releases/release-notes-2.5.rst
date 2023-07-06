@@ -1820,7 +1820,7 @@ release:
 * :github:`25600` - wifi_eswifi: Unable to start TCP/UDP client
 * :github:`25592` - Remove checks on board undocumented DT strings
 * :github:`25597` - west sign fails to find header size or padding
-* :github:`25508` - tests: add additonal power management tests
+* :github:`25508` - tests: add additional power management tests
 * :github:`25507` - up_squared:tests/portability/cmsis_rtos_v2 failed.
 * :github:`25482` - outdated recommendations for SYS_CLOCK_TICKS_PER_SEC
 * :github:`25466` - log build errors are not helpful

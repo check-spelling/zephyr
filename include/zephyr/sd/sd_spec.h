@@ -646,7 +646,7 @@ enum mmc_ext_csd_rev {
  * @brief MMC extended card specific data register
  *
  * Extended card specific data register.
- * Contains additional additional data about MMC card.
+ * Contains additional data about MMC card.
  */
 struct mmc_ext_csd {
 	uint32_t sec_count;

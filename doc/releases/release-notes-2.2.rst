@@ -636,7 +636,7 @@ Bluetooth
     address resolution support
   * Added dynamic TX power control, including a set of vendor-specific commands
     to read and write the TX power
-  * Added a Kconfig option, BT_CTLR_PARAM_CHECK, to enable addtional parameter
+  * Added a Kconfig option, BT_CTLR_PARAM_CHECK, to enable additional parameter
     checking
   * Added basic support for SMI (Stable Modulation Index)
   * Ticker: Implemented dynamic rescheduling
@@ -1123,7 +1123,7 @@ release:
 * :github:`18867` - zsock_poll() unnecessarily wait when querying for ZSOCK_POLLOUT
 * :github:`18852` - west flash fails for cc1352r_launchxl
 * :github:`18635` - isr4 repeatedly gets triggered after test passes in tests/kernel/gen_isr_table
-* :github:`18583` - hci_usb: NRF52840 connecting addtional peripheral fails
+* :github:`18583` - hci_usb: NRF52840 connecting additional peripheral fails
 * :github:`18551` - address-of-temporary idiom not allowed in C++
 * :github:`18530` - Convert GPIO drivers to new GPIO API
 * :github:`18483` - Bluetooth: length variable inconsistency in keys.c

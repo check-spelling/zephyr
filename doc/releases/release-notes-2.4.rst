@@ -634,7 +634,7 @@ Networking
 * Added support for IPv6 multicast packet routing.
 * Added support to SOCK_DGRAM type sockets for AF_PACKET family.
 * Added support for using TLS sockets when using socket offloading.
-* Added additonal checks in IPv6 to ensure that multicasts are only passed to the
+* Added additional checks in IPv6 to ensure that multicasts are only passed to the
   upper layer if the originating interface actually joined the destination
   multicast group.
 * Allow user to specify TCP port number in HTTP request.
