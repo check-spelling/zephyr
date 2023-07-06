@@ -198,8 +198,7 @@ static char *socket_error_string(int8_t err)
 		return "An invalid argument is passed to a function.";
 	case SOCK_ERR_MAX_LISTEN_SOCK:
 		return "Exceeded the maximum number of TCP passive listening "
-			"sockets. Identifies Identifies that listen operation"
-			" failed.";
+			"sockets. Identifies that listen operation failed.";
 	case SOCK_ERR_INVALID:
 		return "The requested socket operation is not valid in the "
 			"current socket state. For example: @ref accept is "
