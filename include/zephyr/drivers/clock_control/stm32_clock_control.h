@@ -403,7 +403,7 @@ struct stm32_pclken {
 /**
  * @brief Obtain register field from clock configuration.
  *
- * @param clock clock bit field value.
+ * @param clock bit field value.
  */
 #define STM32_CLOCK_REG_GET(clock) \
 	(((clock) >> STM32_CLOCK_REG_SHIFT) & STM32_CLOCK_REG_MASK)
