@@ -470,7 +470,7 @@ declaration step::
 .. tip::
 
    :kconfig:option:`CONFIG_MCUMGR_GRP_STAT_MAX_NAME_LEN` sets the maximum length of a section
-   name that can can be accepted as parameter for showing the section data, and
+   name that can be accepted as parameter for showing the section data, and
    might require tweaking for long section names.
 
 The final steps to use a statistics section is to initialize and register it::
