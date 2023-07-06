@@ -24,7 +24,7 @@ extern struct k_spinlock sys_mm_drv_common_lock;
  * is assumed to be page aligned.
  *
  * @param      virt  Page-aligned virtual address
- * @param[out] flags flags of mapped virtual address
+ * @param[out] flags Flags of mapped virtual address
  *
  * @retval 0 if mapping is found and valid
  * @retval -EINVAL if invalid arguments are provided
