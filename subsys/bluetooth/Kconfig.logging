@@ -169,14 +169,14 @@ config BT_DEBUG_HAS
 	bool "[DEPRECATED] Hearing Access Service debug"
 	select DEPRECATED
 	help
-	  This option enables enables Hearing Access Service debug logs.
+	  This option enables Hearing Access Service debug logs.
 
 config BT_DEBUG_HAS_CLIENT
 	bool "[DEPRECATED] Hearing Access Service Client debug"
 	select DEPRECATED
 	depends on BT_HAS_CLIENT
 	help
-	  This option enables enables Hearing Access Service Client debug logs.
+	  This option enables Hearing Access Service Client debug logs.
 
 # MCS
 
@@ -591,7 +591,7 @@ config BT_DEBUG_IAS_CLIENT
 	select DEPRECATED
 	depends on BT_IAS_CLIENT
 	help
-	  This option enables enables Immediate Alert Service Client debug logs.
+	  This option enables Immediate Alert Service Client debug logs.
 
 # OTS
 
