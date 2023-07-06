@@ -894,7 +894,7 @@ class Kconfig(object):
           See the class documentation.
 
           If you are using Kconfiglib via 'make scriptconfig', the filename of
-          the base base Kconfig file will be in sys.argv[1]. It's currently
+          the base Kconfig file will be in sys.argv[1]. It's currently
           always "Kconfig" in practice.
 
         warn (default: True):

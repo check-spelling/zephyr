@@ -18,7 +18,7 @@
  * @brief configure the base address and size for an MPU region
  *
  * @param type MPU region type
- * @param base base address in RAM
+ * @param base address in RAM
  * @param size size of the region
  */
 static inline int _mpu_configure(uint8_t type, uint32_t base, uint32_t size)
