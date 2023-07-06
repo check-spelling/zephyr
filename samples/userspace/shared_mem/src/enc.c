@@ -38,7 +38,7 @@
  * and the reflector.
  * Note: the output of wheel arrays are added to WHEEL_SIZE
  * to prevent a negative index when subtracting the iw value.
- * The printk lines have been left in to inspect operations
+ * The printk lines have been retained to inspect operations
  * of the enigma simulation. simply add the definition DBUG
  * to enable the detailed messages.
  */
