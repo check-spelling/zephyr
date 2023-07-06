@@ -1,7 +1,7 @@
 # Copyright (c) 2022 Linaro Limited
 # SPDX-License-Identifier: Apache-2.0
 
-# F401CE based Black Pill V3.0+ board board configuration
+# F401CE based Black Pill V3.0+ board configuration
 
 if BOARD_BLACKPILL_F401CC
 

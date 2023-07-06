@@ -1,7 +1,7 @@
 # Copyright (c) 2020 Brian Bradley
 # SPDX-License-Identifier: Apache-2.0
 
-# F411CE based Black Pill V2.0+ board board configuration
+# F411CE based Black Pill V2.0+ board configuration
 
 if BOARD_BLACKPILL_F411CE
 
