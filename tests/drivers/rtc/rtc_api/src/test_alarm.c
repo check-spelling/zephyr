@@ -33,7 +33,7 @@ ZTEST(rtc_api, test_alarm)
 	struct rtc_time alarm_time_get;
 	uint16_t alarm_time_mask_get;
 
-	/* Clear alarm alarm time */
+	/* Clear alarm time */
 	for (uint16_t i = 0; i < alarms_count; i++) {
 		ret = rtc_alarm_set_time(rtc, i, 0, NULL);
 
