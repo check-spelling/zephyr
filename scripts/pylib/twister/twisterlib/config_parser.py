@@ -202,7 +202,7 @@ class TwisterConfigParser:
             else:
                 d[k] = v
 
-        # Compile conf files in to a single list. The order to apply them is:
+        # Compile conf files into a single list. The order to apply them is:
         #  (1) CONF_FILEs extracted from common['extra_args']
         #  (2) common['extra_conf_files']
         #  (3) CONF_FILES extracted from scenarios[name]['extra_args']

@@ -150,7 +150,7 @@ Here is an example for the :ref:`hello_world` application.
 First, run your favorite terminal program to listen for output - note that an
 external UART is required to be connected to the BL654 sensor board's UART, if
 using the Laird Connectivity USB-SWD Programmer Board, the BL654 sensor board
-can be plugged in to the UART header. An FTDI cable can also be used - the
+can be plugged into the UART header. An FTDI cable can also be used - the
 voltage of the I/O lines and power line must be between 1.8v and 3.3v, do not
 connect an FTDI cable with a 5v power line to the BL654 sensor board.
 

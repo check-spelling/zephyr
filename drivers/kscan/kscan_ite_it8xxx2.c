@@ -73,7 +73,7 @@ struct kscan_it8xxx2_data {
 	uint8_t matrix_stable_state[CONFIG_KSCAN_ITE_IT8XXX2_COLUMN_SIZE];
 	uint8_t matrix_unstable_state[CONFIG_KSCAN_ITE_IT8XXX2_COLUMN_SIZE];
 	uint8_t matrix_previous_state[CONFIG_KSCAN_ITE_IT8XXX2_COLUMN_SIZE];
-	/* Index in to the scan_clock_cycle to indicate start of debouncing */
+	/* Index into the scan_clock_cycle to indicate start of debouncing */
 	uint8_t scan_cycle_idx[CONFIG_KSCAN_ITE_IT8XXX2_COLUMN_SIZE]
 			      [CONFIG_KSCAN_ITE_IT8XXX2_ROW_SIZE];
 	/*

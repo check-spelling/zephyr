@@ -173,7 +173,7 @@ static void eeprom_xec_data_read_32_bytes(struct eeprom_xec_regs * const regs,
 	/* Wait until the read operation has completed */
 	eeprom_xec_wait_transfer_compl(regs);
 
-	/* Read the data in to the software buffer */
+	/* Read the data into the software buffer */
 	eeprom_xec_data_buffer_read(regs, len, buf);
 }
 

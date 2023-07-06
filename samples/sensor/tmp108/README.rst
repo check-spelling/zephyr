@@ -13,7 +13,7 @@ also using low power one shot mode.
 Requirements
 ************
 
-A board with the :dtcompatible:`ti,tmp108` built in to its :ref:`devicetree <dt-guide>`,
+A board with the :dtcompatible:`ti,tmp108` built into its :ref:`devicetree <dt-guide>`,
 or a devicetree overlay with such a node added.
 
 Sample Output

@@ -11,7 +11,7 @@ A sample showing how to use the :dtcompatible:`ti,tmp112` sensor.
 Requirements
 ************
 
-A board with this sensor built in to its :ref:`devicetree <dt-guide>`, or a
+A board with this sensor built into its :ref:`devicetree <dt-guide>`, or a
 devicetree overlay with such a node added.
 
 Building and Running

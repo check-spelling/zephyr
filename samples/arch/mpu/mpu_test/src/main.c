@@ -24,7 +24,7 @@
 
 /* MPU test command help texts */
 #define READ_CMD_HELP  "Read from a reserved address in the memory map"
-#define WRITE_CMD_HELP "Write in to boot FLASH/ROM"
+#define WRITE_CMD_HELP "Write into boot FLASH/ROM"
 #define RUN_CMD_HELP   "Run code located in RAM"
 #define MTEST_CMD_HELP "Memory Test writes or reads a memory location.\n"    \
 			"Command accepts 1 (Read) or 2 (Write) parameters."
@@ -102,7 +102,7 @@ static int cmd_write(const struct shell *sh, size_t argc, char *argv[])
 
 	PR_SHELL(sh, "write address: 0x%x\n", FLASH_MEM + 0x4000);
 
-	/* Write in to boot FLASH/ROM */
+	/* Write into boot FLASH/ROM */
 	*p_mem = 0xBADC0DE;
 
 	return 0;

@@ -18,7 +18,7 @@ found, and explain their data format.
 .. note::
 
    See the :ref:`devicetree_binding_index` for reference information on
-   bindings built in to Zephyr.
+   bindings built into Zephyr.
 
 .. toctree::
    :maxdepth: 2

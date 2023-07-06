@@ -90,6 +90,6 @@ Tips:
 - See :zephyr_file:`include/zephyr/dt-bindings/gpio/gpio.h` for the flags you can use
   in devicetree.
 
-- If the LED is built in to your board hardware, the alias should be defined in
+- If the LED is built into your board hardware, the alias should be defined in
   your :ref:`BOARD.dts file <devicetree-in-out-files>`. Otherwise, you can
   define one in a :ref:`devicetree overlay <set-devicetree-overlays>`.

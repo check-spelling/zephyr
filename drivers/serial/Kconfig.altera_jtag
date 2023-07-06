@@ -7,7 +7,7 @@ config UART_ALTERA_JTAG
 	depends on DT_HAS_ALTR_JTAG_UART_ENABLED
 	select SERIAL_HAS_DRIVER
 	help
-	  Enable the Altera JTAG UART driver, built in to many Nios II/NiosV CPU
+	  Enable the Altera JTAG UART driver, built into many Nios II/NiosV CPU
 	  designs.
 
 config UART_ALTERA_JTAG_HAL

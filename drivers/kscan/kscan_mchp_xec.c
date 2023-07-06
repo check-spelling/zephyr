@@ -60,7 +60,7 @@ struct kscan_xec_data {
 	uint8_t matrix_stable_state[MAX_MATRIX_KEY_COLS];
 	uint8_t matrix_unstable_state[MAX_MATRIX_KEY_COLS];
 	uint8_t matrix_previous_state[MAX_MATRIX_KEY_COLS];
-	/* Index in to the scan_clock_cycle to indicate start of debouncing */
+	/* Index into the scan_clock_cycle to indicate start of debouncing */
 	uint8_t scan_cycle_idx[MAX_MATRIX_KEY_COLS][MAX_MATRIX_KEY_ROWS];
 	/* Track previous "elapsed clock cycles" per matrix scan. This
 	 * is used to calculate the debouncing time for every key

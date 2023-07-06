@@ -83,5 +83,5 @@ This matches the flash memory layout we see in ``flash_layout.h`` in TF-M:
     * 0x0030_9000 NV counters area (4 KB)
     * 0x0030_A000 Unused (984 KB)
 
-``mps2/an521`` will be passed in to Tf-M as the board target, specified via
+``mps2/an521`` will be passed into Tf-M as the board target, specified via
 :kconfig:option:`CONFIG_TFM_BOARD`.

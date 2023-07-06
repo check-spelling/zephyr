@@ -38,7 +38,7 @@ cy_en_sysint_status_t Cy_SysInt_Init(const cy_stc_sysint_t *config, cy_israddres
 		 * If priority is same as PendSV, we will catch assertion in
 		 * z_arm_irq_priority_set function. To avoid this, change priority
 		 * to IRQ_PRIO_LOWEST, if it > IRQ_PRIO_LOWEST. Macro IRQ_PRIO_LOWEST
-		 * takes in to account PendSV specific.
+		 * takes into account PendSV specific.
 		 */
 		priority = (config->intrPriority > IRQ_PRIO_LOWEST) ?
 			   IRQ_PRIO_LOWEST : config->intrPriority;

@@ -57,7 +57,7 @@ struct input_npcx_kbd_data {
 	uint8_t matrix_unstable_state[KSCAN_COL_SIZE];
 	uint8_t matrix_previous_state[KSCAN_COL_SIZE];
 	uint8_t matrix_new_state[KSCAN_COL_SIZE];
-	/* Index in to the scan_clock_cycle to indicate start of debouncing */
+	/* Index into the scan_clock_cycle to indicate start of debouncing */
 	uint8_t scan_cycle_idx[KSCAN_COL_SIZE * KSCAN_ROW_SIZE];
 	struct miwu_callback ksi_callback[KSCAN_ROW_SIZE];
 	/* Track previous "elapsed clock cycles" per matrix scan. This

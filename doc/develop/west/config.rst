@@ -27,7 +27,7 @@ way to say the same thing is that ``manifest.path`` is ``zephyr`` in this file.
 There are three types of configuration file:
 
 1. **System**: Settings in this file affect west's behavior for every user
-   logged in to the computer. Its location depends on the platform:
+   logged into the computer. Its location depends on the platform:
 
    - Linux: :file:`/etc/westconfig`
    - macOS: :file:`/usr/local/etc/westconfig`

@@ -52,13 +52,13 @@ when a project's ``manifest-rev`` branch must be updated to a newly fetched
 commit. It's up to your environment to make sure the fetch succeeds.
 
 You can either enter the password manually or use any of the `credential
-helpers built in to Git`_. Since Git has credential storage built in, there is
+helpers built into Git`_. Since Git has credential storage built in, there is
 no need for a west-specific feature.
 
 The following sections cover common cases for running ``west update`` without
 having to enter your password, as well as how to troubleshoot issues.
 
-.. _credential helpers built in to Git:
+.. _credential helpers built into Git:
    https://git-scm.com/docs/gitcredentials
 
 Fetching via HTTPS

@@ -32,7 +32,7 @@ void ec_host_cmd_backend_sim_install_send_cb(ec_host_cmd_backend_api_send cb,
 					     struct ec_host_cmd_tx_buf **tx_buf);
 
 /**
- * @brief Simulate receiving data from host as passed in to this function
+ * @brief Simulate receiving data from host as passed into this function
  *
  * Calling this function simulates that data was sent from the host to the DUT.
  *

@@ -35,7 +35,7 @@ static void spi_pw_reg_write(const struct device *dev,
 
 static void spi_pw_ssp_reset(const struct device *dev)
 {
-	/* Bring the controller from reset state in to operational mode */
+	/* Bring the controller from reset state into operational mode */
 	spi_pw_reg_write(dev, PW_SPI_REG_RESETS, 0x00);
 	spi_pw_reg_write(dev, PW_SPI_REG_RESETS, PW_SPI_INST_RESET);
 }
