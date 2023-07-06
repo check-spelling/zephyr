@@ -270,7 +270,7 @@ The most general purpose API macro for accessing these is
 Here, ``idx`` is the logical index into the ``interrupts`` array, i.e. it is
 the index of an individual interrupt specifier in the property. The ``val``
 argument is the name of a cell within the interrupt specifier. To use this
-macro, check the bindings file for the node you are interested in to find the
+macro, check the bindings file for the node that interests you to find the
 ``val`` names.
 
 Most Zephyr devicetree bindings have a cell named ``irq``, which is the
