@@ -363,7 +363,7 @@ int pthread_condattr_setclock(pthread_condattr_t *, clockid_t);
 int pthread_condattr_setpshared(pthread_condattr_t *, int);
 int pthread_mutex_consistent(pthread_mutex_t *);
 int pthread_mutex_getprioceiling(const pthread_mutex_t * int *);
-int pthread_mutex_setprioceiling(pthread_mutex_t *, int int *);
+int pthread_mutex_setprioceiling(pthread_mutex_t *, int *);
 int pthread_mutexattr_getprioceiling(const pthread_mutexattr_t *, int *);
 int pthread_mutexattr_getpshared(const pthread_mutexattr_t * int *);
 int pthread_mutexattr_getrobust(const pthread_mutexattr_t * int *);
