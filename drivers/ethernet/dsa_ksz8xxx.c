@@ -362,8 +362,8 @@ static int dsa_ksz8xxx_switch_setup(struct ksz8xxx_data *pdev)
  * Root Cause:
  * KSZ8795 family switches with integrated Ethernet PHY that has a DSP based
  * equalizer EQ that can balance the signal received to adapt various cable
- * length characteristics. The equalizer default settings amplify the signal
- * coming in to get more accurate readings from low amplitude signals.
+ * length characteristics. The equalizer default settings amplify the incoming
+ * signal to get more accurate readings from low amplitude signals.
  * When using some type of short cable (for example, CAT-6 cable with low
  * attenuation to high frequencies signal vs. CAT-5 cable) or board to board
  * connection, or port to port with capacitor AC coupling connection, the signal
