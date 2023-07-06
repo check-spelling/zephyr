@@ -921,7 +921,7 @@ static int espi_npcx_flash_parse_completion(const struct device *dev)
 	 * First 3 bytes of flash cycle completion header in rx buffer
 	 *
 	 * [24:31] - LEN[0:7]   Data length of flash cycle completion package
-	 * [16:23] - LEN[8:15]  Ignore it since rx bufer size is 64 bytes
+	 * [16:23] - LEN[8:15]  Ignore it since rx buffer size is 64 bytes
 	 * [12:15] - TAG        Tag of flash cycle completion package
 	 * [8:11]  - CYCLE_TYPE Cycle type of flash completion
 	 * [0:7]   - Reserved
@@ -944,7 +944,7 @@ static int espi_npcx_flash_parse_completion_with_data(const struct device *dev,
 	 * First 3 bytes of flash cycle completion header in rx buffer
 	 *
 	 * [24:31] - LEN[0:7]   Data length of flash cycle completion package
-	 * [16:23] - LEN[8:15]  Ignore it since rx bufer size is 64 bytes
+	 * [16:23] - LEN[8:15]  Ignore it since rx buffer size is 64 bytes
 	 * [12:15] - TAG        Tag of flash cycle completion package
 	 * [8:11]  - CYCLE_TYPE Cycle type of flash completion
 	 * [0:7]   - Reserved

@@ -42,7 +42,7 @@ ZTEST_SUITE(test_bt_buf_get_set_retrieve_type, NULL, NULL, NULL, NULL, NULL);
  *  Buffer type is set and retrieved correctly
  *
  *  Constraints:
- *     - Use valid buffer buffer reference
+ *     - Use valid buffer reference
  *     - Use valid buffer type
  *
  *  Expected behaviour:

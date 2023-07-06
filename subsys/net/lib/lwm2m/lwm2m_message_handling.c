@@ -1174,7 +1174,7 @@ int lwm2m_write_handler(struct lwm2m_engine_obj_inst *obj_inst, struct lwm2m_eng
 
 			if (len > data_len) {
 				LOG_ERR("Received data won't fit into provided "
-					"bufffer");
+					"buffer");
 				return -ENOMEM;
 			}
 

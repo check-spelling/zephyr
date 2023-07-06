@@ -86,7 +86,7 @@ static inline void tty_set_tx_timeout(struct tty_serial *tty, int32_t timeout)
  *
  * @param tty tty device structure
  * @param buf buffer, or NULL for unbuffered operation
- * @param size buffer buffer size, 0 for unbuffered operation
+ * @param size buffer size, 0 for unbuffered operation
  * @return 0 on success, error code (<0) otherwise:
  *    EINVAL: unsupported buffer (size)
  */
@@ -101,7 +101,7 @@ int tty_set_rx_buf(struct tty_serial *tty, void *buf, size_t size);
  *
  * @param tty tty device structure
  * @param buf buffer, or NULL for unbuffered operation
- * @param size buffer buffer size, 0 for unbuffered operation
+ * @param size buffer size, 0 for unbuffered operation
  * @return 0 on success, error code (<0) otherwise:
  *    EINVAL: unsupported buffer (size)
  */
