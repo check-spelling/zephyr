@@ -1648,7 +1648,7 @@ struct bt_gatt_write_params {
  *
  *  This function will block while the ATT request queue is full, except when
  *  called from Bluetooth event context. When called from Bluetooth context,
- *  this function will instead instead return `-ENOMEM` if it would block to
+ *  this function will instead return `-ENOMEM` if it would block to
  *  avoid a deadlock.
  *
  *  @param conn Connection object.
