@@ -177,7 +177,7 @@ void smp_rx_remove_invalid(struct smp_transport *zst, void *arg)
 	struct k_fifo temp_fifo;
 
 	if (zst->functions.query_valid_check == NULL) {
-		/* No check check function registered, abort check */
+		/* No check function registered, abort check */
 		return;
 	}
 
