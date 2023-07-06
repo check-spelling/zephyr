@@ -1529,7 +1529,7 @@ Addressed issues
 * :github:`44535` - mgmt/mcumgr/lib: Incorrect use of MGMT_ERR_ENOMEM, in most cases where it is used
 * :github:`44531` - bl654_usb without mcuboot maximum image size is not limited
 * :github:`44530` - xtensa xcc build usb stack fail (newlib)
-* :github:`44519` - Choosing CONFIG_CHIP Kconfig breaks LwM2M client client example build
+* :github:`44519` - Choosing CONFIG_CHIP Kconfig breaks LwM2M client example build
 * :github:`44507` - net: tcp: No retries of a TCP FIN message
 * :github:`44504` - net: tcp: Context still open after timeout on connect
 * :github:`44497` - Add guide for disabling MSD on JLink OB devices and link to from smp_svr page
