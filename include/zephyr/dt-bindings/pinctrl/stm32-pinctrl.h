@@ -47,7 +47,7 @@
 #define STM32_PORT_MASK  0xFU
 
 /**
- * @brief Pin configuration configuration bit field.
+ * @brief Pin configuration bit field.
  *
  * Fields:
  *

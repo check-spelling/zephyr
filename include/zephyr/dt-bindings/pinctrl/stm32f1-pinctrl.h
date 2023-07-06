@@ -27,7 +27,7 @@
 #define STM32_REMAP_MASK  0x3FFU
 
 /**
- * @brief Pin configuration configuration bit field.
+ * @brief Pin configuration bit field.
  *
  * Fields:
  *

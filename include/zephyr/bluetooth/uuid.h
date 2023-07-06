@@ -3546,7 +3546,7 @@ struct bt_uuid_128 {
  */
 #define BT_UUID_GATT_RCCP_VAL 0x2b1f
 /**
- *  @brief GATT Characteristic Reconnection Configurationn Control Point
+ *  @brief GATT Characteristic Reconnection Configuration Control Point
  */
 #define BT_UUID_GATT_RCCP \
 	BT_UUID_DECLARE_16(BT_UUID_GATT_RCCP_VAL)
