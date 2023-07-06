@@ -3,7 +3,7 @@
 Application/software image management group
 ###########################################
 
-Application/software image management management group defines following commands:
+Application/software image management group defines following commands:
 
 .. table::
     :align: center
