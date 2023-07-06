@@ -8,4 +8,4 @@ config COUNTER_SMARTBOND_TIMER
 	select CLOCK_CONTROL_SMARTBOND
 	select CLOCK_CONTROL
 	help
-	  Enable the counter driver for for Renesas SmartBond(tm) family of processors.
+	  Enable the counter driver for Renesas SmartBond(tm) family of processors.
