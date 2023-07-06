@@ -695,7 +695,7 @@ class DT:
       A Node instance representing the root (/) node.
 
     alias2node:
-      A dictionary that maps maps alias strings (from /aliases) to Node
+      A dictionary that maps alias strings (from /aliases) to Node
       instances
 
     label2node:
