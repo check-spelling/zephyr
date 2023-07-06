@@ -25,7 +25,7 @@ config ZTEST_TEST_DELAY_MS
 	int "Delay between tests in milliseconds"
 	default 0
 	help
-	  Add a delay between between tests to manage output on the console on
+	  Add a delay between tests to manage output on the console on
 	  systems that can't handle the rapid output rate.
 
 config ZTEST_CPU_HOLD_TIME_MS

@@ -1363,7 +1363,7 @@ Addressed issues
 * :github:`45697` - RING_BUF_DECLARE broken for C++
 * :github:`45691` - missing testcase tests/drivers/watchdog on nucleo stm32 boards
 * :github:`45686` - missing testcase samples/drivers/led_pwm on nucleo stm32 boards
-* :github:`45672` - Bluetooth: Controller: can't cancel periodic advertising sync create betwee ll_sync_create and reception of AUX__ADV_IND with SyncInfo
+* :github:`45672` - Bluetooth: Controller: can't cancel periodic advertising sync create between ll_sync_create and reception of AUX__ADV_IND with SyncInfo
 * :github:`45670` - Intel CAVS: log missing of tests/lib/p4workq/
 * :github:`45664` - mqtt_publisher does not work in atsame54_xpro board
 * :github:`45648` - pm: device_runtime: API functions fault when PM not supported

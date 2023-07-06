@@ -44,6 +44,6 @@ config KSCAN_XEC_POLL_PERIOD
 	int "Keyscan XEC Poll Period"
 	default 5
 	help
-	  Defines the poll period in msecs between between matrix scans.
+	  Defines the poll period in msecs between matrix scans.
 
 endif # KSCAN_XEC

@@ -18,7 +18,7 @@ config INPUT_NPCX_KBD_POLL_PERIOD_MS
 	int "Keyscan NPCX Poll Period"
 	default 5
 	help
-	  Defines the poll period in msecs between between matrix scans.
+	  Defines the poll period in msecs between matrix scans.
 
 config INPUT_NPCX_KBD_KSO_HIGH_DRIVE
 	bool "Select quasi-bidirectional buffers for KSO pins"
