@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#ifndef ARCH_POSIX_CORE_NSI_SAFE_CALLL_H
-#define ARCH_POSIX_CORE_NSI_SAFE_CALLL_H
+#ifndef ARCH_POSIX_CORE_NSI_SAFE_CALL_H
+#define ARCH_POSIX_CORE_NSI_SAFE_CALL_H
 
 #include "nsi_tracing.h"
 #include "posix_arch_internal.h"
 
 #define NSI_SAFE_CALL PC_SAFE_CALL
 
-#endif /* ARCH_POSIX_CORE_NSI_SAFE_CALLL_H */
+#endif /* ARCH_POSIX_CORE_NSI_SAFE_CALL_H */
