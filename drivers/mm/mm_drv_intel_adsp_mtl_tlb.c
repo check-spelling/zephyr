@@ -616,13 +616,13 @@ static int sys_mm_drv_mm_init(const struct device *dev)
 	ARG_UNUSED(dev);
 
 	/*
-	 * Change size of avalible physical memory according to fw register information
+	 * Change size of available physical memory according to fw register information
 	 * in runtime.
 	 */
 
-	uint32_t avalible_memory_size = ace_hpsram_get_bank_count() * SRAM_BANK_SIZE;
+	uint32_t available_memory_size = ace_hpsram_get_bank_count() * SRAM_BANK_SIZE;
 
-	L2_PHYS_SRAM_REGION.num_blocks = avalible_memory_size / CONFIG_MM_DRV_PAGE_SIZE;
+	L2_PHYS_SRAM_REGION.num_blocks = available_memory_size / CONFIG_MM_DRV_PAGE_SIZE;
 
 	ret = calculate_memory_regions(UNUSED_L2_START_ALIGNED);
 	CHECKIF(ret != 0) {

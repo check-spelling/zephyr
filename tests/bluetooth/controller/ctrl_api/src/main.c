@@ -385,7 +385,7 @@ ZTEST(internal, test_int_mem_proc_ctx)
 
 	ctx1 = llcp_proc_ctx_acquire();
 
-	/* Releasing returns the context to the avilable pool */
+	/* Releasing returns the context to the available pool */
 	zassert_not_null(ctx1, NULL);
 }
 

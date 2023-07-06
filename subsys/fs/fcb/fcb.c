@@ -306,7 +306,7 @@ int fcb_sector_hdr_read(struct fcb *fcb, struct flash_sector *sector,
  * @param0 ptr to fcb
  * @param1 n number of fcb entries the user wants to get
  * @param2 ptr to the fcb_entry to be returned
- * @return 0 on there are any fcbs aviable; -ENOENT otherwise
+ * @return 0 on there are any fcbs available; -ENOENT otherwise
  */
 int
 fcb_offset_last_n(struct fcb *fcb, uint8_t entries,
