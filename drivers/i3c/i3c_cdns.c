@@ -1955,7 +1955,7 @@ static void cdns_i3c_irq_handler(const struct device *dev)
 		if (int_sl & SLV_INT_HJ_DONE) {
 		}
 
-		/* Controllership has been been given */
+		/* Controllership has been given */
 		if (int_sl & SLV_INT_MR_DONE) {
 			/* TODO: implement support for controllership handoff */
 		}
