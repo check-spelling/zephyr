@@ -28,7 +28,7 @@ properly defined.
 
 The sample additionally supports an optional ``led0`` devicetree alias. This is
 the same alias used by the :ref:`blinky-sample`. If this is provided, the LED
-will be turned on when the button is pressed, and turned off off when it is
+will be turned on when the button is pressed, and turned off when it is
 released.
 
 Devicetree details
