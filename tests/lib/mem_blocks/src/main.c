@@ -145,7 +145,7 @@ static void alloc_free(sys_mem_blocks_t *mem_block,
 						    i, &val);
 			zassert_equal(ret, 0, "API failure");
 			zassert_equal(val, 1,
-				      "sys_mem_blockss_alloc bitmap failed");
+				      "sys_mem_blocks_alloc bitmap failed");
 
 #ifdef CONFIG_SYS_MEM_BLOCKS_LISTENER
 			zassert_equal(listener_heap_id[i],
