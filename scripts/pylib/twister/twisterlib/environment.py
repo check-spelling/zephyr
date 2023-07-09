@@ -383,7 +383,7 @@ structure in the main Zephyr tree: boards/<arch>/<board_name>/""")
     parser.add_argument(
         "-H", "--footprint-threshold", type=float, default=5,
         help="When checking test case footprint sizes, warn the user if "
-             "the new app size is greater then the specified percentage "
+             "the new app size is greater than the specified percentage "
              "from the last release. Default is 5. 0 to warn on any "
              "increase on app size.")
 

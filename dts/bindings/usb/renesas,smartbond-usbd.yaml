@@ -32,7 +32,7 @@ properties:
   fifo-read-threshold:
     type: int
     description: |
-      RX FIFO is 64 bytes. When endpoint size is greater then 64,
+      RX FIFO is 64 bytes. When endpoint size is greater than 64,
       FIFO warning interrupt is enabled to allow read incoming data
       during frame reception.
       It is possible to stay in interrupt reading whole packet at once,

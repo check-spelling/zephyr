@@ -870,7 +870,7 @@ static void rx_error_handler(Gmac *gmac, struct gmac_queue *queue)
 /*
  * Set MCK to MDC clock divisor.
  *
- * According to 802.3 MDC should be less then 2.5 MHz.
+ * According to 802.3 MDC should be less than 2.5 MHz.
  */
 static int get_mck_clock_divisor(uint32_t mck)
 {

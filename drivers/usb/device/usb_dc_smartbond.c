@@ -265,7 +265,7 @@ static void fill_tx_fifo(struct smartbond_ep_state *ep_state)
 	if (ep_idx != 0) {
 		if (remaining > 0) {
 			/*
-			 * Max packet size is set to value greater then FIFO.
+			 * Max packet size is set to value greater than FIFO.
 			 * Enable fifo level warning to handle larger packets.
 			 */
 			regs->txc |= (3 << USB_USB_TXC1_REG_USB_TFWL_Pos);
@@ -545,7 +545,7 @@ static void handle_epx_rx_ev(uint8_t ep_idx)
 			/*
 			 * When DMA did not finished (packet was smaller then MPS),
 			 * dma_idx holds exact number of bytes transmitted. When DMA
-			 * finished value in dma_idx is one less then actual number of
+			 * finished value in dma_idx is one less than actual number of
 			 * transmitted bytes.
 			 */
 			if (ep_state->last_packet_size == RX_DMA_REGS->dma_len) {
