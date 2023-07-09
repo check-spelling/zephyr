@@ -46,7 +46,7 @@ int calculate_memory_regions(uintptr_t static_alloc_end_ptr)
 			       virtual_memory_regions[i - 1].size),
 		      OPPORTUNISTIC_REGION_SIZE, MEM_REG_ATTR_OPPORTUNISTIC_MEMORY, i, &total_size);
 	i++;
-	/* Apending last region as 0 so iterators know where table is over
+	/* Appending last region as 0 so iterators know where table is over
 	 * check is for size = 0;
 	 */
 	append_region(NULL, 0, 0, i, &total_size);
