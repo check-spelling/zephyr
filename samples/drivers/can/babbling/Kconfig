@@ -14,7 +14,7 @@ config SAMPLE_CAN_BABBLING_CAN_ID
 config SAMPLE_CAN_BABBLING_EXT_ID
 	bool "Use Extended (29-bit) CAN ID"
 	help
-	  Babling node sends extended (29-bit) CAN ID frames.
+	  Babbling node sends extended (29-bit) CAN ID frames.
 
 config SAMPLE_CAN_BABBLING_RTR
 	bool "Send Remote Transmit Request (RTR) frames"
