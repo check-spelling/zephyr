@@ -659,7 +659,7 @@ def dt_nodelabel_enabled_with_compat(kconf, _, label, compat):
 def dt_nodelabel_array_prop_has_val(kconf, _, label, prop, val):
     """
     This function looks for a node with node label 'label'.
-    If the node exists, it checks if the node node has a property
+    If the node exists, it checks if the node has a property
     'prop' with type "array". If so, and the property contains
     an element equal to the integer 'val', it returns "y".
     Otherwise, it returns "n".
