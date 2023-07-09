@@ -1634,7 +1634,7 @@ file :file:`00-ci.yml` in :file:`my-repo/submanifests`, with these contents:
 
 The CI scripts run ``west update`` after generating this file in
 :file:`my-repo/submanifests`. The projects defined in :file:`00-ci.yml` have
-higher precedence than other definitions in :file:`my-repo/submanifests`,
+higher precedence thanother definitions in :file:`my-repo/submanifests`,
 because the name :file:`00-ci.yml` comes before the other file names.
 
 Thus, ``west update`` always checks out the developer's branches in the

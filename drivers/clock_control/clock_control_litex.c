@@ -45,7 +45,7 @@ struct litex_clk_regs_addr litex_clk_regs_addr_init(void)
 		if (i == 5) {
 		/*
 		 *special case because CLKOUT5 have its reg addresses
-		 *placed lower than other CLKOUTs
+		 *placed lower thanother CLKOUTs
 		 */
 			m.clkout[5].reg1 = CLKOUT5_REG1;
 			m.clkout[5].reg2 = CLKOUT5_REG2;

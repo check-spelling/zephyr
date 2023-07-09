@@ -734,7 +734,7 @@ USB
 * USB synchronous transfer
 
   * Fixed possible deadlock in usb_transfer_sync().
-  * Check added to prevent starting new transfer if an other transfer is
+  * Check added to prevent starting new transfer if another transfer is
     already ongoing on same endpoint.
 
 * USB DFU class

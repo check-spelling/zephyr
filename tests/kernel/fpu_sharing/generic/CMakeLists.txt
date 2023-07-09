@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.20.0)
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(fpu_sharing)
 
-# Some boards are significantly slower than others resulting in the test
+# Some boards are significantly slower thanothers resulting in the test
 # output being in the range of every few seconds to every few minutes. To
 # compensate for this, one can control the number of iterations in the PI
 # calculation through PI_NUM_ITERATIONS. Lowering this value will increase

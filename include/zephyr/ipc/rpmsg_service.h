@@ -36,7 +36,7 @@ extern "C" {
  * @retval -EINPROGRESS when requested to register an endpoint after endpoints
  *         creation procedure has started;
  * @retval -ENOMEM when there is not enough slots to register the endpoint;
- * @retval <0 an other negative errno code, reported by rpmsg.
+ * @retval <0 another negative errno code, reported by rpmsg.
  */
 int rpmsg_service_register_endpoint(const char *name, rpmsg_ept_cb cb);
 
