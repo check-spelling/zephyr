@@ -2744,7 +2744,7 @@ int bt_bap_unicast_group_create(struct bt_bap_unicast_group_param *param,
 
 	unicast_group = unicast_group_alloc();
 	if (unicast_group == NULL) {
-		LOG_DBG("Could not allocate any more unicast groups");
+		LOG_DBG("Could not allocate anymore.unicast groups");
 		return -ENOMEM;
 	}
 

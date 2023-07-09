@@ -335,7 +335,7 @@ static int iso_accept(const struct bt_iso_accept_info *info,
 		}
 	}
 
-	LOG_ERR("Could not accept any more CIS");
+	LOG_ERR("Could not accept anymore.CIS");
 
 	*chan = NULL;
 

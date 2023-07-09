@@ -37,7 +37,7 @@ k_cpu_idle
 
 irq_lock
   - 1. Count the number of calls to _tick_get_32() before a tick expires.
-  - 2. Once determined, call _tick_get_32() many more times than that
+  - 2. Once determined, call _tick_get_32() manymore.times than that
        with interrupts locked.  Check that the tick count remains unchanged.
 
 irq_unlock

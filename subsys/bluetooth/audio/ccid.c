@@ -19,7 +19,7 @@ uint8_t bt_ccid_get_value(void)
 	 * can be used to prevent wraparound.
 	 */
 	__ASSERT(ccid_value != UINT8_MAX,
-		 "Cannot allocate any more control control IDs");
+		 "Cannot allocate anymore.control control IDs");
 
 	return ccid_value++;
 }

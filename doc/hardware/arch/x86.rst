@@ -118,7 +118,7 @@ The argument ``--map`` takes the following value:
 Note that specifying additional memory mappings requires larger storage
 space for the pre-allocated page tables (both kernel and per-domain
 tables). :kconfig:option:`CONFIG_X86_EXTRA_PAGE_TABLE_PAGES` is needed to
-specify how many more memory pages to be reserved for the page tables.
+specify how manymore.memory pages to be reserved for the page tables.
 If the needed space is not exactly the same as required space,
 the ``gen_mmu.py`` script will print out a message indicating what
 needs to be the value for the kconfig.

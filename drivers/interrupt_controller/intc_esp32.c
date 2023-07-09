@@ -363,7 +363,7 @@ static int get_available_int(int flags, int cpu, int force, int source)
 	struct vector_desc_t *vd = find_desc_for_source(source, cpu);
 
 	if (vd) {
-		/* if existing vd found, don't need to search any more. */
+		/* if existing vd found, don't need to search anymore. */
 		INTC_LOG("%s: existing vd found. intno: %d", __func__, vd->intno);
 		if (force != -1 && force != vd->intno) {
 			INTC_LOG("%s: intr forced but not match existing. "
@@ -378,7 +378,7 @@ static int get_available_int(int flags, int cpu, int force, int source)
 	if (force != -1) {
 		INTC_LOG("%s: try to find force. "
 			 "Cpu: %d, Source: %d, Force: %d", __func__, cpu, source, force);
-		/* if force assigned, don't need to search any more. */
+		/* if force assigned, don't need to search anymore. */
 		vd = find_desc_for_int(force, cpu);
 		if (vd == NULL) {
 			/* if existing vd not found, just check the default state for the intr. */

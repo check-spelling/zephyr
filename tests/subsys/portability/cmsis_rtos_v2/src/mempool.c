@@ -73,7 +73,7 @@ static void mempool_common_tests(osMemoryPoolId_t mp_id,
 	zassert_equal(osMemoryPoolGetSpace(mp_id), 0,
 		      "Something's wrong with osMemoryPoolGetSpace!");
 
-	/* All blocks in mempool are allocated, any more allocation
+	/* All blocks in mempool are allocated, anymore.allocation
 	 * without free should fail
 	 */
 	addr_list[i] = (struct mem_block *)osMemoryPoolAlloc(mp_id,

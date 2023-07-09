@@ -1543,7 +1543,7 @@ static struct bt_iso_cig *get_free_cig(void)
 		}
 	}
 
-	LOG_DBG("Could not allocate any more CIGs");
+	LOG_DBG("Could not allocate anymore.CIGs");
 
 	return NULL;
 }
@@ -2197,7 +2197,7 @@ static struct bt_iso_big *get_free_big(void)
 		}
 	}
 
-	LOG_DBG("Could not allocate any more BIGs");
+	LOG_DBG("Could not allocate anymore.BIGs");
 
 	return NULL;
 }

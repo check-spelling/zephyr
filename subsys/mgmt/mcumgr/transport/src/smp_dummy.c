@@ -589,7 +589,7 @@ int mcumgr_dummy_tx_frame(const uint8_t *data, bool first, int len,
 
 	while (1) {
 		if (dst_off >= MCUMGR_DUMMY_MAX_FRAME - 4) {
-			/* Can't fit any more data in this frame. */
+			/* Can't fit anymore.data in this frame. */
 			break;
 		}
 

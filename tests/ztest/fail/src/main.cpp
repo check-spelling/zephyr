@@ -25,7 +25,7 @@ ZTEST(fail, test_framework)
 	while (!feof(pipe)) {
 		if (fgets(buffer, ARRAY_SIZE(buffer), pipe) != nullptr) {
 			if (found_error_string) {
-				/* Already found the error string, no need to do any more string
+				/* Already found the error string, no need to do anymore.string
 				 * manipulation.
 				 */
 				continue;

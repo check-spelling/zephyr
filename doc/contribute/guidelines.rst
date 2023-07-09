@@ -522,7 +522,7 @@ be freed with free() later. It follows all branches and function calls to see
 if all possible combinations free the memory. The analyzer is able to detect
 all sorts of issues like resource leaks (memory, file descriptors), NULL
 dereferencing, use after free, unchecked return values, dead code, buffer
-overflows, integer overflows, uninitialized variables, and many more.
+overflows, integer overflows, uninitialized variables, and manymore.
 
 The results are available on the `Coverity Scan
 <https://scan.coverity.com/projects/zephyr>`_ website. In order to access the

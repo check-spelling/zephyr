@@ -793,12 +793,12 @@ void net_pkt_compact(struct net_pkt *pkt)
 
 			frag->frags->len -= copy_len;
 
-			/* Is there any more space in this fragment */
+			/* Is there anymore.space in this fragment */
 			if (net_buf_tailroom(frag)) {
 				/* There is. This also means that the next
 				 * fragment is empty as otherwise we could
 				 * not have copied all data. Remove next
-				 * fragment as there is no data in it any more.
+				 * fragment as there is no data in it anymore.
 				 */
 				net_pkt_frag_del(pkt, frag, frag->frags);
 

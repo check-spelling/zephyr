@@ -271,7 +271,7 @@ static uint32_t i2c_prepare_xfer_cmd(struct i2c_sam_twim_dev_data *data,
 	} else {
 		next_nb_remaining = data->next_nb_bytes;
 
-		/* Is there any more messages ? */
+		/* Is there anymore.messages ? */
 		if ((next_msg_idx + 1) >= data->msg_max_idx) {
 			*cmdr_reg |= TWIM_CMDR_STOP;
 		}
@@ -402,7 +402,7 @@ static void i2c_prepare_next(struct i2c_sam_twim_dev_data *data,
 	cur_is_read = (cmdr_reg & TWIM_CMDR_READ);
 	twim->IER |= (cur_is_read ? TWIM_IER_RXRDY : TWIM_IER_TXRDY);
 
-	/* Is there any more transfer? */
+	/* Is there anymore.transfer? */
 	if (data->next_nb_bytes == 0) {
 		return;
 	}

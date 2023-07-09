@@ -591,7 +591,7 @@ defined(CONFIG_MCUMGR_SMP_COMMAND_STATUS_HOOKS)
 			fic.clen = g_img_mgmt_state.size;
 
 			if (flash_img_check(&ctx, &fic, g_img_mgmt_state.area_id) == 0) {
-				/* Underlying data already matches, no need to upload any more,
+				/* Underlying data already matches, no need to upload anymore,
 				 * set offset to image size so client knows upload has finished.
 				 */
 				g_img_mgmt_state.off = g_img_mgmt_state.size;

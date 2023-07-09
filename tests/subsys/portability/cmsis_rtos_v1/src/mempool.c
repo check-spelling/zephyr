@@ -39,7 +39,7 @@ ZTEST(cmsis_mempool, test_mempool)
 		zassert_true(addr_list[i] != NULL, "mempool allocation failed");
 	}
 
-	/* All blocks in mempool are allocated, any more allocation
+	/* All blocks in mempool are allocated, anymore.allocation
 	 * without free should fail
 	 */
 	addr_list[i] = (struct mem_block *)osPoolAlloc(mempool_id);

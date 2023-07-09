@@ -671,7 +671,7 @@ static void test_lpn_overflow(void)
 		}
 	}
 
-	/* Not expecting any more messages from friend */
+	/* Not expecting anymore.messages from friend */
 	err = bt_mesh_test_recv_msg(&msg, K_SECONDS(10));
 	if (!err) {
 		FAIL("Unexpected additional message 0x%02x from 0x%04x",
@@ -699,7 +699,7 @@ static void test_lpn_overflow(void)
 	ASSERT_EQUAL(cfg->addr, msg.ctx.recv_dst);
 	ASSERT_EQUAL(exp_seq, msg.seq);
 
-	/* Not expecting any more messages from friend */
+	/* Not expecting anymore.messages from friend */
 	err = bt_mesh_test_recv_msg(&msg, K_SECONDS(10));
 	if (!err) {
 		FAIL("Unexpected additional message 0x%02x from 0x%04x",
@@ -730,7 +730,7 @@ static void test_lpn_overflow(void)
 	ASSERT_EQUAL(5, msg.len);
 	ASSERT_EQUAL(cfg->addr, msg.ctx.recv_dst);
 
-	/* Not expecting any more messages from friend */
+	/* Not expecting anymore.messages from friend */
 	err = bt_mesh_test_recv_msg(&msg, K_SECONDS(10));
 	if (!err) {
 		FAIL("Unexpected additional message 0x%02x from 0x%04x",

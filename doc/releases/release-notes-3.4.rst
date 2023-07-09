@@ -596,7 +596,7 @@ Boards & SoC Support
      * FLASH (NVMC & UICR).
      * TEMP.
      * UART connected to a host ptty.
-     * Many more minor CMSIS API and nRF APIs and drivers.
+     * Manymore.minor CMSIS API and nRF APIs and drivers.
 
 * Made these changes for RISC-V boards:
 

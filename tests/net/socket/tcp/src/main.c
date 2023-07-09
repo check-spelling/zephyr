@@ -429,7 +429,7 @@ static void set_packet_loss_ratio(void)
 
 static void restore_packet_loss_ratio(void)
 {
-	/* no packet dropping any more */
+	/* no packet dropping anymore.*/
 	zassert_equal(loopback_set_packet_drop_ratio(0.0f), 0,
 		"Error setting packet drop rate");
 }
@@ -539,7 +539,7 @@ ZTEST(net_socket_tcp, test_v4_broken_link)
 	zassert_equal(recved, -1, "Unexpected return code");
 	zassert_equal(errno, ETIMEDOUT, "Unexpected errno value: %d", errno);
 
-	/* At this point there should be no traffic any more, get the current counters */
+	/* At this point there should be no traffic anymore, get the current counters */
 	net_mgmt(NET_REQUEST_STATS_GET_ALL, NULL, &before, sizeof(before));
 
 	k_sleep(K_MSEC(CONFIG_NET_TCP_INIT_RETRANSMISSION_TIMEOUT));

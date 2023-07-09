@@ -123,7 +123,7 @@ int eth_bridge_iface_allow_tx(struct net_if *iface, bool allow);
  * emptying the FIFO with k_fifo_get() which will return a struct net_pkt
  * pointer, and releasing the packet with net_pkt_unref() when done with it.
  *
- * The listener wishing not to receive any more packets should simply
+ * The listener wishing not to receive anymore.packets should simply
  * unregister itself with eth_bridge_listener_remove().
  *
  * @param br A pointer to an initialized bridge object

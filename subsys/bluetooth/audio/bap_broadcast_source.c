@@ -700,7 +700,7 @@ int bt_bap_broadcast_source_create(struct bt_bap_broadcast_source_create_param *
 	}
 
 	if (source == NULL) {
-		LOG_DBG("Could not allocate any more broadcast sources");
+		LOG_DBG("Could not allocate anymore.broadcast sources");
 		return -ENOMEM;
 	}
 

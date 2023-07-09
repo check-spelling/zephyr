@@ -317,7 +317,7 @@ SECTION_FUNC(TEXT, z_x86_userspace_enter)
 	pop	%ecx
 
 	/* Set stack pointer to the base of the freshly-erased user stack.
-	 * Now that this is set we won't need EBX any more.
+	 * Now that this is set we won't need EBX anymore.
 	 */
 	mov	%ebx, %esp
 
