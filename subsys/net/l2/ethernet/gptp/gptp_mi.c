@@ -668,7 +668,7 @@ static void gptp_mi_site_sync_sync_state_machine(void)
 				gptp_mi_site_ss_prepare_pss_send();
 
 				/*
-				 * Send Port Sync Sync to all
+				 * Send PortSyncSync to all
 				 * PortSyncSyncSend State Machines.
 				 */
 				gptp_mi_site_ss_send_to_pss();
