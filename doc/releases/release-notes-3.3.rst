@@ -3618,7 +3618,7 @@ Addressed issues
 * :github:`46897` - tests: posix: fs: improve tests to take better advantage of new ztest features
 * :github:`46844` - Timer drivers likely have off-by-one in rapidly-presented timeouts
 * :github:`46824` - Prevent new uses of old ztest API
-* :github:`46598` - Logging with RTT backend on STM32WB strange behavier
+* :github:`46598` - Logging with RTT backend on STM32WB strange behavior
 * :github:`46596` - STM32F74X RMII interface does not work
 * :github:`46491` - Zephyr SDK 0.15.0 Checklist
 * :github:`46446` - lvgl: Using sw_rotate with SSD1306 shield causes memory fault

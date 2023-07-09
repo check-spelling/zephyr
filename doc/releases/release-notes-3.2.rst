@@ -1696,7 +1696,7 @@ Known Issues
 - :github:`46126` - pm_device causes assertion error in sched.c with lis2dh
 - :github:`46401` - ARM64: Relax 4K MMU mapping alignment
 - :github:`46596` - STM32F74X RMII interface does not work
-- :github:`46598` - Logging with RTT backend on STM32WB strange behavier
+- :github:`46598` - Logging with RTT backend on STM32WB strange behavior
 - :github:`46844` - Timer drivers likely have off-by-one in rapidly-presented timeouts
 - :github:`46846` - lib: libc: newlib: strerror_r non-functional
 - :github:`46986` - Logging (deferred v2) with a lot of output causes MPU fault
