@@ -173,7 +173,7 @@ SECTION_FUNC(PINNED_TEXT, arch_swap)
 	/*
 	 * The incoming thread uses floating point registers:
 	 * Was it the last thread to use floating point registers?
-	 * If so, there there is no need to restore the floating point context.
+	 * If so, there is no need to restore the floating point context.
 	 */
 
 	movl	_kernel_offset_to_current_fp(%edi), %ebx
