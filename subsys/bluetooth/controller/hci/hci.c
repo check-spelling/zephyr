@@ -108,7 +108,7 @@ static uint16_t _opcode;
 /* NOTE: Duplicate filter uses two LS bits value of standard advertising modes:
  *       0 - Non-Connectable Non-Scannable advertising report
  *       1 - Connectable Non-Scannable advertising report
- *       2 - Non-Connectable Scannable advertisig report
+ *       2 - Non-Connectable Scannable advertising report
  *       3 - Connectable Scannable advertising report
  *
  *       FIXME: Duplicate filtering of Connectable Directed low and high duty
