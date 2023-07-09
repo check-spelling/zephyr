@@ -1129,7 +1129,7 @@ release:
 * :github:`40586` - tests: logging: Logging.add.user scenario fails on all nrf boards
 * :github:`40578` - MODBUS RS-485 transceiver support broken on several platforms due to DE race condition
 * :github:`40569` - bisected: kernel.common.stack_protection_arm_fpu_sharing fails on mps3_an547
-* :github:`40546` - Bluetooh:host: GATT notify multiple feature not working properly
+* :github:`40546` - Bluetooth:host: GATT notify multiple feature not working properly
 * :github:`40538` - mcuboot build fails with nrf52 internal RC oscillator
 * :github:`40517` - msgq: NULL handler assertion with data cache enabled
 * :github:`40483` - ESP32: display sample over i2c not working

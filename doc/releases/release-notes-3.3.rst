@@ -2972,7 +2972,7 @@ Addressed issues
 * :github:`54148` - qemu_x86_tiny places picolibc text outside of pinned.text
 * :github:`54140` - BUS FAULT when running nmap towards echo_async sample
 * :github:`54139` - Bluetooth: Audio: race hazard bt_audio_discover() callback vs unicast_client_ase_cp_discover()
-* :github:`54138` - Buetooth: shell: `bt adv-data` isn't working properly
+* :github:`54138` - Bluetooth: shell: `bt adv-data` isn't working properly
 * :github:`54136` - Socket error after deregistration causes RD client state machine to re-register
 * :github:`54123` - Intel CAVS 25: tests/boards/intel_adsp/ssp fails
 * :github:`54117` - West flash fails on upload to Nucleo F303K8
@@ -3427,7 +3427,7 @@ Addressed issues
 * :github:`51144` - PR #51017 Broke GPIO builds for LPC11u6x platforms
 * :github:`51142` - TestPlan generation not picking up tests missing ``test_`` prefix
 * :github:`51138` - Testing tests/lib/cmsis_dsp/ fails on some stm32 boards
-* :github:`51126` - Bluetooh: host: df: wrong size of a HCI command for connectionless CTE enable in AoD mode
+* :github:`51126` - Bluetooth: host: df: wrong size of a HCI command for connectionless CTE enable in AoD mode
 * :github:`51117` - tests: kernel: workq: work: kernel.work.api fails test_1cpu_drain_wait
 * :github:`51108` - Ethernet: Error frames are displayed when DHCP is suspended for a long time: <inf> net_dhcpv4: Received: 192.168.1.119
 * :github:`51107` - Ethernet: Error frames are often displayed: <err> eth_mcux: ENET_GetRxFrameSize return: 4001

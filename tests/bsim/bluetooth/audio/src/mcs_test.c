@@ -12,7 +12,7 @@
 
 extern enum bst_result_t bst_result;
 
-/* Callback after Bluetoot initialization attempt */
+/* Callback after Bluetooth initialization attempt */
 static void bt_ready(int err)
 {
 	if (err) {

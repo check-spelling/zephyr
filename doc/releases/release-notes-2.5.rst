@@ -1213,7 +1213,7 @@ release:
 * :github:`30819` - twister: --generate-hardware-map crashes and deletes map
 * :github:`30810` - tests: kernel: kernel.threads.armv8m_mpu_stack_guard fails on nrf9160dk
 * :github:`30809` - new testcase is failing after 3f134877 on mec1501modular_assy6885
-* :github:`30808` - Blueooth: Controller Response COMMAND DISALLOWED
+* :github:`30808` - Bluetooth: Controller Response COMMAND DISALLOWED
 * :github:`30805` - Build error at tests/kernel/queue in mec15xxevb_assy6853(qemu) platform
 * :github:`30800` - STM32 usb clock from PLLSAI1
 * :github:`30792` - Cannot build network echo_server for nucleo_f767zi
@@ -1921,7 +1921,7 @@ release:
 * :github:`14571` - TCP: sending lots of data deadlocks with slow peer
 * :github:`14300` - Bluetooth connection using central and peripheral samples in nrf52840
 * :github:`13955` - stm32: Implement async uart api
-* :github:`13591` - tests/blutooth/tester: ASSERTION FAIL due to Recursive spinlock when running bt tester on qemu-cortex-m3
+* :github:`13591` - tests/bluetooth/tester: ASSERTION FAIL due to Recursive spinlock when running bt tester on qemu-cortex-m3
 * :github:`13396` - Cannot connect to Galaxy S8 via BLE
 * :github:`13244` - How to encrypt advertise packet with zephyr and nrf52832 ？
 * :github:`12368` - File descriptors: Compile fails with non-POSIX out-of-tree libc

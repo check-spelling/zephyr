@@ -1669,7 +1669,7 @@ Addressed issues
 * :github:`43669` - LSM6DSL IMU driver - incorrect register definitions
 * :github:`43663` - stm32f091 test   tests/kernel/context/ test_kernel_cpu_idle  fails
 * :github:`43661` - Newlib math library not working with user mode threads
-* :github:`43656` - samples:bluetoooth:direction_finding_connectionless_rx antenna switching not working with nRF5340
+* :github:`43656` - samples:bluetooth:direction_finding_connectionless_rx antenna switching not working with nRF5340
 * :github:`43654` - Nominate Mehmet Alperen Sener as Bluetooth Mesh Collaborator
 * :github:`43649` - Best practice for "external libraries" and cmake
 * :github:`43647` - Bluetooth: LE multirole: connection as central is not totally unreferenced on disconnection
