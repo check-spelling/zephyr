@@ -19,6 +19,6 @@ properties:
     type: phandle-array
     required: true
     description: |
-      Board GPIO output used to notify eSPI master to ackwnowledge
+      Board GPIO output used to notify eSPI master to acknowledge
       power has stabilized and bare minimum initialization in eSPI slave
       is complete so eSPI master can proceed with eSPI handshake.
