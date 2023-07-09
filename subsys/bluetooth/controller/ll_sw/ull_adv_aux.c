@@ -2922,7 +2922,7 @@ static uint32_t aux_time_get(const struct ll_adv_aux_set *aux,
 
 	/* NOTE: 16-bit values are sufficient for minimum radio event time
 	 *       reservation, 32-bit are used here so that reservations for
-	 *       whole back-to-back chaining of PDUs can be accomodated where
+	 *       whole back-to-back chaining of PDUs can be accommodated where
 	 *       the required microseconds could overflow 16-bits, example,
 	 *       back-to-back chained Coded PHY PDUs.
 	 */
