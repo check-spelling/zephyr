@@ -66,7 +66,7 @@ struct adc_npcx_threshold_control {
 	 */
 	uint8_t chnsel;
 	/*
-	 * Sets relation between measured value and assetion threshold value.
+	 * Sets relation between measured value and assertion threshold value.
 	 * in thrval:
 	 * 0: Threshold event is generated if Measured data > thrval.
 	 * 1: Threshold event is generated if Measured data <= thrval.

@@ -17,7 +17,7 @@ enum adc_npcx_threshold_param_l_h {
 enum adc_npcx_threshold_param_type {
 	/* Selects ADC channel to be used for measurement */
 	ADC_NPCX_THRESHOLD_PARAM_CHNSEL,
-	/* Sets relation between measured value and assetion threshold value.*/
+	/* Sets relation between measured value and assertion threshold value.*/
 	ADC_NPCX_THRESHOLD_PARAM_L_H,
 	/* Sets the threshol value to which measured data is compared. */
 	ADC_NPCX_THRESHOLD_PARAM_THVAL,

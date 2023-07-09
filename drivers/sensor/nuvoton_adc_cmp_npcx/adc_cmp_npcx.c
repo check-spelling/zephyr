@@ -15,7 +15,7 @@ LOG_MODULE_REGISTER(adc_cmp_npcx, CONFIG_SENSOR_LOG_LEVEL);
 struct adc_cmp_npcx_data {
 	/* Work queue to be notified when threshold assertion happens */
 	struct k_work work;
-	/* Sensor trigger hanlder to notify user of assetion */
+	/* Sensor trigger hanlder to notify user of assertion */
 	sensor_trigger_handler_t handler;
 	/* ADC NPCX driver reference */
 	const struct device *dev;
