@@ -140,7 +140,7 @@
 	 * | PIO3_24 | CH5B | ADC0_13 |       |
 	 * +---------+------+---------+-------+
 	 *
-	 * Per the mimxrt6xx reference manual, The channels 0-5 are analong input.
+	 * Per the mimxrt6xx reference manual, The channels 0-5 are analog input.
 	 * Optionally, channels 0A through 5A can be paired with channels 0B
 	 * through 5B for differential input on their respective ADC channel.
 	 *
