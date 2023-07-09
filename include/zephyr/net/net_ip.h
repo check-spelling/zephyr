@@ -254,7 +254,7 @@ struct cmsghdr {
 };
 
 /* Alignment for headers and data. These are arch specific but define
- * them here atm if not found alredy.
+ * them here atm if not found already.
  */
 #if !defined(ALIGN_H)
 #define ALIGN_H(x) ROUND_UP(x, __alignof__(struct cmsghdr))
