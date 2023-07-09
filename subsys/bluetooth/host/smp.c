@@ -284,7 +284,7 @@ static const uint8_t *sc_public_key;
 static K_SEM_DEFINE(sc_local_pkey_ready, 0, 1);
 
 /* Pointer to internal data is used to mark that callbacks of given SMP channel are not initialized.
- * Value of NULL represents no authenticaiton capabilities and cannot be used for that purpose.
+ * Value of NULL represents no authentication capabilities and cannot be used for that purpose.
  */
 #define BT_SMP_AUTH_CB_UNINITIALIZED	((atomic_ptr_val_t)bt_smp_pool)
 
