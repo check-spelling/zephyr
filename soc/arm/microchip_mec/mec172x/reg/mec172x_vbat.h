@@ -10,7 +10,7 @@
 #include <stdint.h>
 #include <stddef.h>
 
-/* VBAT Registers Registers */
+/* VBAT Registers */
 #define MCHP_VBAT_MEMORY_SIZE		128u
 
 /* Offset 0x00 Power-Fail and Reset Status */
