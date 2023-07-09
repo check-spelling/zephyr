@@ -205,7 +205,7 @@ static inline void reg32_update(volatile uint32_t *reg,
  * @param mask Mask to test.
  * @param match Value to match.
  *
- * @return True if bits in @p mask mask matches @p match, false otherwise.
+ * @return True if bits in @p mask matches @p match, false otherwise.
  */
 static inline bool reg32_test_match(volatile uint32_t *reg,
 				    uint32_t mask, uint32_t match)
