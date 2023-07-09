@@ -27,7 +27,7 @@
 &pinctrl {
 	qdec_pinctrl: qdec_pinctrl {
 		group1 {
-			psels = <NRF_PSEL(QDEC_A, 0, 31)>,   /* Ardiuno A5 */
+			psels = <NRF_PSEL(QDEC_A, 0, 31)>,   /* Arduino A5 */
 				<NRF_PSEL(QDEC_B, 0, 30)>;   /* Arduino A4 */
 		};
 	};

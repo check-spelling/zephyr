@@ -1346,7 +1346,7 @@ release:
 * :github:`14467` - New HTTP API implementation
 * :github:`14459` - usb: samples: mass: doesn't build with FLASH overlay
 * :github:`14292` - Typo "QPSI" in QSPI macros in some stm32 drivers
-* :github:`14283` - tests/drivers/watchdog/wdt_basic_api fails on test_wdt_callback_1() for Ardruino and quark_se_c1000_ss_devboard:arc
+* :github:`14283` - tests/drivers/watchdog/wdt_basic_api fails on test_wdt_callback_1() for Arduino and quark_se_c1000_ss_devboard:arc
 * :github:`14123` - Particle boards need a board initialization module for antenna configuration
 * :github:`14082` - Update Segger host library to V2.52f
 * :github:`14037` - Generic device driver object type
