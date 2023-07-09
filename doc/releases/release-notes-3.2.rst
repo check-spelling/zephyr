@@ -2687,7 +2687,7 @@ Addressed issues
 * :github:`11636` - Generic GPIO reset driver
 * :github:`10938` - Standardize labels (string device names) used for device binding
 * :github:`10516` - Migrate drivers to Devicetree
-* :github:`10512` - Console, logger, shell architecure
+* :github:`10512` - Console, logger, shell architecture
 * :github:`8945` - Explore baselibc as a replacement for minimal libc
 * :github:`8497` - Need a "monitor" spin-for-ISR API
 * :github:`8496` - Need a "lock" wrapper around k_sem

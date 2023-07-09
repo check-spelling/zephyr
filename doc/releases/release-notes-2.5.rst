@@ -1515,7 +1515,7 @@ release:
 * :github:`29363` - shell: inability to print 64-bit integers with newlib support
 * :github:`29357` - RFC: API Change: Bluetooth: Update indication callback parameters
 * :github:`29347` - Network deadlock because of mutex locking order
-* :github:`29346` - west boards doesn't display the arcitecture.
+* :github:`29346` - west boards doesn't display the architecture.
 * :github:`29330` - mec15xxevb_assy6853:running samples/boards/mec15xxevb_assy6853/power_management Sleep entry latency is higher than expected
 * :github:`29329` - tests: kernel.workqueue.api tests fail on multiple platforms
 * :github:`29328` - mec15xxevb_assy6853:running tests/kernel/workq/work_queue_api/ failed
