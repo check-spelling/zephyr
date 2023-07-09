@@ -84,7 +84,7 @@ class VndLookup:
 
     def init_vnd2bindings(self, bindings):
         # Take a 'vnd2vendor' map and a list of bindings and return a dict
-        # mapping 'vnd' vendor prefixes prefixes to lists of bindings. The
+        # mapping 'vnd' vendor prefixes to lists of bindings. The
         # bindings in each list are sorted by compatible. The keys in the
         # return value are sorted by vendor name.
         #
