@@ -1,5 +1,5 @@
 # Note: On most ST development boards, external clock "HSE 8MHz" is provided thanks to ST-Link
-# via its MCO line. On some boards, ST-Link MCO sloder brigde is not set out of the box.
+# via its MCO line. On some boards, ST-Link MCO sloder bridge is not set out of the box.
 # To reflect this constraint on such boards, a specific fixture "mco_sb_closed" is provided.
 # To run HSE tests on these boards:
 # - add the sloder bridge
