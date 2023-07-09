@@ -1482,7 +1482,7 @@ static struct pdu_cte_info *pdu_cte_info_get(struct pdu_adv *pdu)
 	/* Skip flags in extended advertising header */
 	dptr = hdr->data;
 
-	/* Make sure there are no fields that are not allowd for AUX_SYNC_IND and AUX_CHAIN_IND */
+	/* Make sure there are no fields that are not allowed for AUX_SYNC_IND and AUX_CHAIN_IND */
 	LL_ASSERT(!hdr->adv_addr);
 	LL_ASSERT(!hdr->tgt_addr);
 
