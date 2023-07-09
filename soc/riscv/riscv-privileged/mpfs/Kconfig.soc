@@ -26,5 +26,5 @@ endchoice
 
 config MPFS_HAL
 	depends on SOC_MPFS
-	bool "Microchip Polarfire SOC hardware abstracton layer"
+	bool "Microchip Polarfire SOC hardware abstraction layer"
 	select HAS_MPFS_HAL
