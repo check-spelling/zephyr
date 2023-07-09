@@ -328,7 +328,7 @@ static int submit_to_queue_locked(struct k_work *work,
 
 		/* If the work is currently running we have to use the
 		 * queue it's running on to prevent handler
-		 * re-entrancy.
+		 * reentrancy.
 		 */
 		if (flag_test(&work->flags, K_WORK_RUNNING_BIT)) {
 			__ASSERT_NO_MSG(work->queue != NULL);

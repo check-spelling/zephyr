@@ -416,7 +416,7 @@ ZTEST(work_1cpu, test_1cpu_reentrant_queue)
 	zassert_equal(coophi_counter(), 1);
 
 	/* Confirm the second submission was redirected to the running
-	 * queue to avoid re-entrancy problems.
+	 * queue to avoid reentrancy problems.
 	 */
 	handler_release();
 	rc = k_sem_take(&sync_sem, K_FOREVER);

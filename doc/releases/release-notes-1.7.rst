@@ -252,7 +252,7 @@ JIRA Related Items
 * ``ZEP-1224`` - Add save/restore support to arcv2_timer_0/sys_clock
 * ``ZEP-1230`` - Optimize interrupt return code on ARC.
 * ``ZEP-1233`` - mbedDTLS DTLS client stability does not work on top of the tree for the net branch
-* ``ZEP-1251`` - Abstract driver re-entrancy code
+* ``ZEP-1251`` - Abstract driver reentrancy code
 * ``ZEP-1267`` - Echo server crashes upon reception of router advertisement
 * ``ZEP-1276`` - Move disk_access_* out of file system subsystem
 * ``ZEP-1283`` - compile option to skip gpio toggle in samples/power/power_mgr

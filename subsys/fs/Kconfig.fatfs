@@ -225,7 +225,7 @@ config FS_FATFS_REENTRANT
 	bool "FatFs reentrant"
 	depends on !FS_FATFS_LFN_MODE_BSS
 	help
-	  Enable the FatFs re-entrancy (thread safe) option for file/directory
+	  Enable the FatFs reentrancy (thread safe) option for file/directory
 	  access for each volume. Will create a zephyr mutex object for each
 	  FatFs volume and a FatFs system mutex.
 
