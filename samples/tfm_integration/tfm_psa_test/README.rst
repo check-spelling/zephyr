@@ -97,7 +97,7 @@ Sample Output
 
       [...]
 
-      TEST: 417 | DESCRIPTION: Storage assest capacity modification check
+      TEST: 417 | DESCRIPTION: Storage assets capacity modification check
       [Info] Executing tests from non-secure
 
       [Info] Executing PS tests
