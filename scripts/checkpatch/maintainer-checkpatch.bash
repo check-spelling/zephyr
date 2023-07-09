@@ -8,7 +8,7 @@
 
 exe_name=$(basename $0)
 
-# check the last n patches patches from the current branch for errors
+# check the last n patches from the current branch for errors
 # usage: maintainer-checkpatch.bash [(-n <num commits>) | (-c <commit>)] [-s]
 # where: -n <num commits> selects the last n commits (default: 1)
 #        -c <commit> selects the "since" commit
