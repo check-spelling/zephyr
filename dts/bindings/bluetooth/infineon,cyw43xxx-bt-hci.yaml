@@ -65,11 +65,11 @@ properties:
   hci-operation-speed:
     type: int
     description: |
-      HCI UART boudrate for feature operation. If not defined
+      HCI UART baudrate for feature operation. If not defined
       bus/current-speed wil be used as default.
 
   fw-download-speed:
     type: int
     description: |
-      HCI UART boudrate for FW dowload operation. If not defined
+      HCI UART baudrate for FW dowload operation. If not defined
       bus/current-speed wil be used as default.
