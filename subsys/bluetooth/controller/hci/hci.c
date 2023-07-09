@@ -883,7 +883,7 @@ static void read_supported_commands(struct net_buf *buf, struct net_buf **evt)
 	/* LE PA Add Device to Periodic Advertiser List,
 	 * LE PA Remove Device from Periodic Advertiser List,
 	 * LE Clear Periodic Advertiser List,
-	 * LE Read Periodic Adveritiser List Size
+	 * LE Read Periodic Advertiser List Size
 	 */
 	rp->commands[38] |= BIT(3) | BIT(4) | BIT(5) | BIT(6);
 #endif /* CONFIG_BT_CTLR_SYNC_PERIODIC_ADV_LIST */
