@@ -1573,7 +1573,7 @@ release:
 * :github:`29092` - tests/drivers/uart/uart_async_api fails on nrf52840dk_nrf52840 (and additional platforms)
 * :github:`29089` - doc: boards: cc1352r_sensortag: fix minor rst issue
 * :github:`29083` - Bluetooth: Host: Inconsistent permission value during discovery procedure
-* :github:`29078` - nRF52840 doesn't start legacy advertisment after extended advertisment
+* :github:`29078` - nRF52840 doesn't start legacy advertisement after extended advertisement
 * :github:`29074` - #27901 breaks mikroe_* shields overlay
 * :github:`29070` - NXP LPC GPIO driver masked set does not use the mask
 * :github:`29068` - chosen zephyr,code-partition has no effect on ELF linking start address

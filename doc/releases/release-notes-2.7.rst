@@ -1091,7 +1091,7 @@ release:
 * :github:`38764` - CBPRINTF_FP_SUPPORT does not work after NEWLIB_LIBC enabled
 * :github:`38761` - Does zephyr_library_property defines -DTRUE in command-line?
 * :github:`38756` - Twister: missing testcases with error in report
-* :github:`38745` - Bluetooth when configured for extended advertising does not limit advertisement packet size if a non-extended avertisement is used
+* :github:`38745` - Bluetooth when configured for extended advertising does not limit advertisement packet size if a non-extended advertisement is used
 * :github:`38737` - drivers: syscon: missing implementation
 * :github:`38735` - nucleo_wb55rg: Flash space left to M0 binary is not sufficient anymore
 * :github:`38731` - test-ci: ptp_clock_test :  test failure on frdm_k64f platform
@@ -1746,7 +1746,7 @@ release:
 * :github:`35707` - AssertionError: zephyr/tests/kernel/common test case is failing with gcc-11 (Yocto)
 * :github:`35703` - posix_apis: fails at test_posix_realtime for mimxrt1024_evk
 * :github:`35681` - Unable to get output for samples/subsys/logging/logger and samples/philosophers
-* :github:`35668` - The channel selection of auxiliary advertisments in extended advertisments
+* :github:`35668` - The channel selection of auxiliary advertisements in extended advertisements
 * :github:`35663` - STM32H7: Support memory protection unit(MPU) to enable shared memory
 * :github:`35658` - arch.interrupt.arm.irq_vector_table.arm_irq_vector_table: MPU FAULT Halting system for mximxrt685_evk_cm33
 * :github:`35656` - arch.interrupt.arm.arm_interrupt: hangs on mimxrt685_evk_cm33
