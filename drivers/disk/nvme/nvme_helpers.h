@@ -3,8 +3,8 @@
  * Copyright (c) 2022 Intel Corp.
  */
 
-#ifndef ZEPHYR_DRIVERS_DISK_NVME_NHME_HELPERS_H_
-#define ZEPHYR_DRIVERS_DISK_NVME_NHME_HELPERS_H_
+#ifndef ZEPHYR_DRIVERS_DISK_NVME_NVME_HELPERS_H_
+#define ZEPHYR_DRIVERS_DISK_NVME_NVME_HELPERS_H_
 
 #define NVME_GONE		0xfffffffful
 
@@ -514,4 +514,4 @@ enum shst_value {
 			    (mm_reg_t)b_a + nvme_mmio_offsetof(reg) + 4); \
 	} while (0)
 
-#endif /* ZEPHYR_DRIVERS_DISK_NVME_NHME_HELPERS_H_ */
+#endif /* ZEPHYR_DRIVERS_DISK_NVME_NVME_HELPERS_H_ */
