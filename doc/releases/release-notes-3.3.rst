@@ -3703,7 +3703,7 @@ Addressed issues
 * :github:`41073` - twister: no way to specify arguments for the binary zephyr.exe
 * :github:`40982` - Build system: West: Add a warning when used repository does not match manifest
 * :github:`40972` - Power management support for MEC172x
-* :github:`40944` - BUILTIN_STACK_CHECKER and MPU_STACK_GUARD with a thread using the FPU will fault the bulltin stack checker
+* :github:`40944` - BUILTIN_STACK_CHECKER and MPU_STACK_GUARD with a thread using the FPU will fault the built-in stack checker
 * :github:`40928` - mgmt/mcumgr/lib: Check image consistency after writing last chunk
 * :github:`40924` - mgmt/mcumgr/lib: Do not re-upload image, by default, to the secondary slot
 * :github:`40868` - Add a pre and post initialization among CONFIG_APPLICATION_INIT_PRIORITY
