@@ -976,7 +976,7 @@ release:
 * :github:`28256` - mimxrt1050_evk: running samples/subsys/fs/fat_fs/ failed
 * :github:`28255` - mimxrt1050_evk:running samples/drivers/display/ failed
 * :github:`28251` - Tests of the cmsis_dsp library fails on nrf52840dk_nrf52840 platform
-* :github:`28248` - bt_gatt_notify() causes "unable to alllocate TX buffer"
+* :github:`28248` - bt_gatt_notify() causes "unable to allocate TX buffer"
 * :github:`28240` - nordic spim: does not work with SPI-SDHC infrastructure
 * :github:`28234` - ipv6: multicast group: wrong filtering
 * :github:`28230` - "make zephyr_generated_headers" produces incorrect result (SHELL:") after recent cmake refactor
