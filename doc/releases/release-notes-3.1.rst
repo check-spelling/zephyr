@@ -1275,7 +1275,7 @@ Known bugs
 - :github:`46199` - LIS2DW12 I2C driver uses invalid write command
 - :github:`46206` - it8xxx2_evb: tests/kernel/fatal/exception/ assertion failed -- "thread was not aborted"
 - :github:`46208` - it8xxx2_evb: tests/kernel/sleep failed, elapsed_ms = 2125
-- :github:`46234` - samples: lsm6dso: prints incorrect anglular velocity units
+- :github:`46234` - samples: lsm6dso: prints incorrect angular velocity units
 - :github:`46235` - subsystem: Bluetooth LLL: ASSERTION FAIL [!link->next]
 - :github:`46255` - imxrt1010 wrong device tree addresses
 - :github:`46263` - Regulator Control
