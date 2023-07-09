@@ -307,7 +307,7 @@ enum nvme_feature {
 #endif
 
 /* Assuming page size it always 4Kib
- * ToDo: define it accorditng to CONFIG_MMU_PAGE_SIZE
+ * ToDo: define it according to CONFIG_MMU_PAGE_SIZE
  */
 #define NVME_PBAO_MASK 0xFFF
 

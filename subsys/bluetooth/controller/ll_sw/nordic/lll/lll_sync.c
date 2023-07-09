@@ -1285,7 +1285,7 @@ static void iq_report_incomplete_create(struct lll_sync *lll, struct node_rx_iq_
 	 * may be invalid in case of insufficient resources.
 	 */
 	iq_report->rssi_ant_id = radio_df_pdu_antenna_switch_pattern_get();
-	/* Accodring to BT 5.3, Vol 4, Part E, section 7.7.65.21 below
+	/* According to BT 5.3, Vol 4, Part E, section 7.7.65.21 below
 	 * fields have invalid values in case of insufficient resources.
 	 */
 	iq_report->cte_info =
