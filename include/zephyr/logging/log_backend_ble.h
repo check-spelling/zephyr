@@ -30,7 +30,7 @@ typedef void (*logger_backend_ble_hook)(bool backend_status, void *ctx);
 /**
  * @brief Allows application to add a hook for the status of the BLE
  *        logger backend.
- * @details The BLE logger backend is enabled or disabled auomatically by
+ * @details The BLE logger backend is enabled or disabled automatically by
  *          the subscription of the notification characteristic of this BLE
  *          Logger backend service.
  *

@@ -1258,7 +1258,7 @@ static void df_conn_cte_req_disable(void *param)
 /* @brief Function enables or disables CTE request control procedure for a connection.
  *
  * The procedure may be enabled in two modes:
- * - single-shot, it is autmatically disabled when the occurrence finishes.
+ * - single-shot, it is automatically disabled when the occurrence finishes.
  * - periodic, it is executed periodically until disabled, connection is lost or PHY is changed
  *   to the one that does not support CTE.
  *
