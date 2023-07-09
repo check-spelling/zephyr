@@ -120,9 +120,9 @@ void ull_cp_update_tx_buffer_queue(struct ll_conn *conn)
 static inline bool static_tx_buffer_available(struct ll_conn *conn, struct proc_ctx *ctx)
 {
 #if (CONFIG_BT_CTLR_LLCP_PER_CONN_TX_CTRL_BUF_NUM > 0)
-	/* Check if per connection pre-aloted tx buffer is available */
+	/* Check if per connection pre-allotted tx buffer is available */
 	if (conn->llcp.tx_buffer_alloc < CONFIG_BT_CTLR_LLCP_PER_CONN_TX_CTRL_BUF_NUM) {
-		/* This connection has not yet used up all the pre-aloted tx buffers */
+		/* This connection has not yet used up all the pre-allotted tx buffers */
 		return true;
 	}
 #endif /* CONFIG_BT_CTLR_LLCP_PER_CONN_TX_CTRL_BUF_NUM > 0 */
@@ -138,7 +138,7 @@ static inline bool static_tx_buffer_available(struct ll_conn *conn, struct proc_
 bool llcp_tx_alloc_peek(struct ll_conn *conn, struct proc_ctx *ctx)
 {
 	if (!static_tx_buffer_available(conn, ctx)) {
-		/* The conn already has spent its pre-aloted tx buffer(s),
+		/* The conn already has spent its pre-allotted tx buffer(s),
 		 * so we should consider the common tx buffer pool
 		 */
 		if (ctx->wait_reason == WAITING_FOR_NOTHING) {
