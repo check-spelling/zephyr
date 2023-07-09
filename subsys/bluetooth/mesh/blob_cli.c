@@ -916,7 +916,7 @@ static void chunk_tx_complete(struct bt_mesh_blob_cli *cli, uint16_t dst)
 	int64_t timestamp = k_uptime_get() + BLOCK_REPORT_TIME_MSEC;
 
 	if (!UNICAST_MODE(cli)) {
-		/* If using group adressing, reset timestamp for all targets after all chunks are
+		/* If using group addressing, reset timestamp for all targets after all chunks are
 		 * sent to the group address
 		 */
 		TARGETS_FOR_EACH(cli, target) {
