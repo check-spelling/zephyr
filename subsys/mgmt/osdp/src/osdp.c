@@ -131,12 +131,12 @@ static struct osdp *osdp_build_ctx(struct osdp_channel *channel)
 	int i;
 	struct osdp *ctx;
 	struct osdp_pd *pd;
-	int pd_adddres[CONFIG_OSDP_NUM_CONNECTED_PD] = {0};
+	int pd_address[CONFIG_OSDP_NUM_CONNECTED_PD] = {0};
 
 #ifdef CONFIG_OSDP_MODE_PD
-	pd_adddres[0] = CONFIG_OSDP_PD_ADDRESS;
+	pd_address[0] = CONFIG_OSDP_PD_ADDRESS;
 #else
-	if (osdp_extract_address(pd_adddres)) {
+	if (osdp_extract_address(pd_address)) {
 		return NULL;
 	}
 #endif
@@ -150,7 +150,7 @@ static struct osdp *osdp_build_ctx(struct osdp_channel *channel)
 		pd->idx = i;
 		pd->seq_number = -1;
 		pd->osdp_ctx = ctx;
-		pd->address = pd_adddres[i];
+		pd->address = pd_address[i];
 		pd->baud_rate = CONFIG_OSDP_UART_BAUD_RATE;
 		if (IS_ENABLED(CONFIG_OSDP_SKIP_MARK_BYTE)) {
 			SET_FLAG(pd, PD_FLAG_PKT_SKIP_MARK);

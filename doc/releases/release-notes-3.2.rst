@@ -1935,7 +1935,7 @@ Addressed issues
 * :github:`49814` - Cortex-A9 fails to build cmsis due to missing core_ca.h
 * :github:`49805` - stm32f1: can2 & eth pin remap not working
 * :github:`49803` - I/O APIC Driver in Zephyr makes incorrect register access.
-* :github:`49792` - test-ci:  adc-dma :  frdm-k64f: dma dest addess assert
+* :github:`49792` - test-ci:  adc-dma :  frdm-k64f: dma dest address assert
 * :github:`49790` - Intel CAVS25: Failure in tests/boards/intel_adsp/smoke sporadically
 * :github:`49789` - it8xxx2_evb: tests/crypto/tinycrypt/ test takes longer on sdk 0.15.0
 * :github:`49786` - nsim_em: tests: fail to run tests/kernel/timer/timer_behavior

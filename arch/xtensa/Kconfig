@@ -116,7 +116,7 @@ config XTENSA_MMU
 if XTENSA_MMU
 
 	choice
-		prompt "PageTable virtual adddress"
+		prompt "PageTable virtual addresss"
 		default XTENSA_MMU_PTEVADDR_20000000
 		help
 		  The virtual address for Xtensa page table (PTEVADDR).
