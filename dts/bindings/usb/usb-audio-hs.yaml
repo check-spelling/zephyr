@@ -101,7 +101,7 @@ properties:
   mic-feature-automatic-gain-control:
     type: boolean
     description: |
-      Enable Autoamtic Gain Control feature.
+      Enable Automatic Gain Control feature.
       Currently not supported.
   mic-feature-delay:
     type: boolean
@@ -181,7 +181,7 @@ properties:
   hp-feature-automatic-gain-control:
     type: boolean
     description: |
-      Enable Autoamtic Gain Control feature.
+      Enable Automatic Gain Control feature.
       Currently not supported.
   hp-feature-delay:
     type: boolean

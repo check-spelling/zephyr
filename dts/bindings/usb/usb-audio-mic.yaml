@@ -93,7 +93,7 @@ properties:
   feature-automatic-gain-control:
     type: boolean
     description: |
-      Enable Autoamtic Gain Control feature.
+      Enable Automatic Gain Control feature.
       Currently not supported.
   feature-delay:
     type: boolean
