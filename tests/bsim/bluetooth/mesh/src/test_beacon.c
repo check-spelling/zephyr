@@ -688,7 +688,7 @@ static void test_rx_kr_old_key(void)
 		{ .phase = BT_MESH_KR_NORMAL, .ivu = true, .ivi = 1 },
 		/* Old Net Key, attempt to change IV Update state to Idle.*/
 		{ .phase = BT_MESH_KR_NORMAL, .ivu = true, .ivi = 1 },
-		/* Net Net Key, changing IV Update state to Idle. */
+		/* New Net Key, changing IV Update state to Idle. */
 		{ .phase = BT_MESH_KR_NORMAL, .ivu = false, .ivi = 1 },
 	};
 
