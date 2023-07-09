@@ -1017,7 +1017,7 @@ Additionally you can quarantine entire architectures or a specific simulator for
 Test Configuration
 ******************
 
-A test configuration can be used to customize various apects of twister
+A test configuration can be used to customize various aspects of twister
 and the default enabled options and features. This allows tweaking the filtering
 capabilities depending on the environment and makes it possible to adapt and
 improve coverage when targeting different sets of platforms.
