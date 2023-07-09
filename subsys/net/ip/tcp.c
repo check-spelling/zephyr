@@ -2505,7 +2505,7 @@ next_state:
 				    FL(&fl, ==, (FIN | ACK), th_seq(th) == conn->ack))) {
 				tcp_send_timer_cancel(conn);
 				conn_ack(conn, + 1);
-				NET_DBG("FIN not yet acknowleged, going to CLOSING state");
+				NET_DBG("FIN not yet acknowledged, going to CLOSING state");
 				if (th_ack(th) != conn->seq) {
 					/* Not acknowledged the FIN flag yet, so resend */
 					tcp_out_ext(conn, (FIN | ACK), NULL, conn->seq - 1);
