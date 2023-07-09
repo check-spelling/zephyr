@@ -601,7 +601,7 @@ static int register_observer(void)
 		}
 
 		if (counter >= 5) {
-			/* TODO: Functionality can be verified byt waiting for
+			/* TODO: Functionality can be verified byte waiting for
 			 * some time and make sure client shouldn't receive
 			 * any notifications. If client still receives
 			 * notifications means, Observer is not removed.
