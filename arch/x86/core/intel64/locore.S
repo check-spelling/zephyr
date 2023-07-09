@@ -696,7 +696,7 @@ irq:
 	/* Save old trampoline stack pointer in RSI */
 	movq %rsp, %rsi
 
-	/* Switch to the interrupt stack stack */
+	/* Switch to the interrupt stack */
 	movq %gs:__x86_tss64_t_ist1_OFFSET, %rsp
 
 	/* Transplant trampoline stack contents */
