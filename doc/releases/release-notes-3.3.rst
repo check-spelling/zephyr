@@ -210,7 +210,7 @@ Deprecated in this release
 
 * MCUmgr subsystem, specifically the SMP transport API, is dropping `zephyr_`
   prefix, deprecating prefixed functions and callback type definitions with the
-  prefix and replacing them with with prefix-less variants.
+  prefix and replacing them with prefix-less variants.
   The :c:struct:`zephyr_smp_transport` type, representing transport object,
   is now replaced with :c:struct:`smp_transport`, and the later one is used,
   instead of the former one, by all prefix-less functions.

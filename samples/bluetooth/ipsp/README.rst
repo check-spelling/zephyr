@@ -52,7 +52,7 @@ Testing with a Linux host
 =========================
 
 Make sure the Linux kernel has been built with Bluetooth 6LoWPAN module
-(CONFIG_BT_6LOWPAN=y) then proceed to enable it with with the following commands
+(CONFIG_BT_6LOWPAN=y) then proceed to enable it with the following commands
 (as root):
 
 .. code-block:: console
