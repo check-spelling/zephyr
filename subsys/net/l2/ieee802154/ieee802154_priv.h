@@ -49,7 +49,7 @@ int ieee802154_radio_send(struct net_if *iface, struct net_pkt *pkt, struct net_
  *
  *        See sections 6.2.5 and 10.2.8.
  *
- * @param iface A valid pointer on a network interface to assesss
+ * @param iface A valid pointer on a network interface to assess
  *
  * @return 0 if the channel is clear to send, -EBUSY if a timeout was reached while waiting for
  *         a clear channel, other negative values to signal internal error conditions.
