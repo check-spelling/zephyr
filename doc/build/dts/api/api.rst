@@ -262,7 +262,7 @@ Fixed flash partitions
 
 These conveniences may be used for the special-purpose ``fixed-partitions``
 compatible used to encode information about flash memory partitions in the
-device tree. See See :dtcompatible:`fixed-partition` for more details.
+device tree. See :dtcompatible:`fixed-partition` for more details.
 
 .. doxygengroup:: devicetree-fixed-partition
 
