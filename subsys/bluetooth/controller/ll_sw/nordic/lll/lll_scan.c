@@ -543,7 +543,7 @@ static int is_abort_cb(void *next, void *curr, lll_prepare_cb_t *resume_cb)
 	}
 #endif /* CONFIG_BT_CENTRAL */
 
-	/* Check if pre-emption by a different state/role radio event */
+	/* Check if preemption by a different state/role radio event */
 	if (next != curr) {
 #if defined(CONFIG_BT_CTLR_ADV_EXT)
 		/* Resume not to be used if duration being used */
@@ -555,7 +555,7 @@ static int is_abort_cb(void *next, void *curr, lll_prepare_cb_t *resume_cb)
 				int err;
 
 				/* Set the resume prepare function to use for
-				 * resumption after the pre-emptor is done.
+				 * resumption after the preemptor is done.
 				 */
 				*resume_cb = resume_prepare_cb;
 
@@ -563,13 +563,13 @@ static int is_abort_cb(void *next, void *curr, lll_prepare_cb_t *resume_cb)
 				err = lll_hfclock_on();
 				LL_ASSERT(err >= 0);
 
-				/* Yield to the pre-emptor, but be
+				/* Yield to the preemptor, but be
 				 * resumed thereafter.
 				 */
 				return -EAGAIN;
 			}
 
-			/* Yield to the pre-emptor */
+			/* Yield to the preemptor */
 			return -ECANCELED;
 		}
 	}

@@ -1016,7 +1016,7 @@ static void ticker_op_stop_scan_other_cb(uint32_t status, void *param)
 		return;
 	}
 
-	/* NOTE: We are in ULL_LOW which can be pre-empted by ULL_HIGH.
+	/* NOTE: We are in ULL_LOW which can be preempted by ULL_HIGH.
 	 *       As we are in the callback after successful stop of the
 	 *       ticker, the ULL reference count will not be modified
 	 *       further hence it is safe to check and act on either the need

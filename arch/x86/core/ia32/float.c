@@ -240,7 +240,7 @@ void z_float_enable(struct k_thread *thread, unsigned int options)
 			 * unset.
 			 *
 			 * The saved FP context is needed in case the thread
-			 * we enabled FP support for is currently pre-empted,
+			 * we enabled FP support for is currently preempted,
 			 * since z_swap() uses it to restore FP context when
 			 * the thread re-activates.
 			 *

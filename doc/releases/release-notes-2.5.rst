@@ -650,7 +650,7 @@ Networking
 
 * Misc:
 
-  * Allow user to select pre-emptive or co-operative RX/TX threads.
+  * Allow user to select preemptive or co-operative RX/TX threads.
   * Refactored RX and TX thread priorities.
   * Only start the network logging backend if the autostarting is enabled.
   * Added support for simultaneous UDP/TCP and raw sockets in applications.

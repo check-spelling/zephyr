@@ -609,7 +609,7 @@ static int uart_xmc4xxx_async_tx(const struct device *dev, const uint8_t *tx_dat
 	const struct uart_xmc4xxx_config *config = dev->config;
 	int ret;
 
-	/* Assume threads are pre-emptive so this call cannot be interrupted */
+	/* Assume threads are preemptive so this call cannot be interrupted */
 	/* by uart_xmc4xxx_async_tx_abort */
 	if (data->dma_tx.dma_dev == NULL) {
 		return -ENODEV;

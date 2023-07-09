@@ -195,7 +195,7 @@ void sys_clock_set_timeout(int32_t n, bool idle)
 	if (idle && (n == K_TICKS_FOREVER)) {
 		/*
 		 * We are not in a locked section. Are writes to two
-		 * global objects safe from pre-emption?
+		 * global objects safe from preemption?
 		 */
 		TIMER_REGS->CTRL = 0U; /* stop timer */
 		cached_icr = TIMER_STOPPED;

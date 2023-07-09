@@ -908,7 +908,7 @@ static uint32_t preempt_ticker_start(struct lll_event *first,
 
 	ticks_at_preempt = ticks_at_preempt_new;
 
-	/* Setup pre empt timeout */
+	/* Setup preempt timeout */
 	ret = ticker_start(TICKER_INSTANCE_ID_CTLR,
 			   TICKER_USER_ID_LLL,
 			   TICKER_ID_LLL_PREEMPT,

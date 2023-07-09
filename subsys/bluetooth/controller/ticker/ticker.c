@@ -2954,7 +2954,7 @@ ticker_job_compare_update(struct ticker_instance *instance,
 
 	/* Iterate few times, if required, to ensure that compare is
 	 * correctly set to a future value. This is required in case
-	 * the operation is pre-empted and current h/w counter runs
+	 * the operation is preempted and current h/w counter runs
 	 * ahead of compare value to be set.
 	 */
 	i = 10U;

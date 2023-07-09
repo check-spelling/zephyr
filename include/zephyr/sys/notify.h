@@ -82,7 +82,7 @@ struct sys_notify;
  * callback.
  *
  * Functions with this role may be invoked from any context including
- * pre-kernel, ISR, or cooperative or pre-emptible threads.
+ * pre-kernel, ISR, or cooperative or preemptible threads.
  * Compatible functions must be isr-ok and not sleep.
  *
  * Parameters that should generally be passed to such functions include:

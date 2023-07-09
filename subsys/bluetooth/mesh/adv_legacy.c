@@ -58,7 +58,7 @@ static int bt_data_send(uint8_t num_events, uint16_t adv_int,
 	ARG_UNUSED(uptime);
 
 	/* Zephyr Bluetooth Low Energy Controller for mesh stack uses
-	 * pre-emptible continuous scanning, allowing advertising events to be
+	 * preemptible continuous scanning, allowing advertising events to be
 	 * transmitted without delay when advertising is enabled. No need to
 	 * compensate with scan window duration.
 	 * An advertising event could be delayed by upto one interval when
@@ -69,7 +69,7 @@ static int bt_data_send(uint8_t num_events, uint16_t adv_int,
 
 	/* Zephyr Bluetooth Low Energy Controller built for nRF51x SoCs use
 	 * CONFIG_BT_CTLR_LOW_LAT=y, and continuous scanning cannot be
-	 * pre-empted, hence, scanning will block advertising events from
+	 * preempted, hence, scanning will block advertising events from
 	 * being transmitted. Increase the advertising duration by the
 	 * amount of scan window duration to compensate for the blocked
 	 * advertising events.

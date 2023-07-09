@@ -287,7 +287,7 @@ static int is_abort_cb(void *next, void *curr, lll_prepare_cb_t *resume_cb)
 	if (next != curr) {
 		int err;
 
-		/* wrap back after the pre-empter */
+		/* wrap back after the preempter */
 		*resume_cb = resume_prepare_cb;
 
 		/* Retain HF clk */

@@ -228,7 +228,7 @@ struct onoff_client;
  * completion of an operation.
  *
  * These functions may be invoked from any context including
- * pre-kernel, ISR, or cooperative or pre-emptible threads.
+ * pre-kernel, ISR, or cooperative or preemptible threads.
  * Compatible functions must be isr-ok and not sleep.
  *
  * @param mgr the manager for which the operation was initiated.  This may be
@@ -489,7 +489,7 @@ int onoff_reset(struct onoff_manager *mgr,
  * notifications associated with the state change are made.
  *
  * These functions may be invoked from any context including
- * pre-kernel, ISR, or cooperative or pre-emptible threads.
+ * pre-kernel, ISR, or cooperative or preemptible threads.
  * Compatible functions must be isr-ok and not sleep.
  *
  * The callback is permitted to unregister itself from the manager,
