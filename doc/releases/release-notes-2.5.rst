@@ -900,7 +900,7 @@ MCUBoot
   * Renamed single-image mode to single-slot mode,
     see ``CONFIG_SINGLE_APPLICATION_SLOT``.
   * Added patch for turning off cache for Cortex M7 before chain-loading.
-  * Fixed boostrapping in swap-move mode.
+  * Fixed bootstrapping in swap-move mode.
   * Fixed issue causing that interrupted swap-move operation might brick device
     if the primary image was padded.
   * Fixed issue causing that HW stack protection catches the chain-loaded
