@@ -32,8 +32,8 @@ static inline void flush_cache(FLASH_TypeDef *regs)
 		 * The ART cache can be flushed only if the ART accelerator
 		 * is disabled (ARTEN = 0).
 		 */
-		regs->ACR |= FLASH_ACR_ARTRST;
-		regs->ACR &= ~FLASH_ACR_ARTRST;
+		regs->ACR |= FLASH_ACR_ARTEST;
+		regs->ACR &= ~FLASH_ACR_ARTEST;
 		regs->ACR |= FLASH_ACR_ARTEN;
 	}
 }
