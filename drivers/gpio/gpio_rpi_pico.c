@@ -53,7 +53,7 @@ static int gpio_rpi_configure(const struct device *dev,
 			/* Setting the initial state of output data, and output enable.
 			 * The output data will not change from here on, only output
 			 * enable will. If none of the GPIO_OUTPUT_INIT_* flags have
-			 * been set then fall back to the non-agressive input mode.
+			 * been set then fall back to the non-aggressive input mode.
 			 */
 			if (flags & GPIO_LINE_OPEN_DRAIN) {
 				data->open_drain_mask |= BIT(pin);
