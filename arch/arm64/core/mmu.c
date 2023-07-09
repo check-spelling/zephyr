@@ -471,7 +471,7 @@ static int globalize_table(uint64_t *dst_table, uint64_t *src_table,
 			__ASSERT(is_table_desc(src_table[i], level),
 				 "can't have partial block pte here");
 			if (!is_table_desc(dst_table[i], level)) {
-				/* we need more fine grained boundaries */
+				/* we need more fine-grained boundaries */
 				if (!expand_to_table(&dst_table[i], level)) {
 					return -ENOMEM;
 				}

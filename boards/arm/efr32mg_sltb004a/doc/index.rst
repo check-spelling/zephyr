@@ -30,7 +30,7 @@ Hardware
 - TDK InvenSense ICS-43434 MEMS microphone
 - Four high brightness RGB LEDs from Broadcom Limited (ASMT-YTB7-0AA02)
 - One bi-color LED and two push buttons
-- Power enable signals for fine grained power-control
+- Power enable signals for fine-grained power-control
 - On-board SEGGER J-Link debugger for easy programming and debugging, which
   includes a USB virtual COM port
 - Mini Simplicity connector for access to energy profiling and advanced wireless

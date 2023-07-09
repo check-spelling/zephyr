@@ -34,7 +34,7 @@ semaphores used to implement blocking mutual exclusion continue to be
 a proper application choice.
 
 At the lowest level, however, Zephyr code has often used the
-:c:func:`irq_lock`/:c:func:`irq_unlock` primitives to implement fine grained
+:c:func:`irq_lock`/:c:func:`irq_unlock` primitives to implement fine-grained
 critical sections using interrupt masking.  These APIs continue to
 work via an emulation layer (see below), but the masking technique
 does not: the fact that your CPU will not be interrupted while you are
