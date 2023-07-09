@@ -19,7 +19,7 @@
 /* size of TLB table */
 #define TLB_SIZE DT_REG_SIZE_BY_IDX(DT_INST(0, intel_adsp_mtl_tlb), 0)
 
-/* Attribiutes for memory regions */
+/* Attributes for memory regions */
 #define MEM_REG_ATTR_CORE_HEAP 1U
 #define MEM_REG_ATTR_SHARED_HEAP 2U
 #define MEM_REG_ATTR_OPPORTUNISTIC_MEMORY 4U
