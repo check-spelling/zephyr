@@ -2483,7 +2483,7 @@ static isoal_status_t isoal_tx_framed_event_prepare_handle(isoal_source_handle_t
  * @details Fragmentation will occur individually for every enabled source
  *
  * @param source_hdl[in] Handle of destination source
- * @param tx_sdu[in]     SDU along with packet boudary state
+ * @param tx_sdu[in]     SDU along with packet boundary state
  * @return Status
  */
 isoal_status_t isoal_tx_sdu_fragment(isoal_source_handle_t source_hdl,

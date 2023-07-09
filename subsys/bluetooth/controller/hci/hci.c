@@ -5702,7 +5702,7 @@ int hci_iso_handle(struct net_buf *buf, struct net_buf **evt)
 		sdu_frag_tx.iso_sdu_length = 0;
 	}
 
-	/* Packet boudary flags should be bitwise identical to the SDU state
+	/* Packet boundary flags should be bitwise identical to the SDU state
 	 * 0b00 BT_ISO_START
 	 * 0b01 BT_ISO_CONT
 	 * 0b10 BT_ISO_SINGLE
