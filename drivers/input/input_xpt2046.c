@@ -144,7 +144,7 @@ static void xpt2046_work_handler(struct k_work *kw)
 	meas.y /= rounds;
 	meas.z /= rounds;
 
-	/* Calculate Xp = M * Xt + C using fixed point aritchmetics, where
+	/* Calculate Xp = M * Xt + C using fixed point arithmetic, where
 	 * Xp is the point in screen coordinates, Xt is the touch coordinates.
 	 * Use signed int32_t for calculation to ensure that we cover the roll-over to negative
 	 * values and return zero instead.

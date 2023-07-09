@@ -2200,7 +2200,7 @@ release:
 * :github:`10494` - sockets: Implement MSG_TRUNC flag for recv()
 * :github:`10436` - Mess with ssize_t, off_t definitions
 * :github:`10268` - Clean up remaining SPI_DW defines in soc.h
-* :github:`10042` - MISRA C - Do not cast an arithimetic type to void pointer
+* :github:`10042` - MISRA C - Do not cast an arithmetic type to void pointer
 * :github:`10041` - MISRA C - types that indicate size and signedness should be used instead of basic numerical types
 * :github:`10030` - MISRA C - Document Zephyr's code guideline based on MISRA C 2012
 * :github:`9954` - samples/hello_world build failed on Windows/MSYS
