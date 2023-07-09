@@ -17,7 +17,7 @@
 #include <zephyr/logging/log.h>
 LOG_MODULE_REGISTER(bt_mesh_op_agg_srv);
 
-/** Mesh Opcodes Aggragator Server Model Context */
+/** Mesh Opcodes Aggregator Server Model Context */
 static struct bt_mesh_op_agg_srv {
 	/** Composition data model entry pointer. */
 	struct bt_mesh_model *model;

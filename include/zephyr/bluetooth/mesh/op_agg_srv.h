@@ -21,7 +21,7 @@ extern "C" {
 
 /**
  *
- *  @brief Opcodes Aggretator Server model composition data entry.
+ *  @brief Opcodes Aggregator Server model composition data entry.
  *
  *  @note The Opcodes Aggregator Server handles aggregated messages
  *        and dispatches them to the respective models and their message
