@@ -956,7 +956,7 @@ static void ase_release(struct bt_ascs_ase *ase)
 	ase->ep.reason = BT_HCI_ERR_REMOTE_USER_TERM_CONN;
 
 	ascs_ep_set_state(&ase->ep, BT_BAP_EP_STATE_RELEASING);
-	/* At this point, `ase` object might have been free'd if automously went to Idle */
+	/* At this point, `ase` object might have been free'd if autonomously went to Idle */
 
 	ascs_cp_rsp_success(ase_id);
 }
