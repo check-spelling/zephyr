@@ -696,7 +696,7 @@ static const struct arm_mmu_flat_range mmu_zephyr_ranges[] = {
 	  .attrs = MT_NORMAL | MT_P_RO_U_RO | MT_DEFAULT_SECURE_STATE },
 
 #ifdef CONFIG_NOCACHE_MEMORY
-	/* Mark nocache segment noncachable, read-write and execute-never */
+	/* Mark nocache segment noncacheable, read-write and execute-never */
 	{ .name  = "nocache_data",
 	  .start = _nocache_ram_start,
 	  .end   = _nocache_ram_end,

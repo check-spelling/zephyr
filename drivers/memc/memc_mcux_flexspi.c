@@ -192,7 +192,7 @@ static int memc_flexspi_init(const struct device *dev)
 	FLEXSPI_GetDefaultConfig(&flexspi_config);
 
 	flexspi_config.ahbConfig.enableAHBBufferable = data->ahb_bufferable;
-	flexspi_config.ahbConfig.enableAHBCachable = data->ahb_cacheable;
+	flexspi_config.ahbConfig.enableAHBCacheable = data->ahb_cacheable;
 	flexspi_config.ahbConfig.enableAHBPrefetch = data->ahb_prefetch;
 	flexspi_config.ahbConfig.enableReadAddressOpt = data->ahb_read_addr_opt;
 #if !(defined(FSL_FEATURE_FLEXSPI_HAS_NO_MCR0_COMBINATIONEN) && \

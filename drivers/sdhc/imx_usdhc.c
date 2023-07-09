@@ -84,7 +84,7 @@ struct usdhc_data {
 	struct k_mutex access_mutex;
 	uint8_t usdhc_rx_dummy[128] __aligned(32);
 #ifdef CONFIG_IMX_USDHC_DMA_SUPPORT
-	uint32_t *usdhc_dma_descriptor; /* ADMA descriptor table (noncachable) */
+	uint32_t *usdhc_dma_descriptor; /* ADMA descriptor table (noncacheable) */
 	uint32_t dma_descriptor_len; /* DMA descriptor table length in words */
 #endif
 };

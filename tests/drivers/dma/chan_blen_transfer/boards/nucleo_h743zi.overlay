@@ -15,7 +15,7 @@ test_dma0: &dmamux1 {
 };
 
 /* The BDMA driver expects the SRAM4 region
- * to be non-cachable.
+ * to be non-cacheable.
  */
 &sram4 {
 	zephyr,memory-region-mpu = "RAM_NOCACHE";

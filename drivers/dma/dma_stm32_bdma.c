@@ -805,8 +805,8 @@ static int bdma_stm32_init(const struct device *dev)
 	((struct bdma_stm32_data *)dev->data)->dma_ctx.dma_channels = 0;
 	((struct bdma_stm32_data *)dev->data)->dma_ctx.atomic = 0;
 
-	/* The BDMA can only access SRAM4 and assumes it's nocachable
-	 * This check verifies that the non-cachable flag is set in the DTS.
+	/* The BDMA can only access SRAM4 and assumes it's nocacheable
+	 * This check verifies that the non-cacheable flag is set in the DTS.
 	 * For example:
 	 *	&sram4 {
 	 *		zephyr,memory-region-mpu = "RAM_NOCACHE";
@@ -814,7 +814,7 @@ static int bdma_stm32_init(const struct device *dev)
 	 */
 #if DT_NODE_HAS_PROP(DT_NODELABEL(sram4), zephyr_memory_region_mpu)
 	if (strcmp(DT_PROP(DT_NODELABEL(sram4), zephyr_memory_region_mpu), "RAM_NOCACHE") != 0) {
-		LOG_ERR("SRAM4 is not set as non-cachable.");
+		LOG_ERR("SRAM4 is not set as non-cacheable.");
 		return -EIO;
 	}
 #else

@@ -20,7 +20,7 @@
 	};
 };
 
-/* ADC driver expects a buffer in a non-cachable memory region */
+/* ADC driver expects a buffer in a non-cacheable memory region */
 &sram4 {
 	zephyr,memory-region-mpu = "RAM_NOCACHE";
 };

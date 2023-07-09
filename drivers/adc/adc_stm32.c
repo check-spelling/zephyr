@@ -256,21 +256,21 @@ static int adc_stm32_dma_start(const struct device *dev,
 static bool address_in_non_cacheable_sram(const uint16_t *buffer, const uint16_t size)
 {
 	/* Default if no valid SRAM region found or buffer+size not located in a single region */
-	bool cachable = false;
+	bool cacheable = false;
 #define IS_NON_CACHEABLE_REGION_FN(node_id)                                                    \
 	COND_CODE_1(DT_NODE_HAS_PROP(node_id, zephyr_memory_region_mpu), ({                    \
 			const uint32_t region_start = DT_REG_ADDR(node_id);                    \
 			const uint32_t region_end = region_start + DT_REG_SIZE(node_id);       \
 			if (((uint32_t)buffer >= region_start) &&                              \
 				(((uint32_t)buffer + size) < region_end)) {                    \
-				cachable = strcmp(DT_PROP(node_id, zephyr_memory_region_mpu),  \
+				cacheable = strcmp(DT_PROP(node_id, zephyr_memory_region_mpu),  \
 						"RAM_NOCACHE") == 0;                           \
 			}                                                                      \
 		}),                                                                            \
 		(EMPTY))
 	DT_FOREACH_STATUS_OKAY(mmio_sram, IS_NON_CACHEABLE_REGION_FN);
 
-	return cachable;
+	return cacheable;
 }
 #endif /* defined(CONFIG_ADC_STM32_DMA) && defined(CONFIG_SOC_SERIES_STM32H7X) */
 
