@@ -214,7 +214,7 @@ int posix_get_current_irq(void)
 /**
  * Configure a static interrupt.
  *
- * posix_isr_declare will populate the interrupt table table with the
+ * posix_isr_declare will populate the interrupt table with the
  * interrupt's parameters, the vector table and the software ISR table.
  *
  * We additionally set the priority in the interrupt controller at

@@ -456,7 +456,7 @@ config GEN_SW_ISR_TABLE
 	depends on GEN_ISR_TABLES
 	help
 	  This option controls whether a platform using gen_isr_tables
-	  needs a software ISR table table created. This is an array of struct
+	  needs a software ISR table created. This is an array of struct
 	  _isr_table_entry containing the interrupt service routine and supplied
 	  parameter.
 
