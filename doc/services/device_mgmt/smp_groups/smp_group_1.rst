@@ -75,7 +75,7 @@ Get state of images request header fields:
     | ``0``  | ``1``        |  ``0``         |
     +--------+--------------+----------------+
 
-The command sends sends empty CBOR map as data.
+The command sends empty CBOR map as data.
 
 .. _mcumgr_smp_protocol_op_1_grp_1_cmd_0:
 
