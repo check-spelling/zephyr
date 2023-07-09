@@ -679,7 +679,7 @@ static int pd_build_reply(struct osdp_pd *pd, uint8_t *buf, int max_len)
 		assert_buf_len(REPLY_COM_LEN, max_len);
 		/**
 		 * If COMSET succeeds, the PD must reply with the old params and
-		 * then switch to the new params from then then on. We have the
+		 * then switch to the new params from then on. We have the
 		 * new params in the commands struct that we just enqueued so
 		 * we can peek at tail of command queue and set that to
 		 * pd->addr/pd->baud_rate.
