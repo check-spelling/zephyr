@@ -748,7 +748,7 @@ void ull_conn_iso_ticker_cb(uint32_t ticks_at_expire, uint32_t ticks_drift,
 
 #if defined(CONFIG_BT_CTLR_PERIPHERAL_ISO)
 	if (IS_PERIPHERAL(cig) && cig->sca_update) {
-		/* CIG/ACL affilaition established */
+		/* CIG/ACL affiliation established */
 		uint32_t iso_interval_us_frac =
 			EVENT_US_TO_US_FRAC(cig->iso_interval * CONN_INT_UNIT_US);
 		cig->lll.window_widening_periodic_us_frac =
