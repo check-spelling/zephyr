@@ -38,7 +38,7 @@ IF OS.FILE("~~/system-settings.cmm")
 ; CPU setup
 ;
 SYStem.Down
-IF PRACTICE.CoMmanD.AVAILable(SYStem.CPU.NANO33BLE)
+IF PRACTIVE.CoMmanD.AVAILable(SYStem.CPU.NANO33BLE)
   SYStem.CPU NANO33BLE
 ELSE
   SYStem.CPU NRF52840QI

@@ -2749,7 +2749,7 @@
  *
  * @code{.dts}
  *     n: node {
- *             my-gpios = <&gpioa 0 GPIO_ACTICE_HIGH>,
+ *             my-gpios = <&gpioa 0 GPIO_ACTIVE_HIGH>,
  *                        <&gpiob 1 GPIO_ACTIVE_HIGH>;
  *     };
  * @endcode
