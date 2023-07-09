@@ -409,14 +409,14 @@ void __retarget_lock_close_recursive(_LOCK_T lock)
 #endif /* !CONFIG_USERSPACE */
 }
 
-/* Acquiure non-recursive lock */
+/* Acquire non-recursive lock */
 void __retarget_lock_acquire(_LOCK_T lock)
 {
 	__ASSERT_NO_MSG(lock != NULL);
 	k_sem_take((struct k_sem *)lock, K_FOREVER);
 }
 
-/* Acquiure recursive lock */
+/* Acquire recursive lock */
 void __retarget_lock_acquire_recursive(_LOCK_T lock)
 {
 	__ASSERT_NO_MSG(lock != NULL);
