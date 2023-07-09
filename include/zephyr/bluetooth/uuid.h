@@ -3569,11 +3569,11 @@ struct bt_uuid_128 {
 #define BT_UUID_GATT_IDD_S \
 	BT_UUID_DECLARE_16(BT_UUID_GATT_IDD_S_VAL)
 /**
- *  @brief GATT Characteristic IDD Announciation Status UUID Value
+ *  @brief GATT Characteristic IDD Annunciation Status UUID Value
  */
 #define BT_UUID_GATT_IDD_AS_VAL 0x2b22
 /**
- *  @brief GATT Characteristic IDD Announciation Status
+ *  @brief GATT Characteristic IDD Annunciation Status
  */
 #define BT_UUID_GATT_IDD_AS \
 	BT_UUID_DECLARE_16(BT_UUID_GATT_IDD_AS_VAL)
