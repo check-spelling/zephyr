@@ -2130,7 +2130,7 @@ static isoal_status_t isoal_insert_seg_header_timeoffset(struct isoal_source *so
 }
 
 /**
- * @breif  Updates the cmplt flag and length in the last segmentation header written
+ * @brief  Updates the cmplt flag and length in the last segmentation header written
  * @param  source     source handle
  * @param  cmplt      ew value for complete flag
  * param   add_length length to add

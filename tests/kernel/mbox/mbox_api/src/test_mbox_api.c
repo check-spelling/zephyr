@@ -580,7 +580,7 @@ ZTEST(mbox_api, test_enhance_capability)
 
 /*
  *
- * @brife Test any number of mailbox can be defined
+ * @brief Test any number of mailbox can be defined
  *
  * @details
  * - Define multi mailbox and verify the mailbox whether as
