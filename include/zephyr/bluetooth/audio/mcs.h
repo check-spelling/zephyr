@@ -183,7 +183,7 @@ extern "C" {
 #define BT_MCS_SCP_NTF_SUCCESS  0x01
 #define BT_MCS_SCP_NTF_FAILURE  0x02
 
-/* Group object object types */
+/* Group object types */
 /* Reference: Media Control Service spec v1.0 section 4.4.1 */
 #define BT_MCS_GROUP_OBJECT_TRACK_TYPE 0x00
 #define BT_MCS_GROUP_OBJECT_GROUP_TYPE 0x01
