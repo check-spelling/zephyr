@@ -102,7 +102,7 @@ following logic:
   be used as the mount point name;
 * if neither ``CONFIG_SDMMC_VOLUME_NAME`` nor ``CONFIG_MMC_VOLUME_NAME`` configurations
   are defined, the mount point name will not be determined, and an appropriate error will
-  apear during the sample build.
+  appear during the sample build.
 
 NRF52840 Development Kit
 ========================
