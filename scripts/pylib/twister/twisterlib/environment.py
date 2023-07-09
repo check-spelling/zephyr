@@ -422,7 +422,7 @@ structure in the main Zephyr tree: boards/<arch>/<board_name>/""")
         default=None, const='pass', nargs='?',
         help="""Cleanup test artifacts. The default behavior is 'pass'
         which only removes artifacts of passing tests. If you wish to
-        remove all artificats including those of failed tests, use 'all'.""")
+        remove all artifacts including those of failed tests, use 'all'.""")
 
     test_xor_generator.add_argument(
         "-N", "--ninja", action="store_true",
