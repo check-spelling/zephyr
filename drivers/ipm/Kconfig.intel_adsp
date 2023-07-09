@@ -42,7 +42,7 @@ config IPM_CAVS_HOST_OUTBOX_OFFSET
 	default 0x1000
 	help
 	  Location of the "outbox" region for SOF IPC3/4 message
-	  within the pre-existing window 0 (this is not the same as
+	  within the preexisting window 0 (this is not the same as
 	  the HP_SRAM_RESERVE region used for INBOX_OFFSET).  This
 	  location must be synchronized with host driver and SOF
 	  source code (where it must equal SRAM_SW_REG_SIZE).  Be

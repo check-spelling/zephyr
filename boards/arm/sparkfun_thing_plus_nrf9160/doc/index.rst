@@ -14,7 +14,7 @@ Overview
 
 The nRF9160 Thing Plus designed by Circuit Dojo is a single-board development
 for bringing your LTE-M and NB-IoT applications to life. The sparkfun_thing_plus_nrf9160
-board configuration leverages the pre-existing support for the Nordic Semiconductor
+board configuration leverages the preexisting support for the Nordic Semiconductor
 nRF9160. Supported nRF9160 peripherals include:
 
 * :abbr:`ADC (Analog to Digital Converter)`

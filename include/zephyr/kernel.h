@@ -4212,7 +4212,7 @@ extern void k_work_poll_init(struct k_work_poll *work,
  * Submitting a previously submitted triggered work item that is still
  * waiting for the event cancels the existing submission and reschedules it
  * the using the new event list. Note that this behavior is inherently subject
- * to race conditions with the pre-existing triggered work item and work queue,
+ * to race conditions with the preexisting triggered work item and work queue,
  * so care must be taken to synchronize such resubmissions externally.
  *
  * @funcprops \isr_ok
@@ -4252,7 +4252,7 @@ extern int k_work_poll_submit_to_queue(struct k_work_q *work_q,
  * Submitting a previously submitted triggered work item that is still
  * waiting for the event cancels the existing submission and reschedules it
  * the using the new event list. Note that this behavior is inherently subject
- * to race conditions with the pre-existing triggered work item and work queue,
+ * to race conditions with the preexisting triggered work item and work queue,
  * so care must be taken to synchronize such resubmissions externally.
  *
  * @funcprops \isr_ok

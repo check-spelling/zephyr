@@ -183,7 +183,7 @@ Kernel
 
 * A new general purpose memory allocator, sys_heap/k_heap, has been added
   to Zephyr with more conventional API/behavior, better space
-  efficiency and higher performance than the pre-existing mem_pool.
+  efficiency and higher performance than the preexisting mem_pool.
   The older mem_pool APIs are, by default, wrappers around this new
   heap backend and will be deprecated in an upcoming release.  The
   original implementation remains available for this release via

@@ -51,7 +51,7 @@ also atomically validates that a shared lock variable has been
 modified before returning to the caller, "spinning" on the check if
 needed to wait for the other CPU to exit the lock.  The default Zephyr
 implementation of :c:func:`k_spin_lock` and :c:func:`k_spin_unlock` is built
-on top of the pre-existing :c:struct:`atomic_` layer (itself usually
+on top of the preexisting :c:struct:`atomic_` layer (itself usually
 implemented using compiler intrinsics), though facilities exist for
 architectures to define their own for performance reasons.
 

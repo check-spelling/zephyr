@@ -40,7 +40,7 @@ General safety scope
 The general scope of the Safety Committee is to achieve a certification for the `IEC 61508
 <https://en.wikipedia.org/wiki/IEC_61508>`__ standard and the Safety Integrity Level (SIL) 3 /
 Systematic Capability (SC) 3 for a limited source scope (see certification scope TBD). Since the
-code base is pre-existing, we use the route 3s/1s approach defined by the IEC 61508 standard.
+code base is preexisting, we use the route 3s/1s approach defined by the IEC 61508 standard.
 
 Route 3s
    *Assessment of non-compliant development. Which is basically the route 1s with existing
