@@ -574,7 +574,7 @@ ZTEST(net_ipv6, test_cmp_prefix)
 	st = net_ipv6_is_prefix((uint8_t *)&prefix1, (uint8_t *)&prefix2, 64);
 	zassert_true(st, "Prefix /64 compare failed");
 
-	/* But comparing /66 should should fail */
+	/* But comparing /66 should fail */
 	st = net_ipv6_is_prefix((uint8_t *)&prefix1, (uint8_t *)&prefix2, 66);
 	zassert_false(st, "Prefix /66 compare should have failed");
 
