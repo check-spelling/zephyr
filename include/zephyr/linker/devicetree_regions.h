@@ -43,7 +43,7 @@
  * @endcode
  *
  * @param node_id node identifier
- * @return the name of the memory memory region the node will generate
+ * @return the name of the memory region the node will generate
  */
 #define LINKER_DT_NODE_REGION_NAME_TOKEN(node_id) \
 	DT_STRING_TOKEN(node_id, zephyr_memory_region)
@@ -77,7 +77,7 @@
  * @endcode
  *
  * @param node_id node identifier
- * @return the name of the memory memory region the node will generate
+ * @return the name of the memory region the node will generate
  */
 #define LINKER_DT_NODE_REGION_NAME(node_id) \
 	STRINGIFY(LINKER_DT_NODE_REGION_NAME_TOKEN(node_id))
