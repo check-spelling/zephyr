@@ -116,7 +116,7 @@ static void configure_rng(void)
 	/*
 	 * Configure the RNG_CR in compliance with the NIST SP800.
 	 * The nist-config is direclty copied from the DTS.
-	 * The RNG clock must be 48MHz else the clock DIV is not adpated.
+	 * The RNG clock must be 48MHz else the clock DIV is not adapted.
 	 * The RNG_CR_CONDRST is set to 1 at the same time the RNG_CR is written
 	 */
 	cur_nist_cfg = READ_BIT(rng->CR,
