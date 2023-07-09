@@ -3805,7 +3805,7 @@ Addressed issues
 * :github:`21995` - Bluetooth: controller: split: Porting of connection event length
 * :github:`21724` - dts: edtlib: handle child-binding or child-child-binding as 'normal' binding with compatible
 * :github:`21446` - samples: add SPI slave
-* :github:`21239` - devicetree: Generation of the child-bindigs items as a common static initializer
+* :github:`21239` - devicetree: Generation of the child-bindings items as a common static initializer
 * :github:`20707` - Define GATT service at run-time
 * :github:`20262` - dt-binding for timers
 * :github:`19713` - usb: investigate if Network Buffer can be used in USB device stack and USB drivers
