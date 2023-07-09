@@ -69,7 +69,7 @@ struct bt_bap_bass_cp_mod_src {
 	struct bt_bap_bass_cp_subgroup subgroups[0];
 } __packed;
 
-struct bt_bap_bass_cp_broadcase_code {
+struct bt_bap_bass_cp_broadcast_code {
 	uint8_t opcode;
 	uint8_t src_id;
 	uint8_t broadcast_code[16];
@@ -86,6 +86,6 @@ union bt_bap_bass_cp {
 	struct bt_bap_bass_cp_scan_start scan_start;
 	struct bt_bap_bass_cp_add_src add_src;
 	struct bt_bap_bass_cp_mod_src mod_src;
-	struct bt_bap_bass_cp_broadcase_code broadcast_code;
+	struct bt_bap_bass_cp_broadcast_code broadcast_code;
 	struct bt_bap_bass_cp_rem_src rem_src;
 };

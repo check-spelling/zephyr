@@ -884,7 +884,7 @@ int bt_bap_broadcast_assistant_set_broadcast_code(
 	struct bt_conn *conn, uint8_t src_id,
 	const uint8_t broadcast_code[BT_AUDIO_BROADCAST_CODE_SIZE])
 {
-	struct bt_bap_bass_cp_broadcase_code *cp;
+	struct bt_bap_bass_cp_broadcast_code *cp;
 
 	if (conn == NULL) {
 		LOG_DBG("conn is NULL");

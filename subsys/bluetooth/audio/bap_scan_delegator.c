@@ -796,7 +796,7 @@ static int scan_delegator_broadcast_code(struct bt_conn *conn,
 	const uint8_t *broadcast_code;
 
 	/* subtract 1 as the opcode has already been pulled */
-	if (buf->len != sizeof(struct bt_bap_bass_cp_broadcase_code) - 1) {
+	if (buf->len != sizeof(struct bt_bap_bass_cp_broadcast_code) - 1) {
 		LOG_DBG("Invalid length %u", buf->size);
 		return BT_GATT_ERR(BT_ATT_ERR_INVALID_ATTRIBUTE_LEN);
 	}
