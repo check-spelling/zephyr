@@ -75,7 +75,7 @@ int pcie_vc_disable(pcie_bdf_t bdf);
  * @return 0 on success, a negative error code otherwise
  *
  * Note: VC must be disabled prior to call this function and
- * enabled afterward in order for the endpoint to take advandage of the map.
+ * enabled afterward in order for the endpoint to take advantage of the map.
  *
  * Note: Not being able to enable such feature is a non-fatal error
  * and any code using it should behave accordingly (displaying some info,
