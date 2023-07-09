@@ -6,7 +6,7 @@
 
 /**
  * @file
- * @brief Header for agregating all defines for mm
+ * @brief Header for aggregating all defines for mm
  *
  */
 #ifndef ZEPHYR_DRIVERS_SYSTEM_MM_DRV_INTEL_MTL_
