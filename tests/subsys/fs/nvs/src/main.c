@@ -863,7 +863,7 @@ ZTEST_F(nvs, test_nvs_cache_gc)
 	 */
 
 	num = num_matching_cache_entries(0 << ADDR_SECT_SHIFT, true, &fixture->fs);
-	zassert_equal(num, 0, "not invalidated cache entries aftetr gc");
+	zassert_equal(num, 0, "not invalidated cache entries after gc");
 
 	num = num_matching_cache_entries(2 << ADDR_SECT_SHIFT, true, &fixture->fs);
 	zassert_equal(num, 2, "invalid cache content after gc");
