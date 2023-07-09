@@ -1126,7 +1126,7 @@ release:
 * :github:`38601` - nucleo_f103rb: samples/posix/eventfd/ failed since "retargetable locking" addition
 * :github:`38593` - using RTT console to print along with newlib C library in Zephyr
 * :github:`38591` - nucleo_f091rc: Linking issue since "align __data_ram/rom_start/end linker" (65a2de84a9d5c535167951bf1cf610c4f7967ea5)
-* :github:`38586` - olimexino_stm32: "no DEVICE_HANDLE_ENDS inserted" builld issue (samples/subsys/usb/audio/headphones_microphone)
+* :github:`38586` - olimexino_stm32: "no DEVICE_HANDLE_ENDS inserted" build issue (samples/subsys/usb/audio/headphones_microphone)
 * :github:`38581` - tests-ci : kernel: scheduler: multiq test failed
 * :github:`38582` - tests-ci : kernel: scheduler:  test failed
 * :github:`38578` - STM32L0X ADC hangs
