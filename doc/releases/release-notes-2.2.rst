@@ -1261,7 +1261,7 @@ release:
 * :github:`3044` - How to create a Zephyr ROM library
 * :github:`2925` - cross-platform support for interrupt tables/code in RAM or ROM
 * :github:`2814` - Add proper support for running Zephyr without a system clock
-* :github:`2807` - remove sprintf() and it's brethen
+* :github:`2807` - remove sprintf() and it's brethren
 * :github:`2664` - Running SanityCheck in Windows
 * :github:`2338` - ICMPv6 "Packet Too Big" support
 * :github:`2307` - DHCPv6
