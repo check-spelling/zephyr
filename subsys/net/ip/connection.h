@@ -161,7 +161,7 @@ static inline int net_conn_unregister(struct net_conn_handle *handle)
  * @param cb Callback to be called
  * @param user_data User data supplied by caller.
  *
- * @return Return 0 if the the change succeed, <0 otherwise.
+ * @return Return 0 if the change succeed, <0 otherwise.
  */
 int net_conn_change_callback(struct net_conn_handle *handle,
 			     net_conn_cb_t cb, void *user_data);

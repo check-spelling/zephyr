@@ -48,7 +48,7 @@ config OSDP_MASTER_KEY
 	string "Secure Channel Master Key"
 	default "NONE"
 	help
-	  Hexadecimal string representation of the the 16 byte OSDP Secure Channel
+	  Hexadecimal string representation of the 16 byte OSDP Secure Channel
 	  master Key. This is a mandatory key when secure channel is enabled.
 
 endif # OSDP_SC_ENABLED

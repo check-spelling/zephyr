@@ -6,7 +6,7 @@ Zephyr FPGA controller
 Overview
 ********
 This module is an FPGA driver that can easily load a bitstream, reset it, check its status, enable or disable the FPGA.
-This sample demonstrates how to use the FPGA driver API and the the FPGA controller shell subsystem.
+This sample demonstrates how to use the FPGA driver API and the FPGA controller shell subsystem.
 Currently the sample works with `Quicklogic Quickfeather board`_.
 
 Requirements

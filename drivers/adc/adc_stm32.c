@@ -899,7 +899,7 @@ static int start_read(const struct device *dev,
 	defined(CONFIG_SOC_SERIES_STM32L0X)
 		LL_ADC_REG_SetSequencerChannels(adc, channel);
 #elif defined(CONFIG_SOC_SERIES_STM32WLX)
-		/* Init the the ADC group for REGULAR conversion*/
+		/* Init the ADC group for REGULAR conversion*/
 		LL_ADC_REG_SetSequencerConfigurable(adc, LL_ADC_REG_SEQ_CONFIGURABLE);
 		LL_ADC_REG_SetTriggerSource(adc, LL_ADC_REG_TRIG_SOFTWARE);
 		LL_ADC_REG_SetSequencerLength(adc, LL_ADC_REG_SEQ_SCAN_DISABLE);

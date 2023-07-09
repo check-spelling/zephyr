@@ -1039,7 +1039,7 @@ struct i3c_driver_data {
  * @param dev_list Pointer to the device list struct.
  * @param id Pointer to I3C device ID struct.
  *
- * @return Pointer the the I3C target device descriptor, or
+ * @return Pointer the I3C target device descriptor, or
  *         NULL if none is found.
  */
 struct i3c_device_desc *i3c_dev_list_find(const struct i3c_dev_list *dev_list,
@@ -1054,7 +1054,7 @@ struct i3c_device_desc *i3c_dev_list_find(const struct i3c_dev_list *dev_list,
  * @param dev_list Pointer to the device list struct.
  * @param addr Dynamic address to be matched.
  *
- * @return Pointer the the I3C target device descriptor, or
+ * @return Pointer the I3C target device descriptor, or
  *         NULL if none is found.
  */
 struct i3c_device_desc *i3c_dev_list_i3c_addr_find(struct i3c_dev_attached_list *dev_list,
@@ -1069,7 +1069,7 @@ struct i3c_device_desc *i3c_dev_list_i3c_addr_find(struct i3c_dev_attached_list 
  * @param dev_list Pointer to the device list struct.
  * @param addr Address to be matched.
  *
- * @return Pointer the the I2C target device descriptor, or
+ * @return Pointer the I2C target device descriptor, or
  *         NULL if none is found.
  */
 struct i3c_i2c_device_desc *i3c_dev_list_i2c_addr_find(struct i3c_dev_attached_list *dev_list,

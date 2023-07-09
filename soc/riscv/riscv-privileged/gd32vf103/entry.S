@@ -35,7 +35,7 @@ _start0800:
 
 	.option norvc;
 
-	/* Set the the NMI base to share with mtvec by setting CSR_MMISC_CTL */
+	/* Set the NMI base to share with mtvec by setting CSR_MMISC_CTL */
 	li	t0, 0x200
 	csrs	CSR_MMISC_CTL, t0
 

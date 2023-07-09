@@ -107,7 +107,7 @@ struct net_mgmt_event_callback;
  * @brief Define the user's callback handler function signature
  * @param cb Original struct net_mgmt_event_callback owning this handler.
  * @param mgmt_event The network event being notified.
- * @param iface A pointer on a struct net_if to which the the event belongs to,
+ * @param iface A pointer on a struct net_if to which the event belongs to,
  *        if it's an event on an iface. NULL otherwise.
  */
 typedef void (*net_mgmt_event_handler_t)(struct net_mgmt_event_callback *cb,
