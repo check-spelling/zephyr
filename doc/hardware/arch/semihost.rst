@@ -11,10 +11,10 @@ to communicate and use the Input/Output facilities on a host computer that is
 running a debugger or emulator.
 
 More complete documentation on the available functionality is available at the
-`ARM Github documentation`_.
+`ARM GitHub documentation`_.
 
 The RISC-V functionality borrows from the ARM definitions, as described at the
-`RISC-V Github documentation`_.
+`RISC-V GitHub documentation`_.
 
 File Operations
 ***************
@@ -57,12 +57,12 @@ Additional Functionality
 Additional functionality is available by running semihosting instructions
 directly with :c:func:`semihost_exec` with one of the instructions defined
 in :c:enum:`semihost_instr`. For complete documentation on the required
-arguments and return codes, see the `ARM Github documentation`_.
+arguments and return codes, see the `ARM GitHub documentation`_.
 
 API Reference
 *************
 
 .. doxygengroup:: semihost
 
-.. _ARM Github documentation: https://github.com/ARM-software/abi-aa/blob/main/semihosting/semihosting.rst
-.. _RISC-V Github documentation: https://github.com/riscv/riscv-semihosting-spec/blob/main/riscv-semihosting-spec.adoc
+.. _ARM GitHub documentation: https://github.com/ARM-software/abi-aa/blob/main/semihosting/semihosting.rst
+.. _RISC-V GitHub documentation: https://github.com/riscv/riscv-semihosting-spec/blob/main/riscv-semihosting-spec.adoc

@@ -122,10 +122,10 @@ def parse_args():
         formatter_class=argparse.RawDescriptionHelpFormatter, allow_abbrev=False)
 
     parser.add_argument("-o", "--org", default="zephyrproject-rtos",
-                        help="Github organisation")
+                        help="GitHub organisation")
 
     parser.add_argument("-r", "--repo", default="zephyr",
-                        help="Github repository")
+                        help="GitHub repository")
 
     parser.add_argument("-f", "--file", required=True,
                         help="Name of output file.")
@@ -149,7 +149,7 @@ def main():
 
     token = os.environ.get('GITHUB_TOKEN', None)
     if not token:
-        sys.exit("""Github token not set in environment,
+        sys.exit("""GitHub token not set in environment,
 set the env. variable GITHUB_TOKEN please and retry.""")
 
     i = Issues(args.org, args.repo, token)

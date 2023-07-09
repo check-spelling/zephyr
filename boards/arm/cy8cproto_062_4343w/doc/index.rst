@@ -111,7 +111,7 @@ Here is an example for the :ref:`blinky-sample` application.
 OpenOCD Installation
 ====================
 
-You must download `Infineon OpenOCD`_ from Github to flash and debug.
+You must download `Infineon OpenOCD`_ from GitHub to flash and debug.
 Extract the files and note the path.
 
 Programming and Debugging

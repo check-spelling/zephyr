@@ -236,7 +236,7 @@ deprecated API, and on how urgently the API needs to be removed.
 
 If it's OK to remove the API, it will be removed. The maintainers will remove
 the corresponding documentation, and communicate the removal in the usual ways:
-the release notes, mailing lists, Github issues and pull-requests.
+the release notes, mailing lists, GitHub issues and pull-requests.
 
 If it's not OK to remove the API, the maintainers will continue to support
 migration and update the roadmap with the aim to remove the API in the next

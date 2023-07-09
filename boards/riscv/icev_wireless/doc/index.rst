@@ -8,7 +8,7 @@ Overview
 
 The ICE-V Wireless is a combined ESP32C3 and iCE40 FPGA board.
 
-See the `ICE-V Wireless Github Project`_ for details.
+See the `ICE-V Wireless GitHub Project`_ for details.
 
 .. figure:: img/icev_wireless.jpg
    :align: center
@@ -240,7 +240,7 @@ You can debug an application in the usual way. Here is an example for the
 References
 **********
 
-.. _ICE-V Wireless Github Project:
+.. _ICE-V Wireless GitHub Project:
    https://github.com/ICE-V-Wireless/ICE-V-Wireless
 
 .. _ESP32-C3-MINI-1 Datasheet:

@@ -784,7 +784,7 @@ search the archives. Unnecessary screenshots exclude vision impaired
 developers; some are major Zephyr contributors. `Accessibility`_ has been
 recognized as a basic human right by the United Nations.
 
-When copy/pasting more than 5 lines of computer text into Discord or Github,
+When copy/pasting more than 5 lines of computer text into Discord or GitHub,
 create a snippet using three backticks to delimit the snippet.
 
 .. _Search archives and sign up here: https://lists.zephyrproject.org/g/users

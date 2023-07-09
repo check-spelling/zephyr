@@ -3,7 +3,7 @@
 Feature Tracking
 #################
 
-For feature tracking we use Github labels to classify new features and
+For feature tracking we use GitHub labels to classify new features and
 enhancements. The following is the description of each category:
 
 Enhancement

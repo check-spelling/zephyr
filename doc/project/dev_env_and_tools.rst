@@ -184,7 +184,7 @@ dismissed following the criteria below:
 Closing Stale Issues and Pull Requests
 =======================================
 
-- The Pull requests and issues sections on Github are NOT discussion forums.
+- The Pull requests and issues sections on GitHub are NOT discussion forums.
   They are items that we need to execute and drive to closure.
   Use the mailing lists for discussions.
 - In case of both issues and pull-requests the original poster needs to respond

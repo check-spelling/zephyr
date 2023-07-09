@@ -37,10 +37,10 @@ def parse_args():
                         help="Dry run only.")
 
     parser.add_argument("-o", "--org", default="zephyrproject-rtos",
-                        help="Github organisation")
+                        help="GitHub organisation")
 
     parser.add_argument("-r", "--repo", default="zephyr",
-                        help="Github repository")
+                        help="GitHub repository")
 
     parser.add_argument("-v", "--verbose", action="count", default=0,
                         help="Verbose Output")
@@ -210,7 +210,7 @@ def main():
 
     token = os.environ.get('GITHUB_TOKEN', None)
     if not token:
-        sys.exit('Github token not set in environment, please set the '
+        sys.exit('GitHub token not set in environment, please set the '
                  'GITHUB_TOKEN environment variable and retry.')
 
     gh = Github(token)

@@ -2388,7 +2388,7 @@ Addressed issues
 * :github:`46350` - net: tcp: When the first FIN message is lost, the connection does not properly close
 * :github:`46347` - MCUMGR_SMP_BT: system workqueue blocked during execution of shell commands
 * :github:`46346` - LE Audio: Fatal crash when sending Audio data
-* :github:`46345` - get_maintainer.py incorrectly invoked by Github?
+* :github:`46345` - get_maintainer.py incorrectly invoked by GitHub?
 * :github:`46341` - Zephyr scheduler lock: add selective locking up to a given priority ceiling
 * :github:`46335` - For ESP32, initialization of static object during declaration with derived class type doesn't work.
 * :github:`46326` - Async UART for STM32 U5 support

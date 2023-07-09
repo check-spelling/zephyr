@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Notes (delete this)**
-Github Discussions (https://github.com/zephyrproject-rtos/zephyr/discussions)
+GitHub Discussions (https://github.com/zephyrproject-rtos/zephyr/discussions)
 are available to first verify that the issue is a genuine Zephyr bug and not a
 consequence of Zephyr services misuse.
 

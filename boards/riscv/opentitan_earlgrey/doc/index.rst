@@ -8,7 +8,7 @@ Overview
 
 The OpenTitan Earl Grey chip is a low-power secure microcontroller that is
 designed for several use cases requiring hardware security. The `OpenTitan
-Github`_ page contains HDL code, utilities, and documentation relevant to the
+GitHub`_ page contains HDL code, utilities, and documentation relevant to the
 chip.
 
 Hardware

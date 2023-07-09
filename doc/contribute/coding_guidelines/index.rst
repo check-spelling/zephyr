@@ -1505,7 +1505,7 @@ Step 2
   A developer starts to review violations.
 
 Step 3
-  A developer submits a Github PR with the fix. Commit messages should follow
+  A developer submits a GitHub PR with the fix. Commit messages should follow
   the same guidelines as other PRs in the Zephyr project. Please add a comment
   that your fix was found by a static coding scanning tool.
   Developers should follow and refer to the Zephyr :ref:`coding_guidelines`
@@ -1577,6 +1577,6 @@ Step 5
 
 Step 6
   After a PR is submitted, the developer should add the ``Coding guidelines``
-  and ``MISRA-C`` Github labels so their PR can be easily tracked by maintainers.
+  and ``MISRA-C`` GitHub labels so their PR can be easily tracked by maintainers.
   If you have any concerns about what your PR should look like, you can search
-  on Github using those tags and refer to similar PRs that have already been merged.
+  on GitHub using those tags and refer to similar PRs that have already been merged.

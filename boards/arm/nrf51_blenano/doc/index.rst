@@ -56,7 +56,7 @@ DAPLink board
 The DAPLink USB board acts as a dongle. DAPLink debug probes appear on the host computer as a USB disk.
 It also regulates 5V from USB to 3.3V via the onboard LDO to power Nano.
 
-More information about Nano and DAPLink can be found at the `RedBear Github`_.
+More information about Nano and DAPLink can be found at the `RedBear GitHub`_.
 
 Programming and Debugging
 *************************
@@ -105,4 +105,4 @@ References
 .. target-notes::
 
 .. _RedBear Store: https://redbear.cc/product/ble-nano-kit.html
-.. _RedBear Github: https://github.com/redbear/nRF5x
+.. _RedBear GitHub: https://github.com/redbear/nRF5x

@@ -197,7 +197,7 @@ on https://github.com and have Git tools available on your development system.
    (Linux, macOS, and Windows) but some of the tools used in the sections below
    are only available on Linux and macOS. On Windows, instead of running these
    tools yourself, you will need to rely on the Continuous Integration (CI)
-   service using Github Actions, which runs automatically on GitHub when you submit
+   service using GitHub Actions, which runs automatically on GitHub when you submit
    your Pull Request (PR).  You can see any failure results in the workflow
    details link near the end of the PR conversation list. See
    `Continuous Integration`_ for more information
@@ -329,7 +329,7 @@ triage team will review and comment on the submission, typically within a few
 business days.
 
 You can find all `open pull requests`_ on GitHub and open `Zephyr Project
-Issues`_ in Github issues.
+Issues`_ in GitHub issues.
 
  .. _Continuous Integration:
 
@@ -542,7 +542,7 @@ positive please set the classification to either "False positive" or
 "Intentional", the action to "Ignore", owner to your own account and add a
 comment why the issue is considered false positive or intentional.
 
-Update the related Github issue in the zephyr project with the details, and only close
+Update the related GitHub issue in the zephyr project with the details, and only close
 it after completing the steps above on scan service website. Any issues
 closed without a fix or without ignoring the entry in the scan service will be
 automatically reopened if the issue continues to be present in the code.
@@ -929,7 +929,7 @@ every Pull Request (PR) in order to verify several aspects of the PR:
 * Twister builds for multiple architectures and boards
 * Documentation build to verify any doc changes
 
-CI is run on Github Actions and it uses the same tools described in the
+CI is run on GitHub Actions and it uses the same tools described in the
 `Contribution Tools`_ section.  The CI results must be green indicating "All
 checks have passed" before the Pull Request can be merged.  CI is run when the
 PR is created, and again every time the PR is modified with a commit.
@@ -942,9 +942,9 @@ of the run you will see:
 * "All checks have failed"
 
 In case of failure you can click on the "Details" link presented below the
-failure message in order to navigate to ``Github Actions`` and inspect the
+failure message in order to navigate to ``GitHub Actions`` and inspect the
 results.
-Once you click on the link you will be taken to the ``Github actions`` summary
+Once you click on the link you will be taken to the ``GitHub actions`` summary
 results page where a table with all the different builds will be shown. To see
 what build or test failed click on the row that contains the failed (i.e.
 non-green) build.

@@ -10,7 +10,7 @@ The WeAct Black Pill V2.0 Board is an extremely low cost and bare-bones
 development board featuring the STM32F411CE, see `STM32F411CE website`_.
 This is the 48-pin variant of the STM32F411x series,
 see `STM32F411x reference manual`_. More info about the board available
-`here <stm32-base-board-page_>`_ and on `WeAct Github`_.
+`here <stm32-base-board-page_>`_ and on `WeAct GitHub`_.
 
 .. image:: img/blackpill-v2.jpg
       :align: center
@@ -163,7 +163,7 @@ References
 .. _Zadig:
    https://zadig.akeo.ie/
 
-.. _WeAct Github:
+.. _WeAct GitHub:
    https://github.com/WeActStudio/WeActStudio.MiniSTM32F4x1
 
 .. _stm32-base-board-page:

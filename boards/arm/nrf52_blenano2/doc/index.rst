@@ -103,5 +103,5 @@ References
 .. target-notes::
 
 .. _Kickstarter: https://www.kickstarter.com/projects/redbearinc/bluetooth-5-ready-ble-module-nano-2-and-blend-2
-.. _Github: https://github.com/redbear/nRF5x
+.. _GitHub: https://github.com/redbear/nRF5x
 .. _RedBear Forum: discuss.redbear.cc

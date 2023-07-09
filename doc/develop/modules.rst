@@ -122,7 +122,7 @@ Requirements for allowed practices
 Changes to the main branch of a module repository, including synchronization
 with upstream code base, may only be applied via pull requests. These pull
 requests shall be *verifiable* by Zephyr CI and *mergeable* (e.g. with the
-*Rebase and merge*, or *Create a merge commit* option using Github UI). This
+*Rebase and merge*, or *Create a merge commit* option using GitHub UI). This
 ensures that the incoming changes are always **reviewable**, and the
 *downstream* module repository history is incremental (that is, existing
 commits, tags, etc. are always preserved). This policy also allows to run
@@ -1086,7 +1086,7 @@ created by the project team and initialized with basic information that would
 allow submitting code to the module project following the project contribution
 guidelines.
 
-If a module is maintained as a fork of another project on Github, the Zephyr
+If a module is maintained as a fork of another project on GitHub, the Zephyr
 module related files and changes in relation to upstream need to be maintained
 in a special branch named ``zephyr``.
 

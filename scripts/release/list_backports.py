@@ -68,7 +68,7 @@ def parse_args():
     parser.add_argument('-e', '--end', dest='end', help='end date (YYYY-mm-dd)',
                         metavar='END_DATE', type=valid_date_type)
     parser.add_argument("-o", "--org", default="zephyrproject-rtos",
-                        help="Github organisation")
+                        help="GitHub organisation")
     parser.add_argument('-p', '--include-pull', dest='includes',
                         help='include pull request (can be specified multiple times)',
                         metavar='PR', type=int, action='append', default=[])
@@ -76,7 +76,7 @@ def parse_args():
                         help='exlude pull request (can be specified multiple times, helpful for version bumps and release notes)',
                         metavar='PR', type=int, action='append', default=[])
     parser.add_argument("-r", "--repo", default="zephyr",
-                        help="Github repository")
+                        help="GitHub repository")
 
     args = parser.parse_args()
 
@@ -298,7 +298,7 @@ def main():
     try:
         repo = gh.get_repo(args.org + '/' + args.repo)
     except Exception:
-        logging.error('failed to obtain Github repository')
+        logging.error('failed to obtain GitHub repository')
         return os.EX_DATAERR
 
     bp = None

@@ -114,7 +114,7 @@ numbers that have been assigned to the issue.  The developer instead
 should merely describe what has been fixed.
 
 The security subcommittee will maintain information mapping embargoed
-CVEs to these PRs (this information is within the Github security
+CVEs to these PRs (this information is within the GitHub security
 advisories), and produce regular reports of the state of security
 issues.
 

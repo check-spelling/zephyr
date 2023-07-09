@@ -41,7 +41,7 @@ jobs:
           PR_HEAD: ${{ github.event.pull_request.head.sha }}
         run: |
           git config --global user.email "actions@zephyrproject.org"
-          git config --global user.name "Github Actions"
+          git config --global user.name "GitHub Actions"
           git rebase origin/${BASE_REF}
           git log --graph --oneline HEAD...${PR_HEAD}
 
