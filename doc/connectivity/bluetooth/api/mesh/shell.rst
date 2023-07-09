@@ -1460,7 +1460,7 @@ The Private Beacon Client model is an optional mesh subsystem that can be enable
 
 	Get the target's Private Node Identity state. Possible values:
 
-		* ``0x00``: The node does not adverstise with the Private Node Identity.
+		* ``0x00``: The node does not advertise with the Private Node Identity.
 		* ``0x01``: The node advertises with the Private Node Identity.
 		* ``0x02``: The node doesn't support advertising with the Private Node Identity.
 
