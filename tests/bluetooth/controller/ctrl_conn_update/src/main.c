@@ -332,7 +332,7 @@ ZTEST(central_loc, test_conn_update_central_loc_accept)
 /*
  * Central-initiated Connection Parameters Request procedure.
  * Central requests change in LE connection parameters, peripheral’s Host accepts.
- * Parallel CPRs attemtped and rejected/cached
+ * Parallel CPRs attempted and rejected/cached
  *
  * +-----+                    +-------+                    +-----+
  * | UT  |                    | LL_C  |                    | LT  |
