@@ -900,7 +900,7 @@ static int litex_clk_calc_duty_normal(struct litex_clk_clkout *lcko,
 {
 	struct clk_duty duty;
 	int delta_d;
-	uint32_t ht_aprox, synth_duty, min_d;
+	uint32_t ht_approx, synth_duty, min_d;
 	uint8_t high_time_it, edge_it, high_duty,
 	   divider = lcko->config.div;
 
@@ -913,11 +913,11 @@ static int litex_clk_calc_duty_normal(struct litex_clk_clkout *lcko,
 	high_duty = litex_clk_calc_duty_percent(&duty);
 	min_d = INT_MAX;
 	/* check if duty is available to set */
-	ht_aprox = high_duty * divider;
+	ht_approx = high_duty * divider;
 
-	if (ht_aprox > ((HIGH_LOW_TIME_REG_MAX * 100) + 50) ||
+	if (ht_approx > ((HIGH_LOW_TIME_REG_MAX * 100) + 50) ||
 		       ((HIGH_LOW_TIME_REG_MAX * 100) + 50) <
-			(divider * 100) - ht_aprox) {
+			(divider * 100) - ht_approx) {
 		return -EINVAL;
 	}
 
