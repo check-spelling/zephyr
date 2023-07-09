@@ -194,7 +194,7 @@ static void test_central_main(void)
 
 	buf = net_buf_alloc(&buf_pool, K_NO_WAIT);
 	if (!buf) {
-		FAIL("Buffer allcation failed\n");
+		FAIL("Buffer allocation failed\n");
 	}
 
 	/* Don't care about the content of the packet itself, just the length */
