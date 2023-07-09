@@ -344,7 +344,7 @@ ZTEST(lib_stream_flash, test_stream_flash_buffered_write_callback)
 	zassert_equal(rc, -EINVAL, "expected failure from flash_sync", rc);
 	zassert_equal(ctx.buf_bytes, BUF_LEN, "Expected bytes to be left in buffer");
 
-	/* Pretend flashed context and attempt write write block - 1 bytes to trigger unaligned
+	/* Pretend flashed context and attempt to write block - 1 bytes to trigger unaligned
 	 * write; the write needs to fail so that we could check that context does not get modified.
 	 */
 	fake_api.write = bad_write;
