@@ -1376,7 +1376,7 @@ release:
 * :github:`29968` - sanitycheck fails a number of bluetooth tests on NRF
 * :github:`29967` - sanitycheck fails to build samples/bluetooth/peripheral_hr/sample.bluetooth.peripheral_hr_rv32m1_vega_ri5cy
 * :github:`29964` - net: lwm2m: Correctly Support Bootstrap-Delete Operation
-* :github:`29963` - RFC: dfu/boot/mcuboot: consider usage of boootloader/mcuboot code
+* :github:`29963` - RFC: dfu/boot/mcuboot: consider usage of bootloader/mcuboot code
 * :github:`29961` - Add i2c driver tests for microchip evaluation board
 * :github:`29960` - Checkpatch compliance errors do not fail CI
 * :github:`29958` - mcuboot hangs when CONFIG_BOOT_SERIAL_DETECT_PORT value not found
