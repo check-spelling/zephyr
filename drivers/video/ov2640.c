@@ -57,7 +57,7 @@ LOG_MODULE_REGISTER(ov2640);
 
 #define R_BYPASS                0x05
 #define R_BYPASS_DSP_EN         0x00
-#define R_BYPASS_DSP_BYPAS      0x01
+#define R_BYPASS_DSP_BYPASS      0x01
 
 #define IMAGE_MODE              0xDA
 #define IMAGE_MODE_JPEG_EN      0x10
@@ -369,7 +369,7 @@ static const struct ov2640_reg uxga_regs[] = {
 	 * The sensor output image can be scaled with OUTW/OUTH
 	 */
 	{ BANK_SEL, BANK_SEL_DSP },
-	{ R_BYPASS, R_BYPASS_DSP_BYPAS },
+	{ R_BYPASS, R_BYPASS_DSP_BYPASS },
 
 	{ RESET,   RESET_DVP },
 	{ HSIZE8,  (UXGA_HSIZE>>3)}, /* Image Horizontal Size HSIZE[10:3] */
@@ -811,7 +811,7 @@ static int ov2640_set_resolution(const struct device *dev,
 
 	/* Disable DSP */
 	ret |= ov2640_write_reg(&cfg->i2c, BANK_SEL, BANK_SEL_DSP);
-	ret |= ov2640_write_reg(&cfg->i2c, R_BYPASS, R_BYPASS_DSP_BYPAS);
+	ret |= ov2640_write_reg(&cfg->i2c, R_BYPASS, R_BYPASS_DSP_BYPASS);
 
 	/* Write output width */
 	ret |= ov2640_write_reg(&cfg->i2c, ZMOW, (w >> 2) & 0xFF); /* OUTW[7:0] (real/4) */
