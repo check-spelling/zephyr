@@ -11,14 +11,14 @@ config XMC4XXX_TEMP
 if XMC4XXX_TEMP
 
 config XMC4XXX_TEMP_CALIBRATE_OFFSET
-	int "Offset adjumstment of the temperature reading"
+	int "Offset adjustment of the temperature reading"
 	default 0
 	help
 	  Offset adjustment is defined as a shift of the conversion result.
 	  The value is 7 bits in the range [-64, 63] which maps to -/+ 12.5C.
 
 config XMC4XXX_TEMP_CALIBRATE_GAIN
-	int "Gain adjumstment of the temperature reading"
+	int "Gain adjustment of the temperature reading"
 	default 32
 	help
 	  Gain adjustment of the temperature reading. Range [0, 63].
