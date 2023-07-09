@@ -151,7 +151,7 @@ static uint32_t xec_pwmbb_compute_ld(const struct device *dev, uint32_t period_c
 }
 
 /* BBLED-PWM duty cycle set in 8-bit MINIMUM field of BBLED LIMITS register.
- * Limits.Minimum == 0 (alwyas off, output driven low)
+ * Limits.Minimum == 0 (always off, output driven low)
  *                == 255 (always on, output driven high)
  * 1 <= Limits.Minimum <= 254 duty cycle
  */
