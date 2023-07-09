@@ -62,7 +62,7 @@ ZTEST(input_api, test_sequence_thread)
 		zassert_equal(ret, 0, "ret: %d", ret);
 	}
 
-	/* one extra with no dev to acconut for the message pending in the
+	/* one extra with no dev to account for the message pending in the
 	 * locked cb
 	 */
 	ret = input_report_key(NULL, 0, 1, false, K_FOREVER);
