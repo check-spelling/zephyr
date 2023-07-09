@@ -123,7 +123,7 @@
  * @brief Get the pin number of a pin by its name.
  *
  * @param inst instance number
- * @param name name of the pin (e.g. tx, rx, sck).
+ * @param name of the pin (e.g. tx, rx, sck).
  */
 #define DT_INST_PIO_PIN_BY_NAME(inst, name) \
 	DT_PIO_PIN_BY_NAME(DT_DRV_INST(inst), name)

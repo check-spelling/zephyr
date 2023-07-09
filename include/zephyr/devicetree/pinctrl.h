@@ -98,7 +98,7 @@
  *     DT_PINCTRL_NAME_TO_IDX(DT_NODELABEL(n), sleep)   // 1
  *
  * @param node_id node identifier with a named pinctrl property
- * @param name lowercase-and-underscores name name of the pinctrl whose index to get
+ * @param name lowercase-and-underscores name of the pinctrl whose index to get
  * @return integer literal for the index of the pinctrl property with that name
  */
 #define DT_PINCTRL_NAME_TO_IDX(node_id, name) \
@@ -206,7 +206,7 @@
  *     DT_NUM_PINCTRLS_BY_NAME(DT_NODELABEL(n), sleep)   // 1
  *
  * @param node_id node identifier with a pinctrl property
- * @param name lowercase-and-underscores name name of the pinctrl property
+ * @param name lowercase-and-underscores name of the pinctrl property
  * @return number of phandles in the property with that name
  */
 #define DT_NUM_PINCTRLS_BY_NAME(node_id, name) \
