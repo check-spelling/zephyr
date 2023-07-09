@@ -149,7 +149,7 @@ static int dump_dev_crs(const struct shell *sh, size_t argc, char **argv)
 	ACPI_RESOURCE *res_lst;
 
 	if (argc < 2) {
-		shell_error(sh, "invalid arugment\n");
+		shell_error(sh, "invalid argument\n");
 		return -EINVAL;
 	}
 
@@ -172,7 +172,7 @@ static int dump_dev_prs(const struct shell *sh, size_t argc, char **argv)
 	ACPI_RESOURCE *res_lst = (ACPI_RESOURCE *)prs_buffer;
 
 	if (argc < 2) {
-		shell_error(sh, "invalid arugment\n");
+		shell_error(sh, "invalid argument\n");
 		return -EINVAL;
 	}
 
@@ -193,7 +193,7 @@ static int dump_prt(const struct shell *sh, size_t argc, char **argv)
 	ACPI_PCI_ROUTING_TABLE *prt;
 
 	if (argc < 2) {
-		shell_error(sh, "invalid arugment\n");
+		shell_error(sh, "invalid argument\n");
 		return -EINVAL;
 	}
 
