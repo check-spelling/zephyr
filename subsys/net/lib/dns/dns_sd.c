@@ -1150,7 +1150,7 @@ int dns_sd_extract_service_proto_domain(const uint8_t *query, size_t query_size,
 		"label and size arrays are different size");
 
 	/*
-	 * work around for bug in compliance scripts which say that the array
+	 * workaround for bug in compliance scripts which say that the array
 	 * should be static const (incorrect)
 	 */
 	label[0] = instance;

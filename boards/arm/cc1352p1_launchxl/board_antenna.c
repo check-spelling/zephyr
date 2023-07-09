@@ -112,7 +112,7 @@ void board_cc13xx_rf_callback(RF_Handle client, RF_GlobalEvent events, void *arg
 
 		if (sub1GHz) {
 			if (paType == RF_TxPowerTable_HighPA) {
-				/* Note: RFC_GPO3 is a work-around because the RFC_GPO1 */
+				/* Note: RFC_GPO3 is a workaround because the RFC_GPO1 */
 				/* is sometimes not de-asserted on CC1352 Rev A. */
 				pinctrl_apply_state(ant_pcfg, PINCTRL_STATE_ANT_SUBG_PA);
 			} else {

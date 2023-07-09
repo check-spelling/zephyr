@@ -770,7 +770,7 @@ ZTEST(dns_sd, test_extract_service_type_enumeration)
 	BUILD_ASSERT(ARRAY_SIZE(label) == ARRAY_SIZE(size), "");
 
 	/*
-	 * work around for bug in compliance scripts which say that the array
+	 * workaround for bug in compliance scripts which say that the array
 	 * should be static const (incorrect)
 	 */
 	label[0] = instance;

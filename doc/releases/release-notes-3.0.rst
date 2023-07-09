@@ -1192,7 +1192,7 @@ release:
 * :github:`39968` - samples: tfm_integration: tfm_psa_test broken on OS X (Windows?)
 * :github:`39947` - open-amp problem with dcache
 * :github:`39942` - usdhc disk_usdhc_access_write busy fail
-* :github:`39923` - qspi_sfdp_read fails errata work around
+* :github:`39923` - qspi_sfdp_read fails errata workaround
 * :github:`39919` - CONFIG_ISM330DHCX cannot compile due to missing file
 * :github:`39904` - bl654_usb does not work with hci_usb sample application
 * :github:`39900` - usb bug :USB device descriptor could not be obtained   on windows10

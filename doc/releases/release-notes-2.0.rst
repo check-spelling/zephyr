@@ -832,7 +832,7 @@ release:
 * :github:`17497` - Bluetooth: Mesh: How to Write provision and configure data to flash?
 * :github:`17488` - CDC_ACM USB on nRF device fails after suspend
 * :github:`17487` - v1.14-branch: SDK 0.10.1 support?
-* :github:`17486` - nRF52: SPIM: Errata work-around status?
+* :github:`17486` - nRF52: SPIM: Errata workaround status?
 * :github:`17485` - sanitycheck: Over-zealous checking for binary sections
 * :github:`17483` - mec15xxevb_assy6853 board documentation is erroneous
 * :github:`17480` - holyiot_yj16019 cannot compile IEEE 802.15.4 L2

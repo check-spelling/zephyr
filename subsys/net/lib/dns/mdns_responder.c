@@ -346,7 +346,7 @@ static void send_sd_response(struct net_context *ctx,
 	BUILD_ASSERT(ARRAY_SIZE(label) == ARRAY_SIZE(size), "");
 
 	/*
-	 * work around for bug in compliance scripts which say that the array
+	 * workaround for bug in compliance scripts which say that the array
 	 * should be static const (incorrect)
 	 */
 	label[0] = instance_buf;

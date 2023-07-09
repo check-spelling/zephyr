@@ -2165,7 +2165,7 @@ release:
 * :github:`17748` - stm32: clock-control: Remove usage of SystemCoreClock
 * :github:`17745` - stm32: Move clock configuration to device tree
 * :github:`17571` - mempool is expensive for cyclic use
-* :github:`17486` - nRF52: SPIM: Errata work-around status?
+* :github:`17486` - nRF52: SPIM: Errata workaround status?
 * :github:`17375` - Add VREF, TEMPSENSOR, VBAT internal channels to the stm32 adc driver
 * :github:`17353` - Configuring with POSIX_API disables NET_SOCKETS_POSIX_NAMES
 * :github:`17314` - doc: add tutorial for using mbed TLS

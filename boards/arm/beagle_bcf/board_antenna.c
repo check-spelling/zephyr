@@ -92,7 +92,7 @@ void board_cc13xx_rf_callback(RF_Handle client, RF_GlobalEvent events, void *arg
 		if (paType == RF_TxPowerTable_HighPA) {
 			/* PA enable --> HIGH PA */
 			/* LNA enable --> Sub-1 GHz */
-			/* Note: RFC_GPO3 is a work-around because the RFC_GPO1 */
+			/* Note: RFC_GPO3 is a workaround because the RFC_GPO1 */
 			/* is sometimes not de-asserted on CC1352 Rev A. */
 			IOCPortConfigureSet(BOARD_RF_HIGH_PA,
 					IOC_PORT_RFC_GPO3, IOC_IOMODE_NORMAL);
