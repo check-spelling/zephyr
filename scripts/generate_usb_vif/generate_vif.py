@@ -154,7 +154,7 @@ def parse_and_add_sink_pdo_to_xml(xml_ele, pdo_value, pdo_info):
         add_element_to_xml(xml_ele, vif_element_constants.SINK_PDO_OP_CURRENT,
                            f'{current_ma} mA',
                            get_value_attribute(current))
-    elif pdo_type == pdo_constants.PDO_TYPE_AUGUMENTED:
+    elif pdo_type == pdo_constants.PDO_TYPE_AUGMENTED:
         # As per USB PD specification Revision 3.1, Version 1.6, Table 6-19 Programmable Power supply APDO - Sink
         pps = (pdo_value >> 28) & 0x03
         if pps:
