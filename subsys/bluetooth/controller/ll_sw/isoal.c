@@ -1568,7 +1568,7 @@ void isoal_source_destroy(isoal_source_handle_t hdl)
 
 /**
  * Queue the PDU in production in the relevant LL transmit queue. If the
- * attmept to release the PDU fails, the buffer linked to the PDU will be released
+ * attempt to release the PDU fails, the buffer linked to the PDU will be released
  * and it will not be possible to retry the emit operation on the same PDU.
  * @param[in]  source_ctx        ISO-AL source reference for this CIS / BIS
  * @param[in]  produced_pdu      PDU in production
