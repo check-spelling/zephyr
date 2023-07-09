@@ -943,7 +943,7 @@ struct ifreq {
 /** sockopt: Transmission of broadcast messages is supported (ignored, for compatibility) */
 #define SO_BROADCAST 6
 
-/** sockopt: Size of socket socket send buffer (ignored, for compatibility) */
+/** sockopt: Size of socket send buffer (ignored, for compatibility) */
 #define SO_SNDBUF 7
 /** sockopt: Size of socket recv buffer */
 #define SO_RCVBUF 8
