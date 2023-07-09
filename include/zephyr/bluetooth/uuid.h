@@ -3857,7 +3857,7 @@ struct bt_uuid_128 {
 #define BT_UUID_GATT_SLP_AID \
 	BT_UUID_DECLARE_16(BT_UUID_GATT_SLP_AID_VAL)
 /**
- *  @brief GATT Characteristic Sleep Actiity Summary Data UUID Value
+ *  @brief GATT Characteristic Sleep Activity Summary Data UUID Value
  */
 #define BT_UUID_GATT_SLP_ASD_VAL 0x2b42
 /**
