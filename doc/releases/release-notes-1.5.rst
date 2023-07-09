@@ -188,7 +188,7 @@ Epic
 * ``ZEP-284`` - Flash Filesystem Support
 * ``ZEP-305`` - Device Suspend / Resume infrastructure
 * ``ZEP-306`` - PWM Enabling
-* ``ZEP-406`` - Drivers shall be re-entrant
+* ``ZEP-406`` - Drivers shall be reentrant
 
 Bug
 ===

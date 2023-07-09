@@ -9,7 +9,7 @@
  *
  * This file contains a set of tests to verify that the C standard functions
  * provided by newlib are thread safe (i.e. synchronised) and that the thread-
- * specific contexts are properly handled (i.e. re-entrant).
+ * specific contexts are properly handled (i.e. reentrant).
  */
 
 #include <zephyr/kernel.h>
