@@ -1647,7 +1647,7 @@ Addressed issues
 * :github:`43816` - tests: cmsis_dsp: rf16 and cf16 tests are not executed on Native POSIX
 * :github:`43807` - Test "cpp.libcxx.newlib.exception" failed on platforms which use zephyr.bin to run tests.
 * :github:`43794` - BMI160 Driver: Waiting time between SPI activation and reading CHIP IP is too low
-* :github:`43793` - Alllow callbacks to CDC_ACM events
+* :github:`43793` - Allow callbacks to CDC_ACM events
 * :github:`43792` - mimxrt1050_evk: failed to run tests/net/socket/tls and tests/subsys/jwt
 * :github:`43786` - [Logging] log context redefined with XCC when use zephyr logging api with SOF
 * :github:`43757` - it8xxx2_evb: k_busy_wait is not working accurately for ITE RISC-V
