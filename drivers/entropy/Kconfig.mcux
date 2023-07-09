@@ -49,7 +49,7 @@ config ENTROPY_MCUX_CSS
 	  This option enables the driver for random number generation using
 	  the CSS (Crypto Subsystem).
 #
-# Don't use use the MCUX TRNG as a random source as it is not designed
+# Don't use the MCUX TRNG as a random source as it is not designed
 # to supply a continuous random stream. Instead, it is used to provide
 # a seed to RNG generator.
 #
