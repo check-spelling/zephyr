@@ -1657,7 +1657,7 @@ Addressed issues
 * :github:`43742` - BT510 lis2dh sensor does not disconnect SAO pull-up resistor
 * :github:`43739` - tests: dma: random failure on dma loopback suspend and resume case on twr_ke18f
 * :github:`43732` - esp32: MQTT publisher sample stuck for both TLS and non-TLS sample.
-* :github:`43728` - esp32 build error while applicaton in T2 topology
+* :github:`43728` - esp32 build error while application in T2 topology
 * :github:`43718` - Bluetooth: bt_conn: Unable to allocate buffer within timeout
 * :github:`43715` - ESP32 UART devicetree binding design issue
 * :github:`43713` - intel_adsp_cavs: tests are not running with twister
