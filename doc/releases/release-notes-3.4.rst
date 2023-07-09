@@ -802,7 +802,7 @@ Drivers and Sensors
   * Added support for the CAN-FD variant of the NXP FlexCAN controller using devicetree binding
     :dtcompatible:`nxp,flexcan-fd`.
 
-  * Added support for the NXP NXP S32 CANEXCEL controller using devicetree binding
+  * Added support for the NXP S32 CANEXCEL controller using devicetree binding
     :dtcompatible:`nxp,s32-canxl`.
 
   * Added support for the Atmel SAM0 CAN controller using devicetree binding
