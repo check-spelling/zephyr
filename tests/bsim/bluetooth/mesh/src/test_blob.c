@@ -1247,7 +1247,7 @@ static void test_cli_fail_on_persistency(void)
 	 * - Srv 0x0003 will not respond to Block get msg.
 	 * - Srv 0x0004 will not respond to Xfer get msg.
 	 * - Srv 0x0005 is responsive all the way
-	 * - Srv 0x0006 is a non-existing unresponsive node
+	 * - Srv 0x0006 is a nonexistent unresponsive node
 	 */
 	(void)target_srv_add(BLOB_CLI_ADDR + 1, true);
 	(void)target_srv_add(BLOB_CLI_ADDR + 2, true);

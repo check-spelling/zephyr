@@ -1373,7 +1373,7 @@ static void rfcomm_handle_data(struct bt_rfcomm_session *session,
 
 	dlc = rfcomm_dlcs_lookup_dlci(session->dlcs, dlci);
 	if (!dlc) {
-		LOG_ERR("Data recvd in non existing DLC");
+		LOG_ERR("Data recvd in nonexistent DLC");
 		rfcomm_send_dm(session, dlci);
 		return;
 	}

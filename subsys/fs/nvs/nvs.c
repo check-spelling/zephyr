@@ -1088,7 +1088,7 @@ no_cached_entry:
 			}
 		}
 	} else {
-		/* skip delete entry for non-existing entry */
+		/* skip delete entry for nonexistent entry */
 		if (len == 0) {
 			return 0;
 		}

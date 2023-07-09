@@ -378,7 +378,7 @@ These GitHub issues were closed since the previous 1.11.0 tagged release:
 * :github:`5739` - [Coverity CID: 182193] Control flow issues in /subsys/storage/flash_map/flash_map.c
 * :github:`5742` - [Coverity CID: 181921] Incorrect expression in /subsys/bluetooth/controller/ll_sw/ctrl.c
 * :github:`5757` - native: fix -T warning while linking
-* :github:`5767` - docs: Zephyr OpenOCD documentation is weak/non-existent
+* :github:`5767` - docs: Zephyr OpenOCD documentation is weak/nonexistent
 * :github:`5797` - SPI subsystem API & features updates
 * :github:`5807` - Can't build Arduino_101 on Mac following instructions
 * :github:`5839` - SPI API improvements proposals
@@ -579,7 +579,7 @@ These GitHub issues were closed since the previous 1.11.0 tagged release:
 * :github:`7097` - doc build kconfig warning for XOROSHIRO_RANDOM_GENERATOR
 * :github:`7103` - Unpatched upstream vulnerabilities in mbedTLS
 * :github:`7107` - Crash while running echo_server with openthread
-* :github:`7115` - doc/subsystems/settings/settings.rst references non-existing variables
+* :github:`7115` - doc/subsystems/settings/settings.rst references nonexistent variables
 * :github:`7127` - STM32 ethernet driver crashes without connected cable
 * :github:`7128` - msp uninitialized on reset leading to usage fault for non-XIP targets
 * :github:`7137` - I2C Driver does not compile for nrf5 boards
@@ -784,7 +784,7 @@ These GitHub issues were closed since the previous 1.11.0 tagged release:
 * :github:`8129` - scheduler: in update_cache() thread from next_up() and _current are the same
 * :github:`8132` - stm3210c_eval.dts_compiled: Warning
 * :github:`8142` - GPIO API not shown on docs.zephyrproject.org
-* :github:`8145` - samples/subsys/usb/dfu: Build failure, Reference to non-existent node or label "slot0_partition"
+* :github:`8145` - samples/subsys/usb/dfu: Build failure, Reference to nonexistent node or label "slot0_partition"
 * :github:`8150` - Doc: Update Zephyr security overview
 * :github:`8171` - Tests failing with a stacking error on frdm_k64f
 * :github:`8172` - Networking tests failing with an assertion on frdm_k64f

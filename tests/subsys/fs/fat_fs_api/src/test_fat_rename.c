@@ -65,15 +65,15 @@ static int test_rename_dir(void)
 		goto cleanup;
 	}
 
-	/* Rename non-existing dir to non-existing dir */
+	/* Rename nonexistent dir to nonexistent dir */
 	res = fs_rename(dn, ndn);
 	if (!res) {
-		TC_PRINT("Renamed non-existent directory\n");
+		TC_PRINT("Renamed nonexistent directory\n");
 		res = TC_FAIL;
 		goto cleanup;
 	}
 
-	/* Rename existing dir to non-existing dir */
+	/* Rename existing dir to nonexistent dir */
 	res = create_dir(dn);
 	if (!!res) {
 		goto cleanup;
@@ -118,15 +118,15 @@ static int test_rename_file(void)
 		goto cleanup;
 	}
 
-	/* Rename non-existing file to non-existing file */
+	/* Rename nonexistent file to nonexistent file */
 	res = fs_rename(fn, nfn);
 	if (!res) {
-		TC_PRINT("Renamed non-existent file\n");
+		TC_PRINT("Renamed nonexistent file\n");
 		res = TC_FAIL;
 		goto cleanup;
 	}
 
-	/* Rename existing file to non-existing file */
+	/* Rename existing file to nonexistent file */
 	res = create_file(fn);
 	if (!!res) {
 		goto cleanup;

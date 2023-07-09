@@ -82,7 +82,7 @@ def main(options):
             with open(ls, "r") as fp:
                 previous_results = fp.read()
         else:
-            sys.exit(f"Can't compare metrics with non existing file {ls}")
+            sys.exit(f"Can't compare metrics with nonexistent file {ls}")
     elif os.path.exists(options.outdir):
         if options.clobber_output:
             print("Deleting output directory {}".format(options.outdir))

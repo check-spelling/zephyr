@@ -254,7 +254,7 @@ static int process_stored_dump(data_read_cb_t cb, void *cb_arg)
 		goto out;
 	}
 
-	/* Error encountered while dumping, so non-existent */
+	/* Error encountered while dumping, so nonexistent */
 	if (hdr.error != 0) {
 		ret = 0;
 		goto out;
@@ -312,7 +312,7 @@ static int get_stored_dump(off_t off, uint8_t *dst, size_t len)
 		goto out;
 	}
 
-	/* Error encountered while dumping, so non-existent */
+	/* Error encountered while dumping, so nonexistent */
 	if (hdr.error != 0) {
 		ret = 0;
 		goto out;

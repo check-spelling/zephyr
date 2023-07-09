@@ -159,7 +159,7 @@ static int start_read(const struct device *dev,
 	nrf_adc_config_resolution_t nrf_resolution;
 
 	/* Signal an error if channel selection is invalid (no channels or
-	 * a non-existing one is selected).
+	 * a nonexistent one is selected).
 	 */
 	if (!selected_channels ||
 	    (selected_channels &

@@ -808,7 +808,7 @@ def main():
         pt.map(image_base_phys, image_base, image_size, map_flags | ENTRY_RW)
     else:
         # When generic linker sections are not present in physical memory,
-        # the corresponding virtual pages should not be mapped to non-existent
+        # the corresponding virtual pages should not be mapped to nonexistent
         # physical pages. So simply identity map them to create the page table
         # entries but without the present bit set.
         # Boot and pinned sections (if configured) will be mapped to

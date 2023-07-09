@@ -1097,7 +1097,7 @@ release:
 * :github:`27783` - Add support for mbedTLS Server Name Indication (SNI) at configuration
 * :github:`27771` - iotdk: cpu_stats function doesn't work as expected
 * :github:`27768` - Usage fault when running with CONFIG_NO_OPTIMIZATIONS=y
-* :github:`27765` - Sanitycheck: non-existing test case shows up in .xml file.
+* :github:`27765` - Sanitycheck: nonexistent test case shows up in .xml file.
 * :github:`27753` - drivers: sensor: lis2dh: compilation issue struct lis2dh_config' has no member named 'spi_conf'
 * :github:`27745` - Zephyr with host stack and hci driver only ?
 * :github:`27738` - em_starterkit_7d sanitycheck test failure on tests\kernel\mem_protect\syscalls test

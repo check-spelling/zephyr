@@ -20,7 +20,7 @@ from twisterlib.error import ConfigurationError
 from twisterlib.testplan import TwisterConfigParser
 
 def test_yamlload():
-    """ Test to check if loading the non-existent files raises the errors """
+    """ Test to check if loading the nonexistent files raises the errors """
     filename = 'testcase_nc.yaml'
     with pytest.raises(FileNotFoundError):
         scl.yaml_load(filename)

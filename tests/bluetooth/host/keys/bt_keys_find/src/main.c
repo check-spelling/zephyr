@@ -43,10 +43,10 @@ static void *empty_list_ts_setup(void)
 ZTEST_SUITE(bt_keys_find_initially_empty_list, NULL, empty_list_ts_setup, NULL, NULL, NULL);
 
 /*
- *  Test calling bt_keys_find() with non-existing item
+ *  Test calling bt_keys_find() with nonexistent item
  *
  *  Constraints:
- *   - Valid values of non-existing items are used
+ *   - Valid values of nonexistent items are used
  *
  *  Expected behaviour:
  *   - NULL reference is returned

@@ -386,7 +386,7 @@ void conn_mgr_conn_init(void)
 	STRUCT_SECTION_FOREACH(conn_mgr_conn_binding, binding) {
 		if (!(binding->impl->api)) {
 			LOG_ERR("Connectivity implementation has NULL API, and will be treated as "
-				"non-existent.");
+				"nonexistent.");
 		} else if (binding->impl->api->init) {
 			k_mutex_lock(binding->mutex, K_FOREVER);
 

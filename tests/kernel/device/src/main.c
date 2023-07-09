@@ -40,12 +40,12 @@ DEVICE_DEFINE(dummy_noinit, DUMMY_NOINIT, NULL, NULL, NULL, NULL,
 /**
  * @brief Test device object binding
  *
- * Validates device binding for an existing and a non-existing device object.
+ * Validates device binding for an existing and a nonexistent device object.
  * It creates a dummy_driver device object with basic init and configuration
  * information and validates its binding.
  *
  * Validates three kinds situations of driver object:
- * 1. A non-existing device object.
+ * 1. A nonexistent device object.
  * 2. An existing device object with basic init and configuration information.
  * 3. A failed init device object.
  *
@@ -57,7 +57,7 @@ ZTEST(device, test_dummy_device)
 {
 	const struct device *dev;
 
-	/* Validates device binding for a non-existing device object */
+	/* Validates device binding for a nonexistent device object */
 	dev = device_get_binding(DUMMY_PORT_1);
 	zassert_is_null(dev);
 
@@ -94,7 +94,7 @@ ZTEST_USER(device, test_dynamic_name)
 }
 
 /**
- * @brief Test device binding for non-existing device
+ * @brief Test device binding for nonexistent device
  *
  * Validates binding of a random device driver(non-defined driver) named
  * "ANOTHER_BOGUS_NAME".

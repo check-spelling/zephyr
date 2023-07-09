@@ -54,7 +54,7 @@ static void tc_setup(void *f)
 ZTEST_SUITE(bt_keys_update_usage_overwrite_oldest_enabled, NULL, NULL, tc_setup, NULL, NULL);
 
 /*
- *  Request updating non-existing item in the keys pool list
+ *  Request updating nonexistent item in the keys pool list
  *
  *  Constraints:
  *   - Keys pool list is filled with items that are different from the testing ID and address pair

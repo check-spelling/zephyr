@@ -184,7 +184,7 @@ static inline uint32_t ll_func_spi_is_busy(SPI_TypeDef *spi)
 }
 
 /* Header is compiled first, this switch avoid the compiler to lookup for
- * non-existing LL FIFO functions for SoC without SPI FIFO
+ * nonexistent LL FIFO functions for SoC without SPI FIFO
  */
 #if DT_HAS_COMPAT_STATUS_OKAY(st_stm32_spi_fifo)
 static inline void ll_func_set_fifo_threshold_8bit(SPI_TypeDef *spi)

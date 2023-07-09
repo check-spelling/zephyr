@@ -560,7 +560,7 @@ static inline uint32_t dw_wdt_apb_data_width_get(const uint32_t base)
  * can be used to freeze the watchdog counter during pause mode.
  *
  * @param base Device base address.
- * @return 0x0 (DISABLED): Pause enable signal is non existent
+ * @return 0x0 (DISABLED): Pause enable signal is nonexistent
  *	   0x1 (ENABLED): Pause enable signal is included
  */
 static inline uint32_t dw_wdt_pause_get(const uint32_t base)

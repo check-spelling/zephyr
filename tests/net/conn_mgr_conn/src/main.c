@@ -720,7 +720,7 @@ ZTEST(conn_mgr_conn, test_conn_opt_invalid)
 	char buf[100];
 	size_t buf_len;
 
-	/* Verify that getting/setting non-existent option on ifa1 fails */
+	/* Verify that getting/setting nonexistent option on ifa1 fails */
 	zassert_equal(conn_mgr_if_set_opt(ifa1, -1, "A", strlen("A")), -ENOPROTOOPT,
 				"conn_mgr_if_set_opt should fail with invalid optname");
 	buf_len = sizeof(buf_len);

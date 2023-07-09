@@ -265,7 +265,7 @@ ZTEST(coap, test_parse_simple_pdu)
 		      COAP_CONTENT_FORMAT_TEXT_PLAIN,
 		      "Option value doesn't match the reference");
 
-	/* Not existent */
+	/* Nonexistent */
 	count = coap_find_options(&cpkt, COAP_OPTION_ETAG, options, count);
 
 	zassert_equal(count, 0,

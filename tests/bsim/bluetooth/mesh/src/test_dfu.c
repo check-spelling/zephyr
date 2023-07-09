@@ -953,7 +953,7 @@ static void test_cli_fail_on_persistency(void)
 	 * - Srv 0x0005 will fail firmware verification.
 	 * - Srv 0x0006 will not respond to Firmware Update Apply msg.
 	 * - Srv 0x0007 is responsive all the way.
-	 * - Srv 0x0008 is a non-existing unresponsive node that will not respond to Firmware
+	 * - Srv 0x0008 is a nonexistent unresponsive node that will not respond to Firmware
 	 *   Update Start msg, which is the first message sent by DFU Client.
 	 */
 	(void)target_srv_add(TARGET_ADDR + 1, true);
@@ -976,7 +976,7 @@ static void test_cli_fail_on_persistency(void)
 		FAIL("Firmware transfer failed");
 	}
 
-	/* This is non-existing unresponsive target that didn't reply on Firmware Update Start
+	/* This is nonexistent unresponsive target that didn't reply on Firmware Update Start
 	 * message.
 	 */
 	ASSERT_EQUAL(BT_MESH_DFU_ERR_INTERNAL, dfu_cli_xfer.targets[6].status);

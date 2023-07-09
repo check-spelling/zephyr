@@ -79,7 +79,7 @@ static void test_credential_get(void)
 	zassert_equal(credlen, sizeof(test_server_key),
 		      "Invalid credential length");
 
-	/* Try to read non-existing credentials */
+	/* Try to read nonexistent credentials */
 	credlen = sizeof(cred);
 	ret = tls_credential_get(invalid_tag, TLS_CREDENTIAL_PSK,
 				 cred, &credlen);
@@ -152,7 +152,7 @@ static void test_credential_delete(void)
 	char cred[64];
 	size_t credlen = sizeof(cred);
 
-	/* Should fail if when trying to remove non-existing credential. */
+	/* Should fail if when trying to remove nonexistent credential. */
 	ret = tls_credential_delete(invalid_tag, TLS_CREDENTIAL_CA_CERTIFICATE);
 	zassert_equal(ret, -ENOENT, "Should have failed with ENOENT");
 

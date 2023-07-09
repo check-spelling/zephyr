@@ -523,10 +523,10 @@ def _parse_style(style_str, parsing_default):
             key, data = sline.split("=", 1)
 
             # The 'default' style template is assumed to define all keys. We
-            # run _style_to_curses() for non-existing keys as well, so that we
+            # run _style_to_curses() for nonexistent keys as well, so that we
             # print warnings for errors to the right of '=' for those too.
             if key not in _style and not parsing_default:
-                _warn("Ignoring non-existent style", key)
+                _warn("Ignoring nonexistent style", key)
 
             # If data is a reference to another key, copy its style
             if data in _style:
@@ -540,7 +540,7 @@ def _parse_style(style_str, parsing_default):
             _parse_style(_STYLES[sline], parsing_default)
 
         else:
-            _warn("Ignoring non-existent style template", sline)
+            _warn("Ignoring nonexistent style template", sline)
 
 # Dictionary mapping element types to the curses attributes used to display
 # them

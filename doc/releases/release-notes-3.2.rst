@@ -2269,7 +2269,7 @@ Addressed issues
 * :github:`47204` - CAN filter with RTR mask causes infinite loop in MCAN driver on filtered message arrival
 * :github:`47197` - BLE latency decreasing and increasing over time (possibly GPIO issue)
 * :github:`47146` - STM32F103:  USB clock prescaler isn't set during USB initialisation
-* :github:`47127` - twister : frdm_k64f ：Non-existent tests appear and fail on tests/lib/cmsis_dsp/transform
+* :github:`47127` - twister : frdm_k64f ：Nonexistent tests appear and fail on tests/lib/cmsis_dsp/transform
 * :github:`47126` - New ztest API: build failure on qemu_cortex_m3 when CONFIG_CMAKE_LINKER_GENERATOR=y
 * :github:`47119` - ADC_DT_SPEC_GET not working for channels >= 10
 * :github:`47114` - ``check_compliance.py`` crash on Ubuntu 22.04

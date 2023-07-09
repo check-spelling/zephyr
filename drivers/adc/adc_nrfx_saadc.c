@@ -279,7 +279,7 @@ static int start_read(const struct device *dev,
 	uint8_t channel_id;
 
 	/* Signal an error if channel selection is invalid (no channels or
-	 * a non-existing one is selected).
+	 * a nonexistent one is selected).
 	 */
 	if (!selected_channels ||
 	    (selected_channels & ~BIT_MASK(SAADC_CH_NUM))) {

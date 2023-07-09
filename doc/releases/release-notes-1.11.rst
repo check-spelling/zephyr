@@ -333,7 +333,7 @@ release:
 * :github:`5256` - _nano_tick_delta, sys_tick_delta, sys_tick_delta_32: not used or tested
 * :github:`5270` - Not all IEEE802154_MCR20A_RAW references were removed
 * :github:`5282` - net: IPv6 DAD is incorrect, wouldn't work ("always succeed") on mcast medium like Ethernet
-* :github:`5283` - reference to non-existing functions in arch/x86/core/intstub.S
+* :github:`5283` - reference to nonexistent functions in arch/x86/core/intstub.S
 * :github:`5305` - flash: use generated FLASH_WRITE_BLOCK_SIZE in flash_stm32_api
 * :github:`5317` - IPSP deadlock during disconnect -> net_if_down
 * :github:`5326` - IPSP ping fails
@@ -458,7 +458,7 @@ release:
 * :github:`6091` - [Coverity CID: 182780] Error handling issues in /samples/net/sockets/http_get/src/http_get.c
 * :github:`6092` - [Coverity CID: 182779] Memory - corruptions in /drivers/flash/soc_flash_nios2_qspi.c
 * :github:`6102` - [Coverity CID: 182769] Error handling issues in /subsys/bluetooth/host/mesh/beacon.c
-* :github:`6121` - doc: unit tests documentation refers to non existing sample code
+* :github:`6121` - doc: unit tests documentation refers to nonexistent sample code
 * :github:`6127` - net: Semantics of CONFIG_NET_BUF_POOL_USAGE changed (incorrectly)
 * :github:`6131` - mbedtls: Name of config-mini-tls1_2.h contradicts description
 * :github:`6135` - build error with gcc 7.3

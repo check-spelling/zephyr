@@ -1455,7 +1455,7 @@ static int lwm2m_senml_write_operation(struct lwm2m_message *msg, struct json_in
 	/* Write the resource value */
 	ret = lwm2m_write_handler(obj_inst, res, res_inst, obj_field, msg);
 	if (ret == -EACCES || ret == -ENOENT) {
-		/* if read-only or non-existent data buffer move on */
+		/* if read-only or nonexistent data buffer move on */
 		ret = 0;
 	}
 

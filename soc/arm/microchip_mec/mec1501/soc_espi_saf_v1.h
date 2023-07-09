@@ -370,7 +370,7 @@ struct espi_saf_flash_cfg {
  * the three bit master number. Each 32-bit register contains 3-bit
  * fields aligned on nibble boundaries holding the master number
  * associated with the eSPI tag (thread) number.
- * A master value of 7h in a field indicates a non-existent map entry.
+ * A master value of 7h in a field indicates a nonexistent map entry.
  *
  * bit map of registers to program
  * b[2:0] = TAG Map[2:0]

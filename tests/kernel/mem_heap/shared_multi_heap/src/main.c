@@ -208,7 +208,7 @@ ZTEST(shared_multi_heap, test_shared_multi_heap)
 	block = shared_multi_heap_alloc(SMH_REG_ATTR_NON_CACHEABLE, 0);
 	zassert_is_null(block, "0 size accepted as valid");
 
-	/* Request a non-existent attribute */
+	/* Request a nonexistent attribute */
 	block = shared_multi_heap_alloc(MAX_SHARED_MULTI_HEAP_ATTR, 0x100);
 	zassert_is_null(block, "wrong attribute accepted as valid");
 }

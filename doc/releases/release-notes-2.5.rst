@@ -1156,7 +1156,7 @@ release:
 * :github:`31234` - twister: Add choice for tests sorting into subsets
 * :github:`31226` - tests/drivers/dma/loop_transfer does not use ztest
 * :github:`31219` - newlib printk float formatting not working
-* :github:`31207` - Non-existent event in asynchronous UART API
+* :github:`31207` - Nonexistent event in asynchronous UART API
 * :github:`31206` - coap.c : encoding of options with lengths larger than 268 is not proper
 * :github:`31203` - fatal error: setjmp.h: No such file or directory
 * :github:`31194` - twister: using unsupported fixture without defined harness causes an infinite loop during on-target test execution

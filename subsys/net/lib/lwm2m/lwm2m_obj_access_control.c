@@ -338,7 +338,7 @@ static void add_existing_objects(void)
 static int write_validate_cb(uint16_t obj_inst_id, uint16_t res_id, uint16_t res_inst_id,
 			     uint8_t *data, uint16_t data_len, bool last_block, size_t total_size)
 {
-	/* validates and removes acl instances for non-existing servers */
+	/* validates and removes acl instances for nonexistent servers */
 
 	if (res_inst_id == 0) {
 		return 0;

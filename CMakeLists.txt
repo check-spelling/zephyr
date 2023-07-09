@@ -118,7 +118,7 @@ zephyr_include_directories(
 
 include(${ZEPHYR_BASE}/cmake/linker_script/${ARCH}/linker.cmake OPTIONAL)
 
-# Don't add non-existing include directories, it creates noise and
+# Don't add nonexistent include directories, it creates noise and
 # warnings in some tooling
 foreach(optional_include_dir
   ${SOC_DIR}/${ARCH}/${SOC_PATH}

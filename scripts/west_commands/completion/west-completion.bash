@@ -207,7 +207,7 @@ _compopt_o_filenames()
     # bash < 4 at this point may cause terminal echo to be turned off for some
     # reason, see https://bugzilla.redhat.com/653669 for more info.
     type compopt &>/dev/null && compopt -o filenames 2>/dev/null || \
-        compgen -f /non-existing-dir/ >/dev/null
+        compgen -f /nonexistent-dir/ >/dev/null
 }
 
 if ! type _filedir >/dev/null 2>&1; then

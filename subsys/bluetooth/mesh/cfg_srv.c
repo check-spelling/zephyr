@@ -1072,7 +1072,7 @@ static int mod_sub_del(struct bt_mesh_model *model,
 		goto send_status;
 	}
 
-	/* An attempt to remove a non-existing address shall be treated
+	/* An attempt to remove a nonexistent address shall be treated
 	 * as a success.
 	 */
 	status = STATUS_SUCCESS;

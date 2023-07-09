@@ -1522,7 +1522,7 @@ re.escape(r"value of property 'a' (b'\xff\x00') on /aliases in ") +
 	};
 };
 """,
-"property 'a' on /aliases in .* points to the non-existent node \"/missing\"")
+"property 'a' on /aliases in .* points to the nonexistent node \"/missing\"")
 
 def test_prop_type():
     '''Test Property.type'''
@@ -1838,7 +1838,7 @@ def test_prop_type_casting():
         re.escape("'u = &foo' or 'u = \"/path/to/node\"', not 'u = < 0x1 >;'"))
     verify_to_path_error_matches(
         "missingpath",
-        "property 'missingpath' on / in .* points to the non-existent node "
+        "property 'missingpath' on / in .* points to the nonexistent node "
         '"/missing"')
 
     # Test top-level to_num() and to_nums()

@@ -28,7 +28,7 @@ static void *smh_choice(struct sys_multi_heap *mheap, void *cfg, size_t align, s
 		return NULL;
 	}
 
-	/* Set in case the user requested a non-existing attr */
+	/* Set in case the user requested a nonexistent attr */
 	block = NULL;
 
 	for (size_t hdx = 0; hdx < attr_cnt[attr]; hdx++) {

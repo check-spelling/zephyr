@@ -85,7 +85,7 @@ static void *empty_list_ts_setup(void)
 ZTEST_SUITE(bt_keys_find_irk_initially_empty_list, NULL, empty_list_ts_setup, NULL, NULL, NULL);
 
 /*
- *  Find a non-existing key reference for ID and Address of type 'BT_KEYS_IRK'
+ *  Find a nonexistent key reference for ID and Address of type 'BT_KEYS_IRK'
  *
  *  Constraints:
  *   - Empty keys pool list

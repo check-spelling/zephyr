@@ -367,7 +367,7 @@ int sys_mm_drv_unmap_page(void *virt)
 	pa = tlb_entry_to_pa(tlb_entries[entry_idx]);
 
 	/* Check bounds of physical address space. */
-	/* Initial TLB mappings could point to non existing physical pages. */
+	/* Initial TLB mappings could point to nonexistent physical pages. */
 	if ((pa >= L2_SRAM_BASE) && (pa < (L2_SRAM_BASE + L2_SRAM_SIZE))) {
 		sys_mem_blocks_free_contiguous(&L2_PHYS_SRAM_REGION,
 					       UINT_TO_POINTER(pa), 1);

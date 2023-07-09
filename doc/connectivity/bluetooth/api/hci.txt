@@ -425,7 +425,7 @@ To activate this address the standard HCI Reset command is required to be
 executed. Until then the current BD_ADDR is still active and reported by
 Read_BD_ADDR. The vendor specific Reset command will reset the BD_ADDR to its
 non-volatile default if available. Otherwise the BD_ADDR shall be reset to the
-invalid / non-existent 00:00:00:00:00:00 address value.
+invalid / nonexistent 00:00:00:00:00:00 address value.
 
 	BD_ADDR:                                       Size: 6 Octets
 	+--------------------+--------------------------------------+

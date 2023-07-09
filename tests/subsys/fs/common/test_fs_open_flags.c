@@ -143,7 +143,7 @@ void test_fs_open_flags(void)
 
 	fs_file_t_init(&ts.file);
 
-	ZBEGIN("Attempt open non-existent");
+	ZBEGIN("Attempt open nonexistent");
 	ZOPEN(&ts, 0, -ENOENT);
 	ZOPEN(&ts, FS_O_WRITE, -ENOENT);
 	ZOPEN(&ts, FS_O_READ, -ENOENT);

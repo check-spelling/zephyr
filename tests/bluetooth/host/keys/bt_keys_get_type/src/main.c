@@ -58,7 +58,7 @@ static void *full_list_ts_setup(void)
 ZTEST_SUITE(bt_keys_get_type_initially_filled_list, NULL, full_list_ts_setup, NULL, NULL, NULL);
 
 /*
- *  Test getting a non-existing key reference with type, ID and Address while the list isn't full.
+ *  Test getting a nonexistent key reference with type, ID and Address while the list isn't full.
  *
  *  Constraints:
  *   - Keys pool list isn't full
@@ -102,7 +102,7 @@ ZTEST(bt_keys_get_type_initially_empty_list, test_get_non_existing_key_reference
 }
 
 /*
- *  Test getting a non-existing key reference with type, ID and Address while the list is full.
+ *  Test getting a nonexistent key reference with type, ID and Address while the list is full.
  *
  *  Constraints:
  *   - Keys pool list is filled with items different from the ones used for testing

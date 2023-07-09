@@ -17,8 +17,8 @@ static int test_file_open_flags(void)
 	int data = 0;
 	int ret;
 
-	/* 1 Check opening non-existent without O_CREAT */
-	TC_PRINT("Open of non-existent file, flags = 0\n");
+	/* 1 Check opening nonexistent without O_CREAT */
+	TC_PRINT("Open of nonexistent file, flags = 0\n");
 	fd = open(THE_FILE, 0);
 	if (fd >= 0 || errno != ENOENT) {
 		TC_PRINT("Expected fail; fd = %d, errno = %d\n", fd, errno);
@@ -26,14 +26,14 @@ static int test_file_open_flags(void)
 		return TC_FAIL;
 	}
 
-	TC_PRINT("Open on non-existent file, flags = O_RDONLY\n");
+	TC_PRINT("Open on nonexistent file, flags = O_RDONLY\n");
 	fd = open(THE_FILE, O_RDONLY);
 	if (fd >= 0 || errno != ENOENT) {
 		TC_PRINT("Expected fail; fd = %d, errno = %d\n", fd, errno);
 		close(fd);
 		return TC_FAIL;
 	}
-	TC_PRINT("Open on non-existent file, flags = O_WRONLY\n");
+	TC_PRINT("Open on nonexistent file, flags = O_WRONLY\n");
 	fd = open(THE_FILE, O_WRONLY);
 	if (fd >= 0 || errno != ENOENT) {
 		TC_PRINT("Expected fail; fd = %d, errno = %d\n", fd, errno);
@@ -41,7 +41,7 @@ static int test_file_open_flags(void)
 		return TC_FAIL;
 	}
 
-	TC_PRINT("Open on non-existent file, flags = O_RDWR\n");
+	TC_PRINT("Open on nonexistent file, flags = O_RDWR\n");
 	fd = open(THE_FILE, O_RDWR);
 	if (fd >= 0 || errno != ENOENT) {
 		TC_PRINT("Expected fail; fd = %d, errno = %d\n", fd, errno);
@@ -51,7 +51,7 @@ static int test_file_open_flags(void)
 	/* end 1 */
 
 	/* 2 Create file for read only, attempt to read, attempt to write */
-	TC_PRINT("Open on non-existent file, flags = O_CREAT | O_WRONLY\n");
+	TC_PRINT("Open on nonexistent file, flags = O_CREAT | O_WRONLY\n");
 	fd = open(THE_FILE, O_CREAT | O_WRONLY);
 	if (fd < 0) {
 		TC_PRINT("Expected success; fd = %d, errno = %d\n", fd, errno);

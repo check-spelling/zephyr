@@ -222,7 +222,7 @@ void z_arm_configure_dynamic_mpu_regions(struct k_thread *thread)
 		for (i = 0; i < CONFIG_MAX_DOMAIN_PARTITIONS; i++) {
 			partition = &mem_domain->partitions[i];
 			if (partition->size == 0) {
-				/* Zero size indicates a non-existing
+				/* Zero size indicates a nonexistent
 				 * memory partition.
 				 */
 				continue;

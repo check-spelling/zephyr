@@ -61,7 +61,7 @@ ZTEST_SUITE(posix_fs_stat_test, NULL, test_mount, before_fn, after_fn, test_unmo
 /**
  * @brief Test stat command on file
  *
- * @details Tests file in root, file in directory, non-existing file and empty file.
+ * @details Tests file in root, file in directory, nonexistent file and empty file.
  */
 ZTEST(posix_fs_stat_test, test_fs_stat_file)
 {

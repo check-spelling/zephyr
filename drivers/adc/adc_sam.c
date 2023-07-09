@@ -204,7 +204,7 @@ static int start_read(const struct device *dev,
 	int error;
 
 	/* Signal an error if the channel selection is invalid (no channels or
-	 * a non-existing one is selected).
+	 * a nonexistent one is selected).
 	 */
 	if (channels == 0U ||
 	    (channels & (~0UL << SAM_ADC_NUM_CHANNELS))) {

@@ -47,7 +47,7 @@ static void *empty_list_ts_setup(void)
 ZTEST_SUITE(bt_keys_find_addr_initially_empty_list, NULL, empty_list_ts_setup, NULL, NULL, NULL);
 
 /*
- *  Find a non-existing key reference for ID and Address pair
+ *  Find a nonexistent key reference for ID and Address pair
  *
  *  Constraints:
  *   - Empty keys pool list

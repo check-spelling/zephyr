@@ -548,7 +548,7 @@ class Property:
             ret = self.node.dt.get_node(path)
         except DTError:
             _err(f"property '{self.name}' on {self.node.path} in "
-                 f"{self.node.dt.filename} points to the non-existent node "
+                 f"{self.node.dt.filename} points to the nonexistent node "
                  f'"{path}"')
 
         return ret  # The separate 'return' appeases the type checker.
