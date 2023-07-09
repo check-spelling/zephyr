@@ -83,7 +83,7 @@ To upload the bitstream again you need to reset the FPGA:
 
 You can also use your own bitstream.
 To load a bitstream into device memory, use `devmem load` command.
-It is important to use the -e option when sending a bistream via `xxd`:
+It is important to use the -e option when sending a bitstream via `xxd`:
 
 .. code-block:: console
 
