@@ -966,7 +966,7 @@ static void rp_cu_st_wait_conn_param_req_available(struct ll_conn *conn, struct 
 	/* Check if CPR is already active on other connection.
 	 * If so check if possible to send reject right away
 	 * otherwise stay in wait state in case CPR becomes
-	 * available before we can send send reject
+	 * available before we can send reject
 	 */
 	switch (evt) {
 	case RP_CU_EVT_CONN_PARAM_REQ:
