@@ -289,7 +289,7 @@ typedef bool (*policy_cb_present_contract_is_valid_t)(const struct device *dev,
  *	  be sent to the Sink
  *
  * @param dev USB-C Connector Instance
- * @return true if a different set of Cource Caps is available
+ * @return true if a different set of Source Caps is available
  */
 typedef bool (*policy_cb_change_src_caps_t)(const struct device *dev);
 
