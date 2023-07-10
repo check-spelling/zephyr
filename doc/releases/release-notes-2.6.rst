@@ -2079,7 +2079,7 @@ release:
 * :github:`28722` - Bluetooth: provide ``struct bt_conn`` to ccc_changed callback
 * :github:`28597` - Bluetooth: controller: Redesign the implementation/use of NODE_RX_TYPE_DC_PDU_RELEASE
 * :github:`28551` - up_squared: samples/boards/up_squared/gpio_counter failed.
-* :github:`28535` - RFC: Add lz4 Data Compresssion library Support
+* :github:`28535` - RFC: Add lz4 Data Compression library Support
 * :github:`28438` - Example downstream manifest+module repo in zephyrproject-rtos
 * :github:`28249` - driver: espi: mchp: eSPI OOB driver does not support callbacks for incoming OOB messages from eSPI master.
 * :github:`28105` - sporadic "Attempt to resume un-suspended thread object" faults on x86-64
