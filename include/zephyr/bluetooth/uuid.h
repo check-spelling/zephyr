@@ -432,7 +432,7 @@ struct bt_uuid_128 {
 #define BT_UUID_CSC \
 	BT_UUID_DECLARE_16(BT_UUID_CSC_VAL)
 /**
- *  @brief Cyclicg Power Service UUID value
+ *  @brief Cycling Power Service UUID value
  */
 #define BT_UUID_CPS_VAL 0x1818
 /**
