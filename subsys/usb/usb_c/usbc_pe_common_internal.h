@@ -140,7 +140,7 @@ enum pe_flags {
 	/** An explicit contract is in place with our port partner */
 	PE_FLAGS_EXPLICIT_CONTRACT = 4,
 	/**
-	 * Waiting for Sink Capabailities timed out.  Used for retry error
+	 * Waiting for Sink Capabilities timed out.  Used for retry error
 	 * handling
 	 */
 	PE_FLAGS_SNK_WAIT_CAP_TIMEOUT = 5,
