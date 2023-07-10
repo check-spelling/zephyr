@@ -78,7 +78,7 @@ static int set_threshold_values(const struct device *dev)
 #ifdef CONFIG_NEWLIB_LIBC
 
 /**
- * Apply the Callendar-Van Dusen equation to convert the RTD resistance
+ * Apply the Calendar-Van Dusen equation to convert the RTD resistance
  * to temperature:
  * Tr = (-A + SQRT(delta) ) / 2*B
  * delta = A^2 - 4B*(1-Rt/Ro)
@@ -108,7 +108,7 @@ static double calculate_temperature(double resistance, double resistance_0)
 #else
 
 /**
- * Apply a very good linear approximation of the Callendar-Van Dusen equation to convert the RTD
+ * Apply a very good linear approximation of the Calendar-Van Dusen equation to convert the RTD
  * resistance to temperature:
  * @param resistance measured resistance
  * @param resistance_0 constant resistance at 0oC
