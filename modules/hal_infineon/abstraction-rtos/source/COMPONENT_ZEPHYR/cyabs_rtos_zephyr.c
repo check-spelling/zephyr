@@ -603,7 +603,7 @@ cy_rslt_t cy_rtos_waitbits_event(cy_event_t *event, uint32_t *bits, bool clear, 
 		/* Return full current events */
 		cy_rtos_getbits_event(event, bits);
 
-		/* Crear bits if required */
+		/* Clear bits if required */
 		if ((status == CY_RSLT_SUCCESS) && (clear == true)) {
 			cy_rtos_clearbits_event(event, wait_for, false);
 		}
