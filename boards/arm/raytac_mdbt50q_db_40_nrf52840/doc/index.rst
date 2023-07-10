@@ -44,7 +44,7 @@ Hardware
 - Certifications: FCC, IC, CE, Telec(MIC), KC, SRRC, NCC, RCM, WPC
 - 32-bit ARM® Cortex™ M4F CPU
 - 1MB Flash Memory/256kB RAM
-- RoHs & Reach Compiant.
+- RoHs & Reach Compliant.
 - 48 GPIO
 - Chip Antenna
 - Interfaces: SPI, UART, I2C, I2S, PWM, ADC, NFC, and USB
