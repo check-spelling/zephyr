@@ -29,7 +29,7 @@ import os
 import math
 
 def c_to_k(c: float):
-    """ Convert Celicius to Kelvin """
+    """ Convert Celsius to Kelvin """
     return c + 273.15
 
 def beta_equation_calc_resistance(r25, beta, temp_c):
