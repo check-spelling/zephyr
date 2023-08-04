@@ -8,7 +8,7 @@
 
 /** Domain clocks */
 
-/* RM0468, Table 56 Kernel clock dictribution summary */
+/* RM0468, Table 56 Kernel clock distribution summary */
 
 /** PLL outputs */
 #define STM32_SRC_PLL1_P	0x001
