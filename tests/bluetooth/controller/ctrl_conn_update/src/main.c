@@ -2732,7 +2732,7 @@ ZTEST(periph_rem, test_conn_update_periph_rem_apm_reject_right_away)
  *    |                           |                           |
  *    |                           |                           |
  */
-ZTEST(periph_rem, test_conn_update_periph_rem_apm_accept_defered)
+ZTEST(periph_rem, test_conn_update_periph_rem_apm_accept_deferred)
 {
 #if defined(CONFIG_BT_CTLR_USER_CPR_ANCHOR_POINT_MOVE)
 	uint16_t offsets[6] = {
@@ -2905,7 +2905,7 @@ ZTEST(periph_rem, test_conn_update_periph_rem_apm_accept_defered)
  *    |                           |                           |
  *    |                           |                           |
  */
-ZTEST(periph_rem, test_conn_update_periph_rem_apm_reject_defered)
+ZTEST(periph_rem, test_conn_update_periph_rem_apm_reject_deferred)
 {
 #if defined(CONFIG_BT_CTLR_USER_CPR_ANCHOR_POINT_MOVE)
 	struct node_tx *tx;

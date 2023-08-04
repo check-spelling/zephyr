@@ -106,7 +106,7 @@ static volatile int thread_op;
 static K_KERNEL_STACK_DEFINE(mass_thread_stack, CONFIG_MASS_STORAGE_STACK_SIZE);
 static struct k_thread mass_thread_data;
 static struct k_sem disk_wait_sem;
-static volatile uint32_t defered_wr_sz;
+static volatile uint32_t deferred_wr_sz;
 
 /*
  * Keep block buffer larger than BLOCK_SIZE for the case
@@ -684,7 +684,7 @@ static void memoryWrite(uint8_t *buf, uint16_t size)
 					DISK_STATUS_WR_PROTECT)) {
 			LOG_DBG("Disk WRITE Qd %u", curr_lba);
 			thread_op = THREAD_OP_WRITE_QUEUED;  /* write_queued */
-			defered_wr_sz = size;
+			deferred_wr_sz = size;
 			k_sem_give(&disk_wait_sem);
 			return;
 		}
@@ -756,7 +756,7 @@ static void mass_storage_bulk_out(uint8_t ep,
 
 static void thread_memory_write_done(void)
 {
-	uint32_t size = defered_wr_sz;
+	uint32_t size = deferred_wr_sz;
 	size_t overflowed_len = (curr_offset + size) - BLOCK_SIZE;
 
 	if (overflowed_len > 0) {
