@@ -71,7 +71,7 @@ struct conn_mgr_conn_api {
 	int (*connect)(struct conn_mgr_conn_binding *const binding);
 
 	/**
-	 * @brief When called, the connectivity implementation should disconnect (dissasociate), or
+	 * @brief When called, the connectivity implementation should disconnect (disassociate), or
 	 * stop any in-progress attempts to associate to a network, the bound iface pointed to by
 	 * if_conn->iface.
 	 *
@@ -289,7 +289,7 @@ int conn_mgr_if_connect(struct net_if *iface);
 /**
  * @brief Disconnect interface
  *
- * If the provided iface has been bound to a connectivity implementation, disconnect/dissassociate
+ * If the provided iface has been bound to a connectivity implementation, disconnect/disassociate
  * it from the network, and cancel any pending attempts to connect/associate.
  *
  * Does nothing if the iface is currently admin-down.
