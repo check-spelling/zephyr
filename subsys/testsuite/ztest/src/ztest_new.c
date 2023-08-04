@@ -828,7 +828,7 @@ static void __ztest_show_suite_summary_oneline(struct ztest_suite_node *suite)
 	struct ztest_unit_test *test = NULL;
 	unsigned int suite_duration_worst_ms = 0;
 
-	/** summary of disctinct run  */
+	/** summary of distinct run  */
 	while (((test = z_ztest_get_next_test(suite->name, test)) != NULL)) {
 		distinct_total++;
 		suite_duration_worst_ms += test->stats->duration_worst_ms;
