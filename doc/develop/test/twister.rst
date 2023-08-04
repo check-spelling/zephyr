@@ -337,7 +337,7 @@ build_only: <True|False> (default False)
 
     This option is often used to test drivers and the fact that they are correctly
     enabled in Zephyr and that the code builds, for example sensor drivers. Such
-    test shall not be used to verify the functionality of the dritver.
+    test shall not be used to verify the functionality of the driver.
 
 build_on_all: <True|False> (default False)
     If true, attempt to build test on all available platforms. This is mostly

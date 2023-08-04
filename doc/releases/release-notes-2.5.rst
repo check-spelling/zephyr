@@ -1584,7 +1584,7 @@ release:
 * :github:`29050` - Ugrade lvgl library
 * :github:`29048` - Removing pwr-gpio of rt1052 from devicetree will cause build error
 * :github:`29047` - Boards: nucleo_stm32g474re does not build
-* :github:`29043` - dirvers: eth_stm32_hal: No interrupt is generated on the MII interface.
+* :github:`29043` - drivers: eth_stm32_hal: No interrupt is generated on the MII interface.
 * :github:`29042` - CONFIG_SHELL_HELP=n fails to compile
 * :github:`29034` - error in samples/subsys/usb/cdc_acm
 * :github:`29025` - [Coverity CID :214882] Argument cannot be negative in tests/posix/eventfd/src/main.c

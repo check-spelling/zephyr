@@ -183,7 +183,7 @@ static int stm32_hsem_mailbox_init(const struct device *dev)
 	return 0;
 }
 
-static const struct ipm_driver_api stm32_hsem_mailbox_ipm_dirver_api = {
+static const struct ipm_driver_api stm32_hsem_mailbox_ipm_driver_api = {
 	.send = stm32_hsem_mailbox_ipm_send,
 	.register_callback = stm32_hsem_mailbox_ipm_register_callback,
 	.max_data_size_get = stm32_hsem_mailbox_ipm_max_data_size_get,
@@ -215,6 +215,6 @@ static const struct stm32_hsem_mailbox_config stm32_hsem_mailbox_0_config = {
 				&stm32_hsem_mailbox_0_config,			\
 				POST_KERNEL,							\
 				CONFIG_KERNEL_INIT_PRIORITY_DEFAULT,	\
-				&stm32_hsem_mailbox_ipm_dirver_api);	\
+				&stm32_hsem_mailbox_ipm_driver_api);	\
 
 DT_INST_FOREACH_STATUS_OKAY(IPM_STM32_HSEM_INIT)

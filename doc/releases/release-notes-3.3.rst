@@ -3158,7 +3158,7 @@ Addressed issues
 * :github:`52833` - Bluetooth Controller assertion on sys_reboot() with active connections (lll_preempt_calc: Actual EVENT_OVERHEAD_START_US)
 * :github:`52829` - kernel/sched: Fix SMP race on pend
 * :github:`52818` - samples: subsys: usb: shell: sample.usbd.shell  fails - no output from console
-* :github:`52817` - tests: drivers: udc: dirvers.udc fails
+* :github:`52817` - tests: drivers: udc: drivers.udc fails
 * :github:`52813` - stm32h7: dsi: ltdc: clock: PLL3: clock not set up correctly or side effect
 * :github:`52812` - Various problems with pipes (Not unblocking, Data Access Violation, unblocking wrong thread...)
 * :github:`52805` - Code crashing due to ADC Sync operation (STM32F4)
@@ -3610,7 +3610,7 @@ Addressed issues
 * :github:`47274` - mgmt/mcumgr/lib: Rework of event callback framework
 * :github:`47243` - LE Audio: Add support for stream specific codec configurations for broadcast source
 * :github:`47242` - LE Audio: Add subgroup support for broadcast source
-* :github:`47092` - driver: nrf: uarte: new dirver breaks our implementation for uart.
+* :github:`47092` - driver: nrf: uarte: new driver breaks our implementation for uart.
 * :github:`47040` - tests: drivers: gpio_basic_api and gpio_api_1pin: convert to new ztest API
 * :github:`47014` - can: iso-tp: implementation test failed with twister on nucleo_g474re
 * :github:`46988` - samples: net: openthread: coprocessor: RCP is missing required capabilities: tx-security tx-timing

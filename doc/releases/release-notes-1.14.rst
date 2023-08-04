@@ -1900,7 +1900,7 @@ release:
 * :github:`11202` - recent "shell: shell_uart" commit breaks shell samples on cc3220sf
 * :github:`11187` - cmake/toolchain/clang: selecting clang doesn't select the correct compiler file
 * :github:`11182` - qemu_xtensa tests fail spuriously under sanitycheck/CI
-* :github:`11179` - Minor Typo "dirver" in UART of Native Posix
+* :github:`11179` - Minor Typo "driver" in UART of Native Posix
 * :github:`11171` - usb: nrf: usb_nrfx is in endless loop when USB cable in not connected
 * :github:`11170` - kernel.profiling.call_stacks_analyze_idle: assertion fails on em_starterkit_em7d_v22
 * :github:`11167` - Building failing in arm cortex-m0

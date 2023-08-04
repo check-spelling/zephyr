@@ -1701,7 +1701,7 @@ Known Issues
 - :github:`46846` - lib: libc: newlib: strerror_r non-functional
 - :github:`46986` - Logging (deferred v2) with a lot of output causes MPU fault
 - :github:`47014` - can: iso-tp: implementation test failed with twister on nucleo_g474re
-- :github:`47092` - driver: nrf: uarte: new dirver breaks our implementation for uart.
+- :github:`47092` - driver: nrf: uarte: new driver breaks our implementation for uart.
 - :github:`47120` - shell uart: busy wait for DTR in ISR
 - :github:`47477` - qemu_leon3: tests/kernel/fpu_sharing/generic/ failed when migrating to new ztest API
 - :github:`47500` - twister: cmake: Failure of "--build-only -M" combined with "--test-only" for --device-testing
