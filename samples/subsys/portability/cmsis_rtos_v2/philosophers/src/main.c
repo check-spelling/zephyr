@@ -172,7 +172,7 @@ void philosopher(void *id)
 
 	int my_id = POINTER_TO_INT(id);
 
-	/* Djkstra's solution: always pick up the lowest numbered fork first */
+	/* Dijkstra's solution: always pick up the lowest numbered fork first */
 	if (is_last_philosopher(my_id)) {
 		fork1 = fork(0);
 		fork2 = fork(my_id);
