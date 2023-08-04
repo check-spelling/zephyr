@@ -37,7 +37,7 @@ static int nct38xx_init_interrupt(const struct device *dev)
 	}
 
 	/* Enable vendor-defined alert for GPIO. */
-	alert_mask |= BIT(NCT38XX_REG_ALERT_MASK_VENDOR_DEFINDED_ALERT);
+	alert_mask |= BIT(NCT38XX_REG_ALERT_MASK_VENDOR_DEFINED_ALERT);
 
 	/* Clear alert */
 	if (nct38xx_reg_burst_read(dev, NCT38XX_REG_ALERT, (uint8_t *)&alert, sizeof(alert))) {

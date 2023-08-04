@@ -78,7 +78,7 @@ static void nct38xx_alert_worker(struct k_work *work)
 				}
 			}
 
-			if (alert & BIT(NCT38XX_REG_ALERT_VENDOR_DEFINDED_ALERT)) {
+			if (alert & BIT(NCT38XX_REG_ALERT_VENDOR_DEFINED_ALERT)) {
 				nct38xx_gpio_alert_handler(config->nct38xx_dev[i]);
 			}
 		}

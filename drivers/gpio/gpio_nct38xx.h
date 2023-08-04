@@ -28,8 +28,8 @@
 #define NCT38XX_REG_GPIO_ALERT_STAT(n)  (0xD4 + (n))
 
 /* NCT38XX controller register field */
-#define NCT38XX_REG_ALERT_VENDOR_DEFINDED_ALERT      15
-#define NCT38XX_REG_ALERT_MASK_VENDOR_DEFINDED_ALERT 15
+#define NCT38XX_REG_ALERT_VENDOR_DEFINED_ALERT      15
+#define NCT38XX_REG_ALERT_MASK_VENDOR_DEFINED_ALERT 15
 
 /* Driver config */
 struct gpio_nct38xx_config {
