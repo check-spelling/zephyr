@@ -183,7 +183,7 @@ This provisions the Zephyr kernel and the CPU configuration onto the board,
 using the customized OpenOCD runner script :zephyr_file:`scripts/west_commands/runners/intel_cyclonev.py`
 After it completes the kernel will immediately boot using the GSRD preloader.
 Notice that there a lot of helper files to ``flash`` the application with
-OpenOCD and GDB Debbuger (Zephyr SDK must be installed in your machine).
+OpenOCD and GDB Debugger (Zephyr SDK must be installed in your machine).
 This files should be located in :zephyr_file:`boards/arm/cyclonev_socdk/support/` including:
 
 * blaster_6810.hex : USB-BlasterII firmware
