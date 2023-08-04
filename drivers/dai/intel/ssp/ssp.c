@@ -1211,9 +1211,9 @@ static int dai_ssp_set_config_tplg(struct dai_intel_ssp *dp, const struct dai_co
 		goto out;
 	}
 
-	/* calc frame width based on BCLK and rate - must be divisable */
+	/* calc frame width based on BCLK and rate - must be divisible */
 	if (ssp->params.bclk_rate % ssp->params.fsync_rate) {
-		LOG_ERR("%s BCLK %d is not divisable by rate %d", __func__,
+		LOG_ERR("%s BCLK %d is not divisible by rate %d", __func__,
 			ssp->params.bclk_rate, ssp->params.fsync_rate);
 		ret = -EINVAL;
 		goto out;
