@@ -96,7 +96,7 @@ USBD_DEVICE_DESCR_DEFINE(primary) struct common_descriptor common_desc = {
 	},
 };
 
-struct usb_string_desription {
+struct usb_string_description {
 	struct usb_string_descriptor lang_descr;
 	struct usb_mfr_descriptor {
 		uint8_t bLength;
@@ -123,7 +123,7 @@ struct usb_string_desription {
  * placed in the string section.
  * FIXME: These should be sorted additionally.
  */
-USBD_STRING_DESCR_DEFINE(primary) struct usb_string_desription string_descr = {
+USBD_STRING_DESCR_DEFINE(primary) struct usb_string_description string_descr = {
 	.lang_descr = {
 		.bLength = sizeof(struct usb_string_descriptor),
 		.bDescriptorType = USB_DESC_STRING,

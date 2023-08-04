@@ -445,7 +445,7 @@ static void vocs_location_cb(struct bt_vocs *inst, int err, uint32_t location)
 static void vocs_description_cb(struct bt_vocs *inst, int err,
 				char *description)
 {
-	LOG_DBG("VOCS desctripion callback (%d)", err);
+	LOG_DBG("VOCS description callback (%d)", err);
 }
 
 static struct bt_vocs_cb vocs_cb = {
