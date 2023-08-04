@@ -126,7 +126,7 @@ struct auxdisplay_character {
 	uint8_t *data;
 
 	/** Will be updated with custom character index to use in the display write function to
-	 *  disaplay this custom character
+	 *  display this custom character
 	 */
 	uint8_t character_code;
 };
