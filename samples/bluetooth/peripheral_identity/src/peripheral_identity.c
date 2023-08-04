@@ -206,7 +206,7 @@ static struct bt_conn_cb conn_callbacks = {
 };
 
 #if defined(CONFIG_BT_OBSERVER)
-#define BT_LE_SCAN_PASSIVE_ALLOW_DUPILCATES \
+#define BT_LE_SCAN_PASSIVE_ALLOW_DUPLICATES \
 		BT_LE_SCAN_PARAM(BT_LE_SCAN_TYPE_PASSIVE, \
 				 BT_LE_SCAN_OPT_NONE, \
 				 BT_GAP_SCAN_FAST_INTERVAL, \
@@ -243,7 +243,7 @@ int init_peripheral(uint8_t iterations)
 
 #if defined(CONFIG_BT_OBSERVER)
 	printk("Start continuous passive scanning...");
-	err = bt_le_scan_start(BT_LE_SCAN_PASSIVE_ALLOW_DUPILCATES,
+	err = bt_le_scan_start(BT_LE_SCAN_PASSIVE_ALLOW_DUPLICATES,
 			       device_found);
 	if (err) {
 		printk("Scan start failed (%d).\n", err);
