@@ -2505,7 +2505,7 @@ ZTEST(periph_rem, test_conn_update_periph_rem_apm_accept_right_away)
 								 .offset5 = 0xffffU };
 
 	/* Prepare mocked call to ull_handle_cpr_anchor_point_move */
-	/* No APM deferance, accept with error == 0 */
+	/* No APM deference, accept with error == 0 */
 	ztest_returns_value(ull_handle_cpr_anchor_point_move, false);
 	ztest_return_data(ull_handle_cpr_anchor_point_move, status, &error);
 
@@ -2641,7 +2641,7 @@ ZTEST(periph_rem, test_conn_update_periph_rem_apm_reject_right_away)
 	uint8_t error = reject_ext_ind.error_code;
 
 	/* Prepare mocked call to ull_handle_cpr_anchor_point_move */
-	/* No APM deferance, reject with some error code */
+	/* No APM deference, reject with some error code */
 	ztest_returns_value(ull_handle_cpr_anchor_point_move, false);
 	ztest_return_data(ull_handle_cpr_anchor_point_move, status, &error);
 
