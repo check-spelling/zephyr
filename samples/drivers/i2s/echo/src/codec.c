@@ -67,7 +67,7 @@ bool init_wm8731_i2c(void)
 		 *   [4] HPOR = 0 (clear offset)
 		 *   [3] DACMU = 0 (Disable soft mute)
 		 * [2:1] DEEMP = 0 (Disable)
-		 *   [0] ADCHPD = 1 (Disable High Pass Filter)
+		 *   [0] ADHCPD = 1 (Disable High Pass Filter)
 		 */
 		{ 0x0A, 0x01 },
 		/*

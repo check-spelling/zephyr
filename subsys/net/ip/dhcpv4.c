@@ -51,7 +51,7 @@ static sys_slist_t option_callbacks;
 /* RFC 1497 [17] */
 static const uint8_t magic_cookie[4] = { 0x63, 0x82, 0x53, 0x63 };
 
-/* Add magic cookie to DCHPv4 messages */
+/* Add magic cookie to DHCPv4 messages */
 static inline bool dhcpv4_add_cookie(struct net_pkt *pkt)
 {
 	if (net_pkt_write(pkt, (void *)magic_cookie,
@@ -283,7 +283,7 @@ static void dhcpv4_immediate_timeout(struct net_if_dhcpv4 *dhcpv4)
 static void dhcpv4_set_timeout(struct net_if_dhcpv4 *dhcpv4,
 			       uint32_t timeout)
 {
-	NET_DBG("sched timeout dhcvp4=%p timeout=%us", dhcpv4, timeout);
+	NET_DBG("sched timeout dhcpv4=%p timeout=%us", dhcpv4, timeout);
 	dhcpv4->timer_start = k_uptime_get();
 	dhcpv4->request_time = timeout;
 
