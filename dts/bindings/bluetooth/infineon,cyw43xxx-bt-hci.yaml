@@ -71,5 +71,5 @@ properties:
   fw-download-speed:
     type: int
     description: |
-      HCI UART baudrate for FW dowload operation. If not defined
+      HCI UART baudrate for FW download operation. If not defined
       bus/current-speed wil be used as default.
