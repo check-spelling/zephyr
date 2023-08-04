@@ -11,7 +11,7 @@ The Debug Monitor sample shows a basic configuration of debug monitor feature.
 
 The source code shows how to:
 
-#. Configure registers to enable degugging in debug monitor mode
+#. Configure registers to enable debugging in debug monitor mode
 #. Specify custom interrupt to be executed when entering a breakpoint
 
 .. _debugmon-sample-requirements:

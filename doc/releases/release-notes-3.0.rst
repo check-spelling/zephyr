@@ -1290,7 +1290,7 @@ release:
 * :github:`39269` - Fail to initialize BLE stack with optimization level zero
 * :github:`39253` - modem: hl7800: IPv6 socket not created properly
 * :github:`39242` - net: sockets: Zephyr Fatal in dns_resolve_cb if dns request was attempted in offline state
-* :github:`39221` - Errors when debuging application in Eclipse using STM32L496G-DISCO
+* :github:`39221` - Errors when debugging application in Eclipse using STM32L496G-DISCO
 * :github:`39216` - Twister: Broken on NRF52840 with pyocd option timeout error
 * :github:`39179` - twister: --generate-hardware-map ends up in RuntimeError
 * :github:`39144` - gsm_ppp: stop & starting not working as expected with nullpointer dereference & no full modem init
