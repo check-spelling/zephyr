@@ -106,7 +106,7 @@ static int mcux_12b1msps_sar_adc_start_read(const struct device *dev,
 
 	switch (sequence->oversampling) {
 	case 0:
-		mode = kADC_HardwareAverageDiasable;
+		mode = kADC_HardwareAverageDisable;
 		break;
 	case 2:
 		mode = kADC_HardwareAverageCount4;
