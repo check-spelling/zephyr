@@ -12,7 +12,7 @@
 LOG_MODULE_REGISTER(udc_test, LOG_LEVEL_INF);
 
 /*
- * Simple test for API rules, allocation, queue, and dequeu
+ * Simple test for API rules, allocation, queue, and dequeue
  * of the endpoint requests. USB device controller should not be
  * connected to the host as this state is not covered by this test.
  */
