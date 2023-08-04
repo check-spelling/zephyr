@@ -1045,7 +1045,7 @@ release:
 * :github:`39132` - subsys/net/ip/tcp2: Missing feature to decrease Receive Window size sent in the ACK messge
 * :github:`39123` - ztest:  Broken on NRF52840 Platform
 * :github:`39115` - sensor: fdc2x1x: warnings and compilation errors when PM_DEVICE is used
-* :github:`39086` - CMake warning during build - depracated roule CMP0079
+* :github:`39086` - CMake warning during build - deprecated roule CMP0079
 * :github:`39085` - Ordering of device_map() breaks PCIe config space mapping on ARM64
 * :github:`39075` - IPv6 address not set on loopback interface
 * :github:`39051` - Zephyr was unable to find the toolchain. Is the environment misconfigured?
