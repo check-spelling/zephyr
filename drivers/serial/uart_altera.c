@@ -745,7 +745,7 @@ static void uart_altera_irq_callback_set(const struct device *dev,
 /**
  * @brief DCTS Interrupt service routine.
  *
- * Handles assertion and deassettion of CTS/RTS stignal
+ * Handles assertion and deassertion of CTS/RTS stignal
  *
  * @param dev Pointer to UART device struct
  */
