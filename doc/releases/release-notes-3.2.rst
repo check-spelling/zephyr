@@ -1877,7 +1877,7 @@ Addressed issues
 * :github:`50224` - tests/kernel/tickless/tickless_concept: Failed on STM32
 * :github:`50219` - Kernel tests failing on qemu_riscv32_smp
 * :github:`50218` - rcar_h3ulcb: can: failed to run RTR test cases
-* :github:`50214` - Missing human readable names in names file od deive structure
+* :github:`50214` - Missing human readable names in names file od device structure
 * :github:`50202` - Configuring ``GPIO25`` crashes ESP32
 * :github:`50192` - nrf_qspi_nor driver might crash if power management is enabled
 * :github:`50191` - nrf_qspi_nor-driver leaves CS pin to undefined state when pinctrl is enabled
