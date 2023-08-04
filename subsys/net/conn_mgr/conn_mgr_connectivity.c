@@ -544,7 +544,7 @@ int conn_mgr_all_if_connect(bool skip_ignored)
 	net_if_foreach(conn_mgr_conn_all_if_cb, &context);
 
 	/* Now connect all ifaces.
-	 * We are delibarately not resetting context.status between these two calls so that
+	 * We are deliberately not resetting context.status between these two calls so that
 	 * the first nonzero status code encountered between the two of them is what is returned.
 	 */
 	context.operation = ALL_IF_CONNECT;
