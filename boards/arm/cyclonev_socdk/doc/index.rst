@@ -123,7 +123,7 @@ a Intel® Quartus® project:
 * soc_system.qsf : Quartus® Prime Settings File
 * soc_system.qsys : Platform Designer file (contains the SoC system)
 * soc_system.sopcinfo : SOPC Information file contains details about modules instantiated in the project, parameter names and values.
-* soc_system_timing.sdc : Synopsys Desing Constraint FILE.
+* soc_system_timing.sdc : Synopsys Design Constraint FILE.
 * output_files/soc_system.sof : FPGA configuration file.
 
 
