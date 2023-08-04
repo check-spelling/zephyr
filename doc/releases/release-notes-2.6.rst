@@ -1683,7 +1683,7 @@ release:
 * :github:`33153` - west flash cannot find OpenOCD
 * :github:`33149` - subsys: canbus: canopen EDSEditor / libedssharp version that works with Zephyr's CANopenNode
 * :github:`33147` - Not able to build blinky or set toolchain to zephyr
-* :github:`33142` - fs_mount for FAT FS does not distingush between no file system and other errors
+* :github:`33142` - fs_mount for FAT FS does not distinguish between no file system and other errors
 * :github:`33140` - STM32H7: Bus fault when reading corrupt flash sectors
 * :github:`33138` - invalid west cmake diagnostics when using board alias
 * :github:`33137` - Enabling DHCP without NET_MGMT shouldn't be allowed
