@@ -100,7 +100,7 @@ Step 2.2: UpdateHub Cloud
 -------------------------
 
 The UpdateHub Cloud is an enterprise-grade solution.  It provides almost same
-resources than UpdateHub-CE with the DTLS as main diferential.  For more
+resources than UpdateHub-CE with the DTLS as main differential.  For more
 details on how to use the UpdateHub Cloud please refer to the documentation on
 `updatehub.io`_.  The UpdateHub Cloud has the option to use CoAPS/DTLS or not.
 If you want to use the CoAPS/DTLS, simply add the ``overlay-dtls.conf`` when
