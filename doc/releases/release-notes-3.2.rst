@@ -2434,7 +2434,7 @@ Addressed issues
 * :github:`45955` - stm32h7 i2s support
 * :github:`45953` - modem: simcom-sim7080: sendmsg() should result in single outgoing datagram
 * :github:`45951` - modem: ublox-sara-r4: outgoing datagrams are truncated if they do not fit MTU
-* :github:`45938` - Unable to combine USB CDC-ACM and Modbus Serial due to dependecy on uart_configure().
+* :github:`45938` - Unable to combine USB CDC-ACM and Modbus Serial due to dependency on uart_configure().
 * :github:`45934` - ipc_service: nocopy tx buffer allocation works unexpectedly with RPMSG backend
 * :github:`45933` - webusb sample code linking error for esp32 board
 * :github:`45929` - up_squared：failed to run test case tests/posix/common
