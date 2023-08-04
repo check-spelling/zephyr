@@ -1013,7 +1013,7 @@ release:
 * :github:`31907` - settings: Unhandled error in NVS backend
 * :github:`31905` - Question : Friend & Low power node with nRF52840
 * :github:`31876` - west signing seems to be broken on windows
-* :github:`31867` - samples/scheduler/metairq_dispatc failed on iotdk boards
+* :github:`31867` - samples/scheduler/metairq_dispatch failed on iotdk boards
 * :github:`31858` - xtensa crt1.S hard coding
 * :github:`31853` - Devicetree API - Getting GPIO details from pin
 * :github:`31847` - BT ISO channel. error value set, but not returned.
