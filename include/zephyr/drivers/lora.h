@@ -71,7 +71,7 @@ struct lora_modem_config {
 	/**
 	 * Invert the In-Phase and Quadrature (IQ) signals. Normally this
 	 * should be set to false. In advanced use-cases where a
-	 * differentation is needed between "uplink" and "downlink" traffic,
+	 * differentiation is needed between "uplink" and "downlink" traffic,
 	 * the IQ can be inverted to create two different channels on the
 	 * same frequency
 	 */
