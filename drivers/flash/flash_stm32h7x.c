@@ -41,7 +41,7 @@ LOG_MODULE_REGISTER(LOG_DOMAIN);
 #define STM32H7_SERIES_MAX_FLASH_KB	KB(2048)
 #define BANK2_OFFSET	(STM32H7_SERIES_MAX_FLASH_KB / 2)
 /* When flash is dual bank and flash size is smaller than Max flash size of
- * the serie, there is a discontinuty between bank1 and bank2.
+ * the serie, there is a discontinuity between bank1 and bank2.
  */
 #define DISCONTINUOUS_BANKS (REAL_FLASH_SIZE_KB < STM32H7_SERIES_MAX_FLASH_KB)
 #endif
