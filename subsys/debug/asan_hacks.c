@@ -27,7 +27,7 @@ const char *__lsan_default_suppressions(void)
 #endif /* CONFIG_HAS_SDL */
 
 #ifdef CONFIG_ASAN_NOP_DLCLOSE
-/* LSAN has a known limitation that if dlcose is called before performing the
+/* LSAN has a known limitation that if dlclose is called before performing the
  * leak check; "<unknown module>" is reported in the stack traces during the
  * leak check and these can not be suppressed, see
  * https://github.com/google/sanitizers/issues/89 for more info.

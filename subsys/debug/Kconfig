@@ -141,7 +141,7 @@ config ASAN_NOP_DLCLOSE
 	  Override host OS dlclose() with a NOP.
 
 	  This NOP implementation is needed as workaround for a known limitation in
-	  LSAN (leak sanitizer) that if dlcose is called before performing the leak
+	  LSAN (leak sanitizer) that if dlclose is called before performing the leak
 	  check, "<unknown module>" is reported in the stack traces during the leak
 	  check and these can not be suppressed, see
 	  https://github.com/google/sanitizers/issues/89 for more info.
