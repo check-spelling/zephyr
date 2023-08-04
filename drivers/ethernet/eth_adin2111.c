@@ -839,7 +839,7 @@ static int adin2111_init(const struct device *dev)
 
 	ret = adin2111_await_device(dev);
 	if (ret < 0) {
-		LOG_ERR("ADIN did't come out of the reset, %d", ret);
+		LOG_ERR("ADIN didn't come out of the reset, %d", ret);
 		return ret;
 	}
 
