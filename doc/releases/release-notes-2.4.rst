@@ -1286,7 +1286,7 @@ release:
 * :github:`26924` - Bluetooth: Mesh: no space to store ccc cfg
 * :github:`26923` - [RFC] API change - Normalize DMA, IPM and UART callbacks signatures including the caller's device pointer.
 * :github:`26919` - ipv6: promiscuous mode: packet flood over 802.15.4 adapter
-* :github:`26914` - gen_kobject_list.py dosn't generate correct gperf info for ARC MetaWare toolchain
+* :github:`26914` - gen_kobject_list.py doesn't generate correct gperf info for ARC MetaWare toolchain
 * :github:`26910` - sanitycheck always treats warnings as errors
 * :github:`26900` - Bluetooth: host: bt_conn_recv() assumes ACL data is >= 2 bytes
 * :github:`26896` - STM32: mcu goes to sleep inadvertently when using PM.

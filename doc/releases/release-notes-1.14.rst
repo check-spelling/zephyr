@@ -1939,7 +1939,7 @@ release:
 * :github:`11016` - nRF52840-PCA10056/59: Cannot bring up HCI0 when using HCI_USB sample
 * :github:`11008` - net-related logging: Don't see the expected output + crash in logging
 * :github:`11007` - logging: "log_strdup pool empty!" is confusing
-* :github:`10994` - upsquared sample gpio_counter sample.yaml is malformatted/sanitycheck doens't build samples/boards/up_squared/gpio_counter
+* :github:`10994` - upsquared sample gpio_counter sample.yaml is malformatted/sanitycheck doesn't build samples/boards/up_squared/gpio_counter
 * :github:`10993` - upsquared sample gpio_counter doesnt build
 * :github:`10990` - ext: lib: crypto: mbedTLS: warning in platform.h glue
 * :github:`10971` - net: ipv6: Zephyr replies to ICMPv6 packets with incorrect checksums
