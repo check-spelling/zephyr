@@ -17,7 +17,7 @@ void func_3(uint32_t *addr)
 	defined(CONFIG_SOC_FAMILY_INTEL_ADSP)
 	ARG_UNUSED(addr);
 	/* Call k_panic() directly so Renode doesn't pause execution.
-	 * Needed on ADSP as well, since null pointer derefence doesn't
+	 * Needed on ADSP as well, since null pointer dereference doesn't
 	 * fault as the lowest memory region is writable. SOF uses k_panic
 	 * a lot, so it's good to check that it causes a coredump.
 	 */
