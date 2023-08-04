@@ -757,7 +757,7 @@ Drivers and Sensors
     for various drivers.
   * Various fixes on ``lpuart``.
   * Added a workaround on bytes dropping on ``nrfx_uarte``.
-  * Fixed compilation error on ``uart_pl011`` when interrupt is diabled.
+  * Fixed compilation error on ``uart_pl011`` when interrupt is disabled.
   * Added power management support on ``stm32``.
   * ``xlnx_ps`` has moved to using ``DEVICE_MMIO`` API.
   * ``gd32`` now supports using reset API to reset hardware and clock

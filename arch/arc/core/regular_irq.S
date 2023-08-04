@@ -202,7 +202,7 @@ will be corrupted.
 SECTION_FUNC(TEXT, _rirq_enter)
 
 /* the ISR will be handled in separate interrupt stack,
- * so stack checking must be diabled, or exception will
+ * so stack checking must be disabled, or exception will
  * be caused
  */
 	_disable_stack_checking r2
