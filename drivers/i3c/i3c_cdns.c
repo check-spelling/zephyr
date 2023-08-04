@@ -1486,7 +1486,7 @@ static int cdns_i3c_attach_device(const struct device *dev, struct i3c_device_de
 
 	/** Mark Devices as active, devices that will be found and marked active during DAA,
 	 * it will be given the exact DA programmed in it's RR if the PID matches and marked
-	 * as active duing ENTDAA, otherwise they get set as active here. If dynamic address
+	 * as active during ENTDAA, otherwise they get set as active here. If dynamic address
 	 * is set, then it assumed that it was already initialized by the primary controller.
 	 */
 	if ((desc->static_addr != 0) || (desc->dynamic_addr != 0)) {
